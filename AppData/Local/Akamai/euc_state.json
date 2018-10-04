@@ -1,0 +1,62 @@
+{
+  "updates":
+  {
+    "cookieJar":
+    {}
+  }
+}{
+  "updates":
+  {
+    "globalData":
+    {
+      "recentGuids":
+      [
+        "c776f70227e50aed35295d15670dc6a1",
+        "53aa3253c3367bb91eabb2fbbba7e29a",
+        "0cdfaab5680111aff16a817c37964cdc",
+        "702058c47294c696520a26bb7cafbcf3",
+        "8044445d906470d74b50a04bc64b9ec9"
+      ],
+      "cachePath":"C:/Users/tyrel/AppData/Local/Akamai/Cache",
+      "dataDatImported":true,
+      "installCpCode":78333,
+      "onlineOnlyCommandListIntervalSecs":120,
+      "unsentChangedGuid":"",
+      "installerInfo":
+      {
+        "https://client.akamai.com/install/bin/user_client_win_75752ca/installer_no_upload_silent.exe":
+        {
+          "attempts":
+          [
+            1.53861422808743e+015,
+            1.53861424351146e+015
+          ],
+          "hash":"FgIfxsvxSykYn1d6ulYtnA=="
+        }
+      },
+      "onlineOnlyCommandList":
+      [],
+      "installTimeStampSec":"1533230142",
+      "guid":"3242531bc6814ac3943eeb0d740090bd",
+      "bootstrapedUserSettings":false
+    }
+  }
+}{
+  "updates":
+  {
+    "supportresources":
+    {}
+  }
+}{
+  "updates":
+  {
+    "downloadrequests":
+    {}
+  }
+}{
+  "updates":
+  {
+    "files":
+    {}
+  }
+}

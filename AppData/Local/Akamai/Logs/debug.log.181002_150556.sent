@@ -1,0 +1,3 @@
+Vwin_75752ca_1.9.5.6-RC1(83a441e_1.9.5.5):181002_081549: [info] RSProxyType.cpp:RSProxyType::log(34)-1: Proxy type DIRECT
+Vwin_75752ca_1.9.5.6-RC1(83a441e_1.9.5.5):181002_150555: [warn] CLIMegaPort.cpp:CLIMegaPort::updateLoopTimer(213): Loop took 24308s.
+Vwin_75752ca_1.9.5.6-RC1(83a441e_1.9.5.5):181002_150555: [info] CLIOnlineManager.cpp:CLIOnlineManager::_downloadClientINI(386): Updating 'client.ini' from URL [https://client.akamai.com/conf/client_single_user_conf.html?guid=3242531bc6814ac3943eeb0d740090bd&stage=upgrade&rand=3188446&iniKey=win_75752ca_1.9.5.6-RC1]; user agent = [Akamai NetSession Interface (75752ca;win;1.9.5.5;Win8)].

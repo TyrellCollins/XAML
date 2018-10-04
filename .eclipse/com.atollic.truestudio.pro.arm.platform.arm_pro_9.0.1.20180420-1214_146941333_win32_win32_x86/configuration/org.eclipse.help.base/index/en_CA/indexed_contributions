@@ -1,0 +1,24 @@
+#This is a generated file; do not edit.
+#Mon Sep 10 19:44:54 PDT 2018
+org.eclipse.linuxtools.cdt.libhover.glibc=org.eclipse.linuxtools.cdt.libhover.glibc\n1.2.0.201609141916
+org.eclipse.help.base=org.eclipse.help.base\n4.1.0.v20160907-1200
+org.eclipse.team.svn=org.eclipse.team.svn\n4.0.2.I20160902-1700
+org.eclipse.mylyn.help.ui=org.eclipse.mylyn.help.ui\n3.20.0.v20160425-1835
+org.eclipse.epp.mpc.ui=org.eclipse.epp.mpc.ui\n1.5.2.v20161005-1414
+org.eclipse.egit.doc=org.eclipse.egit.doc\n4.4.1.201607150455-r
+org.eclipse.linuxtools.cdt.libhover.library.docs=org.eclipse.linuxtools.cdt.libhover.library.docs\n1.0.2.201609141916
+org.eclipse.cdt=org.eclipse.cdt\n9.1.0.201609121658
+org.eclipse.ui.cheatsheets=org.eclipse.ui.cheatsheets\n3.5.0.v20160504-0839
+org.eclipse.cvs=org.eclipse.cvs\n1.4.300.v20160907-1200
+com.atollic.truestudio.pro.arm.doc=com.atollic.truestudio.pro.arm.doc\n1.0.0
+org.eclipse.linuxtools.cdt.libhover.newlib=org.eclipse.linuxtools.cdt.libhover.newlib\n1.0.3.201603181907
+org.eclipse.ui.intro=org.eclipse.ui.intro\n3.5.1.v20160829-1558
+org.eclipse.help=org.eclipse.help\n3.7.0.v20160602-1307
+org.eclipse.mylyn.wikitext.help.ui=org.eclipse.mylyn.wikitext.help.ui\n2.9.0.v20160524-0547
+org.eclipse.cdt.doc.user=org.eclipse.cdt.doc.user\n5.4.0.201609121658
+org.eclipse.epp.mpc.help.ui=org.eclipse.epp.mpc.help.ui\n1.5.2.v20161004-1655
+com.arm.cmsis.help=com.arm.cmsis.help\n2.0.0.20180420-1214
+org.eclipse.platform=org.eclipse.platform\n4.6.1.v20160907-1200
+org.eclipse.team.svn.help=org.eclipse.team.svn.help\n4.0.2.I20160902-1700
+org.eclipse.platform.doc.user=org.eclipse.platform.doc.user\n4.6.1.v20160727-2009
+org.eclipse.ui.intro.universal=org.eclipse.ui.intro.universal\n3.3.1.v20160829-1558

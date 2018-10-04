@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><Manifest CSUVersion="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CSUManifest.xsd">
+	<UpdateID>16.1.2</UpdateID>
+	<OwningChannel>AdobePhotoshopCC2015-16.0</OwningChannel>
+	<TargetBuildType>2</TargetBuildType> 
+	<TargetLicensingType>1</TargetLicensingType>
+	<RecommendingChannels><ChannelID>AdobePhotoshopCC2015-16.0</ChannelID>
+	</RecommendingChannels>
+	<DisplayName default="en_US"><en_US>Adobe Photoshop 2015.1.2</en_US>	
+		<en_GB>Adobe Photoshop 2015.1.2</en_GB>	
+		<cs_CZ>Adobe Photoshop 2015.1.2</cs_CZ>
+		<da_DK>Adobe Photoshop 2015.1.2</da_DK>
+		<de_DE>Adobe Photoshop 2015.1.2</de_DE>
+		<es_ES>Adobe Photoshop 2015.1.2</es_ES>
+		<es_MX>Adobe Photoshop 2015.1.2</es_MX>
+		<fi_FI>Adobe Photoshop 2015.1.2</fi_FI>
+		<fr_FR>Adobe Photoshop 2015.1.2</fr_FR>
+		<fr_CA>Adobe Photoshop 2015.1.2</fr_CA>
+		<fr_MA>Adobe Photoshop 2015.1.2</fr_MA>
+		<hu_HU>Adobe Photoshop 2015.1.2</hu_HU>
+		<it_IT>Adobe Photoshop 2015.1.2</it_IT>
+		<ja_JP>Adobe Photoshop 2015.1.2</ja_JP>
+		<ko_KR>Adobe Photoshop 2015.1.2</ko_KR>
+		<nb_NO>Adobe Photoshop 2015.1.2</nb_NO>
+		<nl_NL>Adobe Photoshop 2015.1.2</nl_NL>
+		<pl_PL>Adobe Photoshop 2015.1.2</pl_PL>
+		<pt_BR>Adobe Photoshop 2015.1.2</pt_BR>
+		<ru_RU>Adobe Photoshop 2015.1.2</ru_RU>
+		<sv_SE>Adobe Photoshop 2015.1.2</sv_SE>
+		<tr_TR>Adobe Photoshop 2015.1.2</tr_TR>
+		<uk_UA>Adobe Photoshop 2015.1.2</uk_UA>
+		<zh_CN>Adobe Photoshop 2015.1.2</zh_CN>
+		<zh_TW>Adobe Photoshop 2015.1.2</zh_TW>
+		<en_AE>Adobe Photoshop 2015.1.2</en_AE>
+		<en_IL>Adobe Photoshop 2015.1.2</en_IL>
+	</DisplayName>
+	<Description default="en_US"><en_US>This update addresses a number of issues discovered after the previous Adobe Photoshop CC update was released.</en_US>
+		<en_GB>This update addresses a number of issues discovered after the previous Adobe Photoshop CC update was released.</en_GB>
+		<cs_CZ>Tato aktualizace řeší několik problémů, které byly objeveny po vydání předchozí aktualizace aplikace Adobe Photoshop CC.</cs_CZ>
+		<da_DK>Denne opdatering løser en række problemer, der er blevet fundet, efter at den forrige Adobe Photoshop CC-opdatering blev udgivet</da_DK>
+		<de_DE>Diese Aktualisierung behebt eine Reihe von Problemen, die nach der Veröffentlichung der vorhergehenden Aktualisierung von Adobe Photoshop CC entdeckt wurden.</de_DE>
+		<es_ES>En esta actualización se han corregido diversos problemas detectados en la actualización anterior de Adobe Photoshop CC.</es_ES>
+		<es_MX>En esta actualización se han corregido diversos problemas detectados en la actualización anterior de Adobe Photoshop CC.</es_MX>
+		<fi_FI>Tämä päivitys korjaa useita edellisen Adobe Photoshop CC -päivityksen jälkeen löytyneitä ongelmia.</fi_FI>
+		<fr_FR>Cette mise à jour corrige un certain nombre de problèmes détectés après la publication de la dernière mise à jour Adobe Photoshop CC.</fr_FR>
+		<fr_CA>Cette mise à jour corrige un certain nombre de problèmes détectés après la publication de la dernière mise à jour Adobe Photoshop CC.</fr_CA>
+		<fr_MA>Cette mise à jour corrige un certain nombre de problèmes détectés après la publication de la dernière mise à jour Adobe Photoshop CC.</fr_MA>
+		<en_IL>This update addresses a number of issues discovered after the previous Adobe Photoshop CC update was released.</en_IL>
+		<hu_HU>Ez a frissítés számos olyan hibát javít, amelyeket az előző Adobe Photoshop CC frissítés kiadása után fedeztünk fel.</hu_HU>
+		<it_IT>Questo aggiornamento risolve diversi problemi rilevati in seguito al rilascio dell'aggiornamento per Adobe Photoshop CC precedente.</it_IT>
+		<ja_JP>このアップデートは以前の Adobe Photoshop CC アップデートのリリース以降に発見されたさまざまな問題を解決します。</ja_JP>
+		<ko_KR>본 업데이트는 기존 Adobe Photoshop CC 업데이트가 릴리즈된 후 발견된 여러 문제들을 다룹니다.</ko_KR>
+		<nb_NO>Denne oppdateringen løser flere problemer som ble funnet etter forrige oppdatering til Adobe Photoshop CC.</nb_NO>
+		<nl_NL>In deze update wordt een aantal problemen opgelost die zijn ontdekt na de vorige release van Adobe Photoshop CC.</nl_NL>
+		<pl_PL>Ta aktualizacja dotyczy kilku problemów, jakie pojawiły się od poprzedniej aktualizacji do programu Adobe Photoshop CC.</pl_PL>
+		<pt_BR>Esta atualização soluciona vários problemas descobertos após o lançamento da versão anterior do Adobe Photoshop CC.</pt_BR>
+		<ru_RU>В этом обновлении исправлен ряд проблем, обнаруженных после выпуска предыдущего обновления Adobe Photoshop CC.</ru_RU>
+		<sv_SE>I den här uppdateringen har ett antal problem som har upptäckts efter den tidigare uppdateringen av Adobe Photoshop CC korrigerats.</sv_SE>
+		<tr_TR>Bu güncelleme, bir önceki Adobe Photoshop CC güncellemesi piyasaya çıkıktan sonra tespit edilen sorunlara yöneliktir.</tr_TR>
+		<uk_UA>У цьому випуску пропонується цілий ряд виправлень помилок, виявлених після попереднього випуску оновлень до Adobe Photoshop CC.</uk_UA>
+		<zh_CN>此更新解决了在之前的 Adobe Photoshop CC 更新发布后发现的一些问题。</zh_CN>
+		<zh_TW>此更新解決了自前次 Adobe Photoshop CC 更新發佈以來發現的各種問題。</zh_TW>
+		<en_AE>This update addresses a number of issues discovered after the previous Adobe Photoshop CC update was released.</en_AE>
+	</Description>
+	<AffectedChannels><ChannelID>AdobePhotoshopCC2015-16.0</ChannelID>
+		<!--<ChannelID>AdobePhotoshopCC2015Support-16.0</ChannelID>-->
+	</AffectedChannels>
+	<InstallFiles><File RIBSBased="1"><Name>setup.zip</Name>
+      <Type>1</Type>
+      <ExecutableName>AdobePatchInstaller.exe</ExecutableName>
+      <Size>369546377</Size>
+      
+    <SignatureType>1</SignatureType>
+<Signature>k7eIpcrRCxSZN7zWoZx9GXPA2EtK8Q7IuRZPCckyR/UxzmXI7CEapmZtWe9s0DBEImt86f6GJjCtEnbeiQY9OEUIy6Gb8POO6WKmjtOwkAxXWGLqDFTjlNhcSKEm+1HD1X8V7px0SKr6sp7ORThSv5Zym72FY8t2omaBEY4nmbs25ANT+Jor2PsMRodbGZqjv4oIxFIdXJsDyAm5iyXOByuT0EMDjxuQKw7iatSEyPzXZ/LYo9DYO6JEK5h2opIler7kqb3udauc7xIgYnQ2aGZr1pwE33GzbKub2sC9MG5BIsx5ieiimunRuwmWNRwnqSIC2lRj4nqPKv1PbDrOGUqngRnQnwvgztX6OO/ybXEXJ+RADcKS34XwTpCPdEMjstNYPkzv+efe+rNCoSF6JDDuZzYCLZihJdFu+yHy5YhYf/0PBbzD5JOg9e+J3ZlQ6T1AM+uaUR4YpSTx3DF2ctnAIngafMrd0zA2/9eA097kIPgvak9QF37a9k7X9O8p</Signature>
+</File>
+  </InstallFiles>
+	<NeedsReboot>false</NeedsReboot>
+
+  
+  
+  
+  
+  
+  
+  <UpdatePayloadID>{F217525B-30EB-42F2-A730-F61139264DB5}</UpdatePayloadID>
+  <OwningPayloadID>{793C2BF7-A4FE-4608-91C9-9282C5801C21}</OwningPayloadID>
+  <ConflictingProcesses><Process blocking="1" processType="Adobe">^[Pp][Hh][Oo][Tt][Oo][Ss][Hh][Oo][Pp]\.[Ee][Xx][Ee]</Process>
+  </ConflictingProcesses>
+</Manifest>

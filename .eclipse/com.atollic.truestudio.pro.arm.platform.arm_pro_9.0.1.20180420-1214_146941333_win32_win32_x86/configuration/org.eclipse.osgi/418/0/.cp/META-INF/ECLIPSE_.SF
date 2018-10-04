@@ -1,0 +1,584 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: 5Pxq6ABWAnQfWsGevFMZLJSPixmrt
+ NaVUaqd49hcm9k=
+SHA-256-Digest-Manifest: q8vogLOoQAltu7Zu9N5omivm42zoQX49K1c4vuU43SU=
+Created-By: 1.8.0_51 (Oracle Corporation)
+
+Name: icons/full/dlcl16/reduce_font.gif
+SHA-256-Digest: m/XdbdJGmueh3okriNLBCjSaBTxOxSHk+GkvkONWAz8=
+
+Name: plugin.xml
+SHA-256-Digest: y+7w7kmks0PwuYQ7rAwF7j4Tm8oJWYNg37VZiuQusbk=
+
+Name: org/eclipse/ui/internal/intro/impl/model/loader/ExtensionPointMa
+ nager.class
+SHA-256-Digest: 8ej8w8sddMOYQGM/4RLgCaRGF0UCmpGZk0NDrJxPG4U=
+
+Name: org/eclipse/ui/internal/intro/impl/model/AbstractBaseIntroElemen
+ t.class
+SHA-256-Digest: oFYG8n6Iv+FU5JbFuZD6CAXAamj4mNEy+gi+32iqCcs=
+
+Name: org/eclipse/ui/internal/intro/impl/swt/RootPageForm.class
+SHA-256-Digest: mwSzz8ctO6OzuovAwxtYC0pBRM4tuGROVLwfI7a6/4I=
+
+Name: org/eclipse/ui/internal/intro/impl/model/History.class
+SHA-256-Digest: s15Da4316xg/+Mib/RjdLso6WflKotMRyX3dzzfikQQ=
+
+Name: org/eclipse/ui/internal/intro/impl/model/IntroHomePage.class
+SHA-256-Digest: VI64UqUx7Fb1QFgzXhWdO5cgv7WDwxU8Xz/MyaSuTaA=
+
+Name: org/eclipse/ui/internal/intro/impl/swt/PageWidgetFactory.class
+SHA-256-Digest: vOjl1VJutkYVvVex+NBVtiGICMd93T/85cluJxoupmE=
+
+Name: org/eclipse/ui/internal/intro/impl/presentations/BrowserIntroPar
+ tImplementation$2.class
+SHA-256-Digest: 6AiReYqLJeyEiDCsA45TWMlZ+wunYN3m3/xWRd9XmCM=
+
+Name: org/eclipse/ui/internal/intro/impl/model/IntroModelRoot$Extensio
+ nContent.class
+SHA-256-Digest: klORli/QdTmUBy/Cghn+Nv04BoGKE2rl08WeEmj6NEg=
+
+Name: org/eclipse/ui/internal/intro/impl/swt/RootPageForm$RootPageLayo
+ ut.class
+SHA-256-Digest: FdLtqWg3X8RKnHkadheujIjUSf0XmgV6Qz4WgH5LiuA=
+
+Name: org/eclipse/ui/internal/intro/impl/model/IntroInclude.class
+SHA-256-Digest: aotkDrXCBjd+ky1it4dnFU6DJWSB4j2L9YT8OfNnwBQ=
+
+Name: org/eclipse/ui/internal/intro/impl/model/IntroExtensionContent.c
+ lass
+SHA-256-Digest: GjIHhKKagjcIBIxCMRbyBdl0e/7Q/5GlyxvHAX9A8jE=
+
+Name: org/eclipse/ui/internal/intro/impl/model/IntroURLAction.class
+SHA-256-Digest: puWJdTQ8vAHR2Uroz4f6ByNcRZwQrB701RXm6ecu8+c=
+
+Name: org/eclipse/ui/intro/config/IIntroContentProviderSite.class
+SHA-256-Digest: h66Q2N+K2Hm91a4Bwl/DnZC3rJZx4bkwaEOTgjO2obw=
+
+Name: org/eclipse/ui/intro/config/IntroConfigurer.class
+SHA-256-Digest: UYbH93aNVlsFx8aRqJMpTtdkEvxLI92iHcCUGLjJZR4=
+
+Name: org/eclipse/ui/internal/intro/impl/util/Util$1.class
+SHA-256-Digest: K58uUm4U/IH2vDL4sRuIQaRVDPCOviXK4zOm5tECKHI=
+
+Name: org/eclipse/ui/intro/config/IIntroContentProvider.class
+SHA-256-Digest: F74k2PuQ+y5r2FwmFVppd5/Dd6itq4OXNafgHQB+k78=
+
+Name: org/eclipse/ui/internal/intro/impl/model/url/IntroURL.class
+SHA-256-Digest: FA+gGgj71bX+OeC98meg/nRnDyiwwvwIc6dVRxCbpXY=
+
+Name: org/eclipse/ui/internal/intro/impl/Messages.properties
+SHA-256-Digest: vT4pn/eg2f+POs7uEv1UtFo5gADsPDF6Pbj5szCjp9Q=
+
+Name: .api_description
+SHA-256-Digest: G7rNBchXWVh2BxilM/f4omSmMAOC3V+1dOAHCQ9/LE8=
+
+Name: org/eclipse/ui/internal/intro/impl/presentations/IntroLaunchBar.
+ class
+SHA-256-Digest: B0VYUvJsFkfSoPj2DR6X08/TR8QHrUiECa1MZXV0iVA=
+
+Name: org/eclipse/ui/internal/intro/impl/model/IntroHTML.class
+SHA-256-Digest: mKZ9FvoRcBcUYI+5KC0T530XLGWHbv/YZQgUuKojorY=
+
+Name: org/eclipse/ui/internal/intro/impl/model/util/ModelUtil.class
+SHA-256-Digest: hmfp+AMwERwrELyJyRHfu4mGCjBdRJB0Ae+xEj7Sx5M=
+
+Name: org/eclipse/ui/internal/intro/impl/model/viewer/IntroModelLabelP
+ rovider.class
+SHA-256-Digest: cMwrg6QHMYNzyJK5xsE54205AV9WHLA7C64qvSXnYO4=
+
+Name: org/eclipse/ui/internal/intro/impl/model/AbstractIntroContainer.
+ class
+SHA-256-Digest: OyuYdrURwmYffW3mgTgwBEcPXR5t/mxCMW4W+De1o7U=
+
+Name: org/eclipse/ui/internal/intro/impl/swt/PageFormWithNavigation.cl
+ ass
+SHA-256-Digest: Lzo2sCpGndlUDyoDGDgEKU1m1kVbcQt9uEux2iZird8=
+
+Name: org/eclipse/ui/internal/intro/impl/parts/EmptyStandbyContentPart
+ .class
+SHA-256-Digest: GAr6Tqsz03k3Pweymnw9TtNxSGJ5Qv3dy9rcx3UUiWE=
+
+Name: org/eclipse/ui/intro/contentproviders/EclipseRSSViewer$1.class
+SHA-256-Digest: 8AgqeYl23Cdjkbqg8N3rAQh27Q4y38V7CuOPZ6Tbjmg=
+
+Name: org/eclipse/ui/internal/intro/impl/model/ExtensionMap.class
+SHA-256-Digest: wK3TS7XWwczMxiXlJOmguiNGnH289FnVF7J4BSBUQWI=
+
+Name: org/eclipse/ui/internal/intro/impl/Messages.class
+SHA-256-Digest: 3yCIx8uLfG1gseTaNL7ssZT2MpvruTFcR3Q1qbcBedM=
+
+Name: org/eclipse/ui/internal/intro/impl/presentations/BrowserIntroPar
+ tLocationListener.class
+SHA-256-Digest: ST/A1pClQxAhKUfCvgxc/nTZEGQuSvBsHcMiEWvWYnI=
+
+Name: org/eclipse/ui/internal/intro/impl/model/loader/BaseExtensionPoi
+ ntManager.class
+SHA-256-Digest: XhttJbshuIz9fQOuAlPRlp9FmijEgqFrCisnLhM4ILw=
+
+Name: org/eclipse/ui/internal/intro/impl/swt/SharedStyleManager.class
+SHA-256-Digest: BwVz2gGriftl6D6WBHuSyvjPhddecZ/qCHdGTCcL2yI=
+
+Name: org/eclipse/ui/internal/intro/impl/presentations/IntroLaunchBar$
+ 5.class
+SHA-256-Digest: 1DU6Ycfx74qNq9OJG0fY0ejPvvnOtVLxP2UIieQlY94=
+
+Name: org/eclipse/ui/internal/intro/impl/model/IntroTheme.class
+SHA-256-Digest: nojXLX6Rl9IITLZrrQr+HKRz0GU5XQm7vHEhsHmJJDg=
+
+Name: org/eclipse/ui/intro/config/IStandbyContentPart.class
+SHA-256-Digest: RgYrJV5LKNUu+x+ouRoJKPbcdMOI3N8oOX/VhDIQJzY=
+
+Name: org/eclipse/ui/internal/intro/impl/model/loader/SharedConfigExte
+ nsionsManager.class
+SHA-256-Digest: M12Ksn1EwJK5vraU8Ss8R1n0hY7JSCN6dJW+6fvuOWQ=
+
+Name: org/eclipse/ui/internal/intro/impl/model/IntroHead.class
+SHA-256-Digest: cDDQNSkCuAb0bYBsx70Xm87CTaVGBb6dUx7NwZupsRc=
+
+Name: icons/arrow.gif
+SHA-256-Digest: x+YOKHKGnK3Xt7ar1vxZHO/wIVPnqQdTUxnfBMd29vI=
+
+Name: icons/full/dlcl16/magnify_font.gif
+SHA-256-Digest: FlJz/WR9EUXZhBHdhDghi1JMJY7Fj/6cO2NdGjgzX8o=
+
+Name: org/eclipse/ui/internal/intro/impl/html/IntroHTMLGenerator.class
+SHA-256-Digest: 9aAjrk7yAe44Eb/898Hw6/P0K+YgrwS+EMd8saIFANg=
+
+Name: org/eclipse/ui/internal/intro/impl/presentations/BrowserIntroPar
+ tImplementation$4.class
+SHA-256-Digest: 6aT+6s2aPp7KFnyTPM8deedosjFKadTHaQqF6Q9gefk=
+
+Name: org/eclipse/ui/internal/intro/impl/model/IntroPage.class
+SHA-256-Digest: l894ALzTyKCATKj5NdNrGmMWU/Z9knJlLoEOG+gDN60=
+
+Name: icons/blank.gif
+SHA-256-Digest: M0GcsV244bKtj0vVJf6zXLaGG0C+AGkvN0q4Q641mQk=
+
+Name: icons/full/elcl16/close_view.gif
+SHA-256-Digest: 7HSXC1vi1aTymCjmbqdAyqPLjHnqcbsfIBX4i/8E484=
+
+Name: org/eclipse/ui/intro/config/IntroElement.class
+SHA-256-Digest: sywNXJ4WK8N/b7rnd5LXmFAOn9emvhzL5sB5mdH7SiI=
+
+Name: org/eclipse/ui/intro/contentproviders/EclipseRSSViewer$NewsFeed$
+ 1.class
+SHA-256-Digest: qaR60fPpFaifTFixEEv7swHyxCTmD414i/z7AeIfYos=
+
+Name: org/eclipse/ui/internal/intro/impl/presentations/BrowserIntroPar
+ tImplementation$ReduceAction.class
+SHA-256-Digest: 9UeuaDDqR468exeQL4Zm1TohQGQmJMQN6mjVPCMl+xs=
+
+Name: .options
+SHA-256-Digest: Wr/dXUdQeEuTw6ASinKbXCVvQBjVEa5/iJN57cJTxlc=
+
+Name: org/eclipse/ui/internal/intro/impl/model/AbstractTextElement.cla
+ ss
+SHA-256-Digest: fHWSloG4d8M5mtbuwbUYszzlkXE6HzN8OS6CYnZ9Bew=
+
+Name: org/eclipse/ui/intro/contentproviders/EclipseRSSViewer.class
+SHA-256-Digest: qqBgB/PIUlcBT8Iu7WtZLSe7RSV9jFuyx8ZaO8clnUY=
+
+Name: org/eclipse/ui/internal/intro/impl/html/IntroHTMLGenerator$Plugi
+ nIdParser.class
+SHA-256-Digest: XzczDlgMcLyZO2Ry1lYmrRPEzOpacPo7kQNhSbj0gGw=
+
+Name: org/eclipse/ui/internal/intro/impl/html/HTMLUtil.class
+SHA-256-Digest: ToKyjbP5RGLVloc95zGW0dUniTbYEEpJaoDxFayOSUA=
+
+Name: org/eclipse/ui/internal/intro/impl/model/IntroLaunchBarShortcut.
+ class
+SHA-256-Digest: CRgniJv8jBb7ONwway8aaDclP6bNv9/fMUF9h0AsMpQ=
+
+Name: org/eclipse/ui/internal/intro/impl/model/url/IntroURL$2.class
+SHA-256-Digest: kBYiHE7UAFuW1yOTpCddXluuDLSK2LI6pOzdGQsut5o=
+
+Name: icons/overview_48.gif
+SHA-256-Digest: Q3tg8hOwchJY2/DUoAe9TtYVNP8PGUvWd3iSfZ0HYCY=
+
+Name: org/eclipse/ui/internal/intro/impl/model/IntroModelRoot.class
+SHA-256-Digest: GL13EJtKxlofrplL67nMp+ArzNjVBms2/8INjaHG+iM=
+
+Name: org/eclipse/ui/internal/intro/impl/model/IntroInjectedIFrame.cla
+ ss
+SHA-256-Digest: AveYqAiH2D5qd4zBdbcl1CswuqzvQqboFUhiaZ+BfiI=
+
+Name: javascript/common.js
+SHA-256-Digest: XvRs/m3Ki/xvoMpavDZJKvV65Xhd7mxozIAmqZv8L2s=
+
+Name: org/eclipse/ui/internal/intro/impl/model/loader/ModelLoaderUtil.
+ class
+SHA-256-Digest: I1D4KmMLqpLNKJ+cyi+DQzB+PllelEfdPtKyq6jUaSc=
+
+Name: org/eclipse/ui/intro/config/IntroURLFactory.class
+SHA-256-Digest: QGperBbScojQGOdU3HakJKEbKl6Nm8p08nwXL8J/f+c=
+
+Name: icons/container_obj.gif
+SHA-256-Digest: 5GYQays3RfeTbYAQ4dX7b2OimSVGiMhHgx2ysCVkCao=
+
+Name: org/eclipse/ui/internal/intro/impl/swt/PageStyleManager.class
+SHA-256-Digest: VczVbeqj6xepFm69Dx4deb6tMCVeq+CeY20/jzKgwfI=
+
+Name: org/eclipse/ui/internal/intro/impl/presentations/BrowserIntroPar
+ tImplementation.class
+SHA-256-Digest: qO70utWczE68+a/5U+/zRIbjFj76mGF7F9RDs/uVx0Q=
+
+Name: org/eclipse/ui/internal/intro/impl/html/FormattedHTMLElement.cla
+ ss
+SHA-256-Digest: DtKKyWYEX4Z8XFL0ozvzvUQ3616+EM+rkfr/IDuZ7DE=
+
+Name: icons/full/dlcl16/backward_nav.gif
+SHA-256-Digest: qSmrL5THfdLQjM4WDvbmlDds2TDPif80PRVkrUH/abg=
+
+Name: org/eclipse/ui/internal/intro/impl/swt/PageForm.class
+SHA-256-Digest: GNQEXN9hyOOq5L81knSGUNnoL6t5jABSSWumPZX+h54=
+
+Name: org/eclipse/ui/internal/intro/impl/model/loader/IntroContentPars
+ er.class
+SHA-256-Digest: 50KLHL96zRBhpUMqqpnQ1VDff8XMPLT3476mbUh/ILo=
+
+Name: org/eclipse/ui/internal/intro/impl/presentations/BrowserIntroPar
+ tImplementation$3.class
+SHA-256-Digest: fSOhmhGaLaPPWVSyDyTp7DwWUnZr6h9WognzV/Q8ilY=
+
+Name: org/eclipse/ui/internal/intro/impl/util/IntroModelSerializer.cla
+ ss
+SHA-256-Digest: OGsnyykSntFt8utABsK/UbS58nqP6BZKAYpLQtFw+Ow=
+
+Name: org/eclipse/ui/internal/intro/impl/model/loader/ContentProviderM
+ anager$ContentProviderWrapper.class
+SHA-256-Digest: W6E8kvjpoXEaxccyTRHJg7pVaJPTWdaEFiImAruLkcg=
+
+Name: org/eclipse/ui/internal/intro/impl/model/url/IntroURL$1.class
+SHA-256-Digest: D2OaLLCLgNmLUllFVvUxB/fq4wKv/l3GZdNCAoR9qjA=
+
+Name: org/eclipse/ui/intro/config/IIntroURL.class
+SHA-256-Digest: HM+OLFaXJfzpiwKOEW4c7byE/EL2djrtXI4vgvxY6WU=
+
+Name: org/eclipse/ui/internal/intro/impl/html/IIntroHTMLConstants.clas
+ s
+SHA-256-Digest: ISdN/1Xh7aAI9SqZw//rL4nJx9D3IgsU/M+AuCRzC30=
+
+Name: org/eclipse/ui/internal/intro/impl/FontSelection.class
+SHA-256-Digest: BLSdqT/cWdvH2KjTR9QhVH432uMjaJQh4YenPn1g3iI=
+
+Name: org/eclipse/ui/internal/intro/impl/model/viewer/IntroModelConten
+ tProvider.class
+SHA-256-Digest: KrQpQA8+Snu9vsJ7JIcLWxHdxMjQDpudsxXYGO/8K28=
+
+Name: org/eclipse/ui/internal/intro/impl/model/IntroSearchParticipant.
+ class
+SHA-256-Digest: 73JAzpJyXaNvtrYYBVFpW1wSslRRFBCkN2kO9YwkntI=
+
+Name: icons/full/elcl16/reduce_font.gif
+SHA-256-Digest: t1o6qH8bIkjdndlXOGXfUBYQKczFBmkoT0MLUMbHriQ=
+
+Name: icons/full/dlcl16/home_nav.gif
+SHA-256-Digest: iDrpIMZr8w9+PL3DVppfYAin5Ku+vKkGQ2r0QHvb3wA=
+
+Name: org/eclipse/ui/intro/contentproviders/EclipseRSSViewer$NewsItem.
+ class
+SHA-256-Digest: asII4p5BUdqXoxl8MP230PaxYvu0dIiSbx+lpHb/Akc=
+
+Name: org/eclipse/ui/internal/intro/impl/html/HTMLElement.class
+SHA-256-Digest: TUUtKFv8UEKaSYi7TmauFyN+biKwcx+WCRa/HyjiDeo=
+
+Name: org/eclipse/ui/internal/intro/impl/model/AbstractIntroPartImplem
+ entation$1.class
+SHA-256-Digest: ZHsCaan+zsLLdV8vv7R3QvvbIRSlUc3I1hS65ZZ6NLE=
+
+Name: org/eclipse/ui/internal/intro/impl/presentations/TextIntroPartIm
+ plementation.class
+SHA-256-Digest: DMb4CKebFWZTaOs/IbNawDmUUdBjfyP2iYPYZjrlLA8=
+
+Name: org/eclipse/ui/internal/intro/impl/model/IntroStandbyContentPart
+ .class
+SHA-256-Digest: G3+drimMgbkod1XSLjrauoAGAZwzFUyhqTWvo322sSk=
+
+Name: org/eclipse/ui/intro/contentproviders/EclipseRSSViewer$RSSHandle
+ r.class
+SHA-256-Digest: jZFM6F3e62/+qeNbicalp3LfK9mQb5PBnjoH4/e5D1Q=
+
+Name: org/eclipse/ui/intro/config/CustomizableIntroPart$1.class
+SHA-256-Digest: ObNbQGSKOKIf0g+xFOD42Z3U6gZJTmV2VTUluO36Iow=
+
+Name: org/eclipse/ui/internal/intro/impl/util/Util.class
+SHA-256-Digest: jD0UbSrVF4B9LbwaIGVexYRvzz1+4E+UfRMSRHELXlA=
+
+Name: org/eclipse/ui/internal/intro/impl/model/IntroAnchor.class
+SHA-256-Digest: TA1CEZPwFfGhpPsigUbLnPRLpQE2oNRHTRqXORsX1z8=
+
+Name: org/eclipse/ui/internal/intro/impl/presentations/IntroLaunchBar$
+ 4.class
+SHA-256-Digest: 6xL9kN33B2ld8tqHvQm/DGEWUmnWPKb60Kj8Pu4Pk/s=
+
+Name: org/eclipse/ui/internal/intro/impl/model/util/BundleUtil.class
+SHA-256-Digest: 9A/eDrAmn/4RMajeV4QAu5TO6Et24fKwpQ7BsZHMlOg=
+
+Name: org/eclipse/ui/internal/intro/impl/IIntroConstants.class
+SHA-256-Digest: rurKaOOcGw2/C5ds7Ee9Q24qoI9d5XkA5RLkFqS6CaI=
+
+Name: org/eclipse/ui/internal/intro/impl/model/IntroSeparator.class
+SHA-256-Digest: +XepgxX9IvoX6LsW/cLvBvIzWT+v+qU+iTGiNBd/LIY=
+
+Name: invalidPage/invalidPage.xhtml
+SHA-256-Digest: rSA0E8ksX7rlmgDIm9PR170EgHKeBaiM277J8WTMDqc=
+
+Name: icons/full/dlcl16/forward_nav.gif
+SHA-256-Digest: 5WN6qe+rRqkusTSMcFFEEI60+aXTyKJATARtfBNvDz8=
+
+Name: org/eclipse/ui/internal/intro/impl/presentations/FormIntroPartIm
+ plementation$1.class
+SHA-256-Digest: BMob/v81j3tQ16mdLHZbqzEscccdSJnFvtQvDjHqZMk=
+
+Name: org/eclipse/ui/internal/intro/impl/presentations/IntroLaunchBar$
+ 1.class
+SHA-256-Digest: wwm6JJDIBokjuL5WepvG/D19ZL1OsHQqLuzp05t/4Lg=
+
+Name: plugin.properties
+SHA-256-Digest: 3kB/yhcF3Yt0CP9aj6HlP7+7Y5xKX7Ri4YzF7i9IsZ0=
+
+Name: org/eclipse/ui/intro/config/IIntroAction.class
+SHA-256-Digest: v+Wvrr9+2m3QHfNJ68/vkJjtdhF72Qnp5U2h+lSoykA=
+
+Name: org/eclipse/ui/internal/intro/impl/model/loader/ContentProviderM
+ anager.class
+SHA-256-Digest: ByR+1THC6cZugCYSzu/lpcL5V/8LEw6JuAMgZtpN91Y=
+
+Name: org/eclipse/ui/internal/intro/impl/IntroPlugin.class
+SHA-256-Digest: vl+uEc8mwSywbBplFLkUoV732pzZuZSdZ4Kh7vmp2sI=
+
+Name: org/eclipse/ui/internal/intro/impl/presentations/FormIntroPartIm
+ plementation.class
+SHA-256-Digest: NJ9/kf6nt5AmA0cCOt5KcG0Gy1IiuZpuZVlRdL8ZRyc=
+
+Name: org/eclipse/ui/internal/intro/impl/parts/StandbyPart$ControlKey.
+ class
+SHA-256-Digest: eoWKf0F+fQKOOZabY6nM2yleGMucLRWHNjdKDzqMr18=
+
+Name: org/eclipse/ui/intro/contentproviders/EclipseRSSViewer$TimeoutTh
+ read.class
+SHA-256-Digest: CX0KNInWXcvS8lwYhNiFxz2BNS7O45QPY4ZO+qDiGMg=
+
+Name: org/eclipse/ui/internal/intro/impl/swt/RootPageForm$1.class
+SHA-256-Digest: FbVbX+TYlwXRy5S1wRWHPUfwGI24T/4HEoXaFTYQP7o=
+
+Name: org/eclipse/ui/internal/intro/impl/model/IntroLink.class
+SHA-256-Digest: YUJQ45mgjy98/ibhzkoHU0rh2RF1Wfo2aog0AJ5WsT4=
+
+Name: org/eclipse/ui/internal/intro/impl/model/AbstractIntroIdElement.
+ class
+SHA-256-Digest: R9BG4T7lD7wyEAuEOq5rm+8hN0a+TbqQJRdM5kN087A=
+
+Name: org/eclipse/ui/internal/intro/impl/model/AbstractIntroPage.class
+SHA-256-Digest: Ox0cgO3RuYGGAx9CnVcpqG9MbY9yLm1tDx9D2Aai1c4=
+
+Name: org/eclipse/ui/internal/intro/impl/util/IntroEvaluationContext.c
+ lass
+SHA-256-Digest: i59USZOWPGVLZITNNllfTp9rvY6zGlQ/0z/64oB1uwU=
+
+Name: org/eclipse/ui/internal/intro/impl/swt/PageForm$1.class
+SHA-256-Digest: bdIXuyqiXl/uTZgsRWwRvHUos6ibgSsjSxJc6YEzUHk=
+
+Name: org/eclipse/ui/internal/intro/impl/util/ImageUtil.class
+SHA-256-Digest: m4EXnHOcJgZNt7kFeCtkTbu30TxlO6nwVr29z97YT7I=
+
+Name: org/eclipse/ui/internal/intro/impl/presentations/BrowserIntroPar
+ tImplementation$1.class
+SHA-256-Digest: 6snztowI2DTXplYLnapBFux99rJkpjmJUwE9xI9tFgQ=
+
+Name: icons/form_banner.gif
+SHA-256-Digest: uxTnc4/kJ0RGxxZ55/zXn1e1qccdhQnt2qTZDLjGkCo=
+
+Name: org/eclipse/ui/internal/intro/impl/util/ReopenUtil.class
+SHA-256-Digest: n2BCp1O1SPvZp7TEz7FNpTXMqRB6k7Fk3dVjdJK6gc0=
+
+Name: org/eclipse/ui/internal/intro/impl/model/AbstractIntroPartImplem
+ entation$4.class
+SHA-256-Digest: 4QC+SM8SbK8AV32qjvXo3LZopcJh0qu2G/silVOT6xg=
+
+Name: org/eclipse/ui/intro/contentproviders/AlwaysWelcomeCheckbox.clas
+ s
+SHA-256-Digest: 1W5lpsd+OHPXQIcYZlqHd9dm1Qvj5t1zy9sPvsoCnG0=
+
+Name: org/eclipse/ui/internal/intro/impl/model/IntroContentProvider.cl
+ ass
+SHA-256-Digest: rC+Hif/LK4q7IHaAJGnEBlLqrY5UHsCUBjMkJJuFCYc=
+
+Name: icons/full/elcl16/forward_nav.gif
+SHA-256-Digest: /HivJ3sQYugmm9H/xRZLdlD3WPv0ATD94gTPWPS3zWE=
+
+Name: org/eclipse/ui/internal/intro/impl/util/Log.class
+SHA-256-Digest: n8nGK2R40MXm6hnOfu8SBn54C/WiPCwBEgK4ofJEHIg=
+
+Name: org/eclipse/ui/internal/intro/impl/util/StringUtil.class
+SHA-256-Digest: ECTGjUprVPXDBMJPMZZbWT3gLK0k8gYaM1s4k4DRUa8=
+
+Name: org/eclipse/ui/internal/intro/impl/util/DialogUtil.class
+SHA-256-Digest: xXPjGLs69FcL+MDkZtIUZJUz2E05K+aBrAtd+b5GS00=
+
+Name: org/eclipse/ui/internal/intro/impl/presentations/IntroLaunchBar$
+ 2.class
+SHA-256-Digest: UBBxa54MJ8RBnxEyJ7h++QcAV8oxzqK3RPVv16N8if0=
+
+Name: org/eclipse/ui/internal/intro/impl/model/IntroText.class
+SHA-256-Digest: EVFHEdu1FjDG/8PuALTZfNYzdpxB/fLvdPATKHDWp6c=
+
+Name: org/eclipse/ui/internal/intro/impl/swt/SharedStyleManager$StyleC
+ ontext.class
+SHA-256-Digest: R3Dd3nrQephsuC1MVYdvAx38VVHN1fgHYVfjBgT6EDY=
+
+Name: org/eclipse/ui/internal/intro/impl/model/AbstractIntroPartImplem
+ entation.class
+SHA-256-Digest: VJ87enbM2u+JkQVfv38BdppV7YY+NdR+5wbAHX4u95g=
+
+Name: org/eclipse/ui/internal/intro/impl/model/IntroPageTitle.class
+SHA-256-Digest: wHzzesEKkf1Kd7Y4LDrqPAAnW/VJ8OGEYjcc6C6wBdM=
+
+Name: org/eclipse/ui/internal/intro/impl/model/AbstractIntroPartImplem
+ entation$3.class
+SHA-256-Digest: S3BIP+UfvRzjYPAsIV5Uj6hmNuPICs4UEkWWHG8QXZE=
+
+Name: icons/full/etool16/restore_welcome.gif
+SHA-256-Digest: aIQb9xPcA0Cu14/stpGMNw56UNeMP/wx8DaW8vMfrdU=
+
+Name: org/eclipse/ui/intro/contentproviders/EclipseRSSViewer$NewsFeed.
+ class
+SHA-256-Digest: RcYMpxXva/A9KABuci+K536fxvz9DdsIG2B4tmUDYxo=
+
+Name: org/eclipse/ui/internal/intro/impl/presentations/IntroLaunchBar$
+ BarLayout.class
+SHA-256-Digest: Cn43BAQYLKH1+8RHJ3XS/3BDTWCroZBgcVUckt7K/6M=
+
+Name: org/eclipse/ui/internal/intro/impl/swt/PageContentForm.class
+SHA-256-Digest: sdagmBKkw50y1ab3dkukStBKsJYfWr5qesTQSlVHXSc=
+
+Name: org/eclipse/ui/internal/intro/impl/model/IntroSearchParticipant$
+ TitleAndSummary.class
+SHA-256-Digest: 4rTDYb0b2miBVX9MoD0Hj85TO36rbvbiMbWggWy6Xis=
+
+Name: org/eclipse/ui/internal/intro/impl/swt/PageWidgetFactory$1.class
+SHA-256-Digest: hsLoLvyVh0d+mMGjEDSPS8VJKYpd50mrqRL/ZlHzhEA=
+
+Name: org/eclipse/ui/internal/intro/impl/model/History$HistoryObject.c
+ lass
+SHA-256-Digest: QH884rM6nYWIptgyLF1yU2wzR19m7JnRiAhV2ja6NBk=
+
+Name: icons/full/elcl16/magnify_font.gif
+SHA-256-Digest: B96hC1bGcStJlSsEhu1MlUeAC3SQY3sQuzBdEU4jncM=
+
+Name: org/eclipse/ui/intro/config/IIntroXHTMLContentProvider.class
+SHA-256-Digest: xX/TvCfKTlGvkdDNOrBAU7YV5JRuKaeQMoOoxiIgEOE=
+
+Name: org/eclipse/ui/internal/intro/impl/model/IntroGroup.class
+SHA-256-Digest: Y6OOsLM5vOT2v9x0RhTqtI6BNf+xwhNvgWbFqIAE6Wo=
+
+Name: org/eclipse/ui/internal/intro/impl/model/AbstractIntroPartImplem
+ entation$2.class
+SHA-256-Digest: E9ml3hknVNLiQwheFMTJ7VDBp9uKUAOxzAGThgqSXDE=
+
+Name: org/eclipse/ui/internal/intro/impl/model/IntroImage.class
+SHA-256-Digest: U8HRAfgrLX1vJFfcT0G7cr028cOVzoIFtUaCu1BbLPQ=
+
+Name: org/eclipse/ui/intro/config/CustomizableIntroPart$2.class
+SHA-256-Digest: Dlg/5xEsdjmEtLpZpZI3sOlZ2mWJ5lQElnUxH4Z2Pqk=
+
+Name: org/eclipse/ui/intro/contentproviders/AlwaysWelcomeCheckbox$1.cl
+ ass
+SHA-256-Digest: YtIVYiOK8zb+tHzk66q5xvnFWMo9Aga1jIq21AN2REQ=
+
+Name: org/eclipse/ui/internal/intro/impl/model/IntroModelRoot$1.class
+SHA-256-Digest: CKSQe2V5re87oUYAKrmLj2maUHA/kDXuvVI2WqFUPlQ=
+
+Name: icons/full/elcl16/backward_nav.gif
+SHA-256-Digest: LV3l1P5hKgaZEa5lYuDMHf0Sju63mAsqBdMw12hSoBE=
+
+Name: org/eclipse/ui/internal/intro/impl/parts/StandbyPart$StandbyLayo
+ ut.class
+SHA-256-Digest: IZWg7bV3hrVdM5nGLYG/6UCgDV2KxYJYk4BfHMkerFg=
+
+Name: org/eclipse/ui/internal/intro/impl/model/url/ShowHelpURLHandler.
+ class
+SHA-256-Digest: rrC+gGy+7Kg64qPp095A88CkOFJXOaNbtdgW5l74XPw=
+
+Name: about.html
+SHA-256-Digest: fz3somdR7f7Qlv4MFhaJfkDWglIbzI8gaTyRV90fCPs=
+
+Name: icons/overview_32.gif
+SHA-256-Digest: 5jpPZG9BTgt3z6wSx2KzICWNb/7k62fR5oY3LJJ/dVo=
+
+Name: org/eclipse/ui/internal/intro/impl/model/url/IntroURLParser.clas
+ s
+SHA-256-Digest: pBoBRAcF1hspd2gimyK55DGvCggU1dtg6NZuoBNassg=
+
+Name: org/eclipse/ui/internal/intro/impl/swt/RootPageForm$PageComposit
+ e.class
+SHA-256-Digest: QQfvIiXyBAvkGx83557NhG2qDt2Sg9CedWXenbmY2OM=
+
+Name: icons/topic.gif
+SHA-256-Digest: C1pIXz+rSgvGE53Dit0k/oOGSVLTuutM9Is6SEerXnE=
+
+Name: org/eclipse/ui/internal/intro/impl/model/loader/IntroContentPars
+ er$1.class
+SHA-256-Digest: U+XaXq0boAGwFQyr2FBWyeHmWzvlzNAZuUAsFsuSPuU=
+
+Name: org/eclipse/ui/internal/intro/impl/model/IntroLaunchBarElement.c
+ lass
+SHA-256-Digest: 9+7aMhWsewjAgHbPVBtP5SErboqsNJGyCU/W28eT2DA=
+
+Name: org/eclipse/ui/internal/intro/impl/presentations/BrowserIntroPar
+ tImplementation$MagnifyAction.class
+SHA-256-Digest: +BzV2wvSAu+Xr36j4hXX4cVDM6Dx8VxKJYrm/9dhjvI=
+
+Name: org/eclipse/ui/internal/intro/impl/presentations/IntroLaunchBar$
+ 3.class
+SHA-256-Digest: iLyCqklHukBcQ1nwUCmBX2Rac2b9KOJuWY7d0CTheK4=
+
+Name: org/eclipse/ui/internal/intro/impl/parts/StandbyPart$1.class
+SHA-256-Digest: //5KtEd3nLGKu177KjtuWXBqy5z57jKJiOpkHBFfK5M=
+
+Name: icons/full/elcl16/home_nav.gif
+SHA-256-Digest: giddVVWgXcur/wSwRmzx/ZTzt8eoYsxv/L5M86nKeF8=
+
+Name: icons/help_topic.gif
+SHA-256-Digest: QdxCuPGXpAOUAfStUkyGfhazbSnrvvgyBrzBAuRImxo=
+
+Name: org/eclipse/ui/intro/config/CustomizableIntroPart.class
+SHA-256-Digest: IT7yqBuzi1paD2rSKlA4w+yiWxj0OCi4LkjQ5vKeOhI=
+
+Name: icons/welcome16.gif
+SHA-256-Digest: RFb8vxXkyiEvUcTJBP5GMmGwpu+7YJ96GhD8jmGlNss=
+
+Name: invalidPage/showerr_tsk.gif
+SHA-256-Digest: OCpCUNQtvuYKLicQDtMeGH92Q4uPLBz2nD8Ei+gKn14=
+
+Name: org/eclipse/ui/intro/contentproviders/EclipseRSSViewer$2.class
+SHA-256-Digest: /g5OgkZL0j7mz7a/UlEIXdX061XRIhFkIdMwAqpGGVQ=
+
+Name: org/eclipse/ui/internal/intro/impl/parts/StandbyPart.class
+SHA-256-Digest: QPDK0cjOM36kFHtEXUrJInXqLHES7Ib3s5WIPuZ8P+0=
+
+Name: org/eclipse/ui/internal/intro/impl/model/IntroPartPresentation.c
+ lass
+SHA-256-Digest: sT5j10d9Rw+vHoewSVOVhEWUxC6seVe1blZcMAlppEA=
+
+Name: org/eclipse/ui/internal/intro/impl/model/util/FindSupport.class
+SHA-256-Digest: gPo1Nnn1QTqkTSZ5QzUsVoQPyxI8/scn7XbiIsWsgcY=
+
+Name: org/eclipse/ui/intro/contentproviders/EclipseRSSViewer$ContentTh
+ read.class
+SHA-256-Digest: jCZ/o5sM2b+sp8xhyOobSrGombz/D6VUzib2iLLRPiI=
+
+Name: org/eclipse/ui/internal/intro/impl/model/AbstractIntroElement.cl
+ ass
+SHA-256-Digest: D+Re2tsOJSL/LwiYg1ShupotkrJ0dOM9uZhtpsbCMWI=
+
+Name: empty_swt.properties
+SHA-256-Digest: W5vamCyF6hn9BLbMA71t9KrUSxrr+mbc4ZsNS8895O0=
+
+Name: icons/contents_view.gif
+SHA-256-Digest: ki9mEsG7uppNpkd29x6j/wtdQ2T9ZubX08fw4+V4TTM=
+
+Name: icons/full/dtool16/restore_welcome.gif
+SHA-256-Digest: MkCmON0Wf0DOe3KlSfn/5l6oMom6UjB4rlPVYDyxOs4=
+

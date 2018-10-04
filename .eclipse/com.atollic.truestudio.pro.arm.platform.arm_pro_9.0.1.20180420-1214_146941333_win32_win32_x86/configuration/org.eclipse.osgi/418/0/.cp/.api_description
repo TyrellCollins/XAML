@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component name="org.eclipse.ui.intro_3.5.1.v20160829-1558" version="1.2">
+    <plugin id="org.eclipse.ui.intro_3.5.1.v20160829-1558"/>
+    <package name="org.eclipse.ui.intro.config" visibility="1">
+        <type name="IIntroContentProviderSite" restrictions="3"/>
+        <type name="IIntroURL" restrictions="3"/>
+        <type name="IntroConfigurer" restrictions="0">
+            <method name="bind" restrictions="8" signature="(Lorg/eclipse/ui/internal/intro/impl/model/IntroModelRoot;)V"/>
+        </type>
+    </package>
+</component>

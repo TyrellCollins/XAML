@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Preferences>
+<NotificationLogFile>C:\Users\tyrel\AppData\Local\Adobe\AAMUpdater\1.0\aamun.log</NotificationLogFile>
+<LogLevel>2</LogLevel>
+<LastDateCheck>2018-10-03T07:59:27</LastDateCheck>
+<IsScheduledTaskAdded>1</IsScheduledTaskAdded>
+<IsScheduledTaskNeeded>0</IsScheduledTaskNeeded>
+<LogFile>C:\Users\tyrel\AppData\Local\Adobe\AAMUpdater\1.0\aamu.log</LogFile>
+<WebFeedEtag>&quot;43ef3-575ccb69bdf40&quot;</WebFeedEtag>
+<WebFeedSize>278259</WebFeedSize>
+<WebFeedSeqNo>0</WebFeedSeqNo>
+<CSUVersion>9.0</CSUVersion>
+<StartupLogFile>C:\Users\tyrel\AppData\Local\Adobe\AAMUpdater\1.0\aamul.log</StartupLogFile>
+<SilentNotificationLogFile>C:\Users\tyrel\AppData\Local\Adobe\AAMUpdater\1.0\aamus.log</SilentNotificationLogFile>
+<OSVersion>6.2.9200</OSVersion>
+<IsFirstRun>0</IsFirstRun>
+<ChannelsEnabled>
+<MapPrefEntry MapPrefKey="AdobeApplicationManager-1.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="AdobeColor-PhotoshopSpecificCC-5.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="AdobeColorCommonSetCMYK-5.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="AdobeColorCommonSetRGB-5.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="AdobeColorEUExtraSettingsCC-5.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="AdobeColorJAExtraSettingsCC-5.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="AdobeColorNARecommendedSettingsCC-5.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="AdobeColorVideoProfilesCSCC-5.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="AdobeExportAssets264bit-2.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="AdobeLightroom-6.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="AdobePhotoshopCC2015-16.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="AdobePhotoshopCC2015EnglishLanguagePack-16.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="AdobePhotoshopCC2015Support-16.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="AdobePreviewCC-1.0.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="CameraProfilesInstaller-8.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="PhotoshopCameraRaw8-8.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="PhotoshopCameraRaw864bit-8.0">1</MapPrefEntry>
+</ChannelsEnabled>
+<CCMChannels>
+<MapPrefEntry MapPrefKey="AdobeLightroom-6.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="AdobePhotoshopCC2015-16.0">1</MapPrefEntry>
+</CCMChannels>
+<ChannelsInstalled>
+<MapPrefEntry MapPrefKey="AdobeApplicationManager-1.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="AdobeColor-PhotoshopSpecificCC-5.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="AdobeColorCommonSetCMYK-5.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="AdobeColorCommonSetRGB-5.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="AdobeColorEUExtraSettingsCC-5.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="AdobeColorJAExtraSettingsCC-5.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="AdobeColorNARecommendedSettingsCC-5.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="AdobeColorVideoProfilesCSCC-5.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="AdobeExportAssets264bit-2.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="AdobeLightroom-6.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="AdobePhotoshopCC2015-16.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="AdobePhotoshopCC2015EnglishLanguagePack-16.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="AdobePhotoshopCC2015Support-16.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="AdobePreviewCC-1.0.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="CameraProfilesInstaller-8.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="PhotoshopCameraRaw8-8.0">1</MapPrefEntry>
+<MapPrefEntry MapPrefKey="PhotoshopCameraRaw864bit-8.0">1</MapPrefEntry>
+</ChannelsInstalled>
+</Preferences>

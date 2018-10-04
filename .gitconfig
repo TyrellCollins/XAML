@@ -1,0 +1,13 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Tyrell Collins
+	email = ElectricMantis88@outlook.com
+[gui]
+	recentrepo = C:/Program Files (x86)/Arduino/hardware/espressif/esp32
+	recentrepo = C:/Repo
+[winUpdater]
+	recentlySeenVersion = 2.19.0.windows.1

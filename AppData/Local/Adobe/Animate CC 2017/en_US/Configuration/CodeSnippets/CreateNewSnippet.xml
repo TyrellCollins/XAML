@@ -1,0 +1,64 @@
+﻿<dialog id="dialog"
+	title="Create New Code Snippet"
+	buttons="accept, cancel" >
+	<script>
+			function autoFillCode()
+			{
+				var doc = fl.getDocumentDOM();
+				if(doc != null)
+				{
+					fl.xmlui.set("Code", fl.actionsPanel.getSelectedText(true));
+				}
+				else
+				{
+					alert("Please select code in a FLA file.");
+				}
+			}
+	 </script>
+
+	<grid>
+		<columns>
+			<column />
+			<column />
+		</columns>
+		<rows>
+			<row>
+				<label value="Title: "
+					align="right" control="title_ipt"/>
+				<textbox id="Title" required="true"
+					width="500"
+					requiredname="Title"/>
+			</row>
+			<row>
+				<label value="Description: "
+					align="right" control="tooltip_ipt"/>
+				<textbox id="Tooltip" required="true"
+					width="500"
+					requiredname="Description"/>
+			</row>
+			<row>
+				<label value="" />
+				<hbox>
+					<label value="Use code selected in Actions Panel?"/>
+					<button id="autoFill_btn"
+						label="Auto-fill"
+						oncommand="autoFillCode();"/>
+				</hbox>
+			</row>
+			<row>
+				<label value=" Code: "
+					align="right" control="code_ipt"/>
+				<textbox id="Code" multiline="true" required="true"
+					width="500"
+					rows="6"
+					requiredname="Code"/>
+			</row>
+			<row>
+				<label value="" align="right" control="requiresSymbol_ch" />
+				<checkbox id="requiresSymbol_ch" wordwrap="true"
+					label="Automatically replace instance_name_here when applying code snippet."
+					checked="false"/>
+			</row>
+		</rows>
+	</grid>
+</dialog>

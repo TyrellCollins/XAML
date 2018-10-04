@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <!--Âπ≥Âè∞Ê??Ê?£‰ø°ÊÅØÂè?Ë¥≠‰π∞È?æÊ?•-->
+    <!--avangate platform-->
+    <platform name="avangate">
+        <!--Ê??Ê?£È?çÁΩÆ-->
+        <coupon>
+            <!--È??Ê?©‰∫ßÂ?Å‰∏™Ê?∞‰∏∫2Ê?∂ÂØπÂ∫?Á??Ê??Ê?£-->
+            <count value="2">
+                <!--Ê??Ê?£Á†Å -->
+                <code></code>
+            </count>
+            <count value="3">
+                <code></code>
+            </count>
+        </coupon>
+		
+        <purchase_url><![CDATA[https://secure.avangate.com/order/checkout.php?PRODS={allproducts|,}&QTY={digital-repeat|1|,}{id-repeat|&OPTIONS$=LFT}&CART=1&CARD=1&{affiliate|AFFILIATE=$}]]></purchase_url>
+		<language lan="en">
+			<product id="8064" saleid="4644627"></product>
+			<product id="8080" saleid="4705796"></product>
+			<product id="8081" saleid="4714636"></product>
+		</language>
+		<language lan="de">
+			<product id="8064" saleid="4644628"></product>
+			<product id="8080" saleid="4705797"></product>
+			<product id="8081" saleid="4714643"></product>
+		</language>
+		<language lan="fr">
+			<product id="8064" saleid="4644629"></product>
+			<product id="8080" saleid="4705799"></product>
+			<product id="8081" saleid="4714644"></product>
+		</language>
+		<language lan="ja">
+			<product id="8064" saleid="4644630"></product>
+			<product id="8080" saleid="4705798"></product>
+			<product id="8081" saleid="4714645"></product>
+		</language>
+    </platform>
+
+    <!--regnow platform-->
+    <platform name="regnow">
+        <!--Ê??Ê?£È?çÁΩÆ-->
+        <coupon>
+            <!--È??Ê?©‰∫ßÂ?Å‰∏™Ê?∞‰∏∫2Ê?∂ÂØπÂ∫?Á??Ê??Ê?£-->
+            <count value="2">
+                <!--Ê??Ê?£Á†Å -->
+                <code></code>
+            </count>
+            <count value="3">
+                <code></code>
+            </count>
+        </coupon>
+
+        <purchase_url><![CDATA[https://shopper.mycommerce.com/checkout/cart/new/{allproducts|/}{id-repeat|?quantity_$=1}&{affiliate|affiliate_id=$}]]></purchase_url>
+		<language lan="en">
+			<product id="8064" saleid="18294-538"></product>
+			<product id="8080" saleid="18294-557"></product>
+			<product id="8081" saleid="18294-562"></product>
+		</language>
+		<language lan="de">
+			<product id="8064" saleid="18294-538"></product>
+			<product id="8080" saleid="18294-557"></product>
+			<product id="8081" saleid="18294-562"></product>
+		</language>
+		<language lan="fr">
+			<product id="8064" saleid="18294-538"></product>
+			<product id="8080" saleid="18294-557"></product>
+			<product id="8081" saleid="18294-562"></product>
+		</language>
+		<language lan="ja">
+			<product id="8064" saleid="18294-538"></product>
+			<product id="8080" saleid="18294-557"></product>
+			<product id="8081" saleid="18294-562"></product>
+		</language>
+    </platform>
+
+
+    <!--
+        Ê?ºÊ?•Ëß?Â??ËØ¥Ê??
+        $‰ª£Ë°®Âç?‰∏™‰∫ßÂ?Å
+        {allproducts|:} Ë°®Á§∫Ê??Ê??‰∫ßÂ?ÅÁª?Âê?Áª?Ê?? ":" ‰ª£Ë°®Áª?Âê?Ê?∂Á?®Á??Â≠?Á¨¶Ôº?ÊØ?Â¶? {allproducts|:} <==> 111:112:113 {allproducts|/} == 111/112/113
+        {id-repeat|$} Âç?‰∏™‰∫ßÂ?ÅsaleidÈ?çÂ§çÂ?∫Á?∞Ôº?"$"‰ª£Ë°®Ê?øÊç¢‰ΩçÁΩÆÔº?ÊØ?Â¶?:
+                        {id-repeat|&OPTIONS$=LFT} <==> &OPTIONS111=LFT&OPTIONS112=LFT&OPTIONS113=LFT 
+                        {id-repeat|?quantity_$=1} <==> ?quantity_111=1&quantity_112=1&quantity_113=1
+        {digital-repeat|1|:} ÊØ?Â¶?  {digital-repeat|1|:} <==> 1:1:1  {digital-repeat|1|,} <==> 1,1,1
+        {coupon} Ê??Ê?£Á†ÅÊ?øÊç¢
+        
+        avangate Á§∫‰æ?
+        https://secure.avangate.com/order/checkout.php?PRODS={allproducts|,}&QTY={digital-repeat|1|,}{id-repeat|&OPTIONS$=1Y}&CART=1&CARD=1&COUPON={coupon}
+        regnow
+        https://shopper.mycommerce.com/checkout/cart/new/{allproducts|/}{id-repeat|?quantity_$=1}&ss_coupon={coupon}
+    -->
+</root>

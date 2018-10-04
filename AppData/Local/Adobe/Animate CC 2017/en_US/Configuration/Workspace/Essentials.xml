@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<panelset>
+
+  <application maximize="true" rect="0 0 1536 827"/>
+
+  <panelframe dock="right" height="208" iconmodewidth="39" locked="false" mode="icon" width="39" x="0" y="12">
+    <panelcontainer activepanel="276" expanded="true" height="0" visible="true">
+      <panel height="0" id="drovercolor" unconstrainedheight="247" unconstrainedwidth="358" width="0"/>
+      <panel height="0" id="droverswatch" unconstrainedheight="247" unconstrainedwidth="358" width="0"/>
+    </panelcontainer>
+    <panelcontainer activepanel="379" expanded="true" height="0" visible="true">
+      <panel height="0" id="droveralign" unconstrainedheight="215" unconstrainedwidth="212" width="0"/>
+      <panel height="0" id="droverinfo" unconstrainedheight="215" unconstrainedwidth="212" width="0"/>
+      <panel height="0" id="transform" unconstrainedheight="215" unconstrainedwidth="212" width="0"/>
+    </panelcontainer>
+    <panelcontainer expanded="true" height="0" visible="true">
+      <panel height="0" id="drovermotionpresets" unconstrainedheight="355" unconstrainedwidth="326" width="0">
+        <prop.list>
+          <prop.pair>
+            <key>MotionPresetsSplitterPercentPropertyKey</key>
+            <float>0.5</float>
+</prop.pair>
+</prop.list>      </panel>
+    </panelcontainer>
+  </panelframe>
+
+  <panelframe dock="right" height="772" locked="false" width="302" x="40" y="12">
+    <panelcontainer expanded="true" height="752" visible="true">
+      <panel height="752" id="droverproperties" unconstrainedheight="115" unconstrainedwidth="300" width="300"/>
+      <panel height="752" id="droverlibrary" unconstrainedheight="115" unconstrainedwidth="300" width="300"/>
+    </panelcontainer>
+  </panelframe>
+
+  <panelframe dock="right" height="772" iconmodewidth="35" locked="false" width="39" x="344" y="12">
+    <panelcontainer expanded="true" height="752" visible="true">
+      <panel height="752" id="tools" unconstrainedheight="175" unconstrainedwidth="189" width="36"/>
+    </panelcontainer>
+  </panelframe>
+
+  <panelframe dock="bottom" height="200" locked="false" width="1152" x="0" y="0">
+    <panelcontainer expanded="true" height="180" visible="true">
+      <panel height="180" id="drovertimeline" unconstrainedheight="115" unconstrainedwidth="278" width="1151"/>
+      <panel height="180" id="droveroutput" unconstrainedheight="115" unconstrainedwidth="278" width="1151">
+        <prop.list>
+          <prop.pair>
+            <key>ConsoleViewState</key>
+            <int size="32" type="unsigned">4</int>
+</prop.pair>
+</prop.list>      </panel>
+    </panelcontainer>
+  </panelframe>
+
+</panelset>

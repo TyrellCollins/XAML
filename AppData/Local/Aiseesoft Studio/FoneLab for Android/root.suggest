@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suggest version="0x133A0C8">
+	<v04e8 link="1">
+		<name>Samsung</name>
+		<model>
+			<name>GT-I9060</name>
+			<version link="3" version="4.2.2" />
+		</model>
+		<model link="2">
+			<name>GT-I9500</name>
+			<version link="7" version="5.0.1" />
+		</model>
+		<model link="2">
+			<name>GT-I9505</name>
+		</model>
+		<model>
+			<name>GT-S5830i</name>
+			<version link="3" version="2.3.6" />
+		</model>
+		<model>
+			<name>GT-S7582</name>
+			<version link="3" version="4.2.2" />
+		</model>
+		<model link="2">
+			<name>SCH-I545</name>
+		</model>
+		<model link="2">
+			<name>SGH-I337</name>
+		</model>
+		<model link="2">
+			<name>SGH-I337M</name>
+		</model>
+		<model link="2">
+			<name>SGH-M919</name>
+		</model>
+		<model link="3">
+			<name>SM-G355H</name>
+		</model>
+		<model link="2">
+			<name>SM-G900F</name>
+		</model>
+		<model link="2">
+			<name>SM-G900I</name>
+			<version link="3" version="5" />
+		</model>
+		<model link="2">
+			<name>SM-G900V</name>
+		</model>
+		<model>
+			<name>SM-G920F</name>
+			<version link="7" version="5.0.2" />
+		</model>
+		<model>
+			<name>SM-G925F</name>
+			<version link="7" version="5.0.2" />
+		</model>
+		<model>
+			<name>SM-G920P</name>
+			<version link="7" version="5.0.2" />
+		</model>
+		<model>
+			<name>SM-G360H</name>
+			<version link="3" version="4.4.4" />
+		</model>
+		<model link="2">
+			<name>SM-N910F</name>
+		</model>
+		<model link="2">
+			<name>SM-N920C</name>
+		</model>
+		<model link="2">
+			<name>SM-N920V</name>
+		</model>
+		<model>
+			<name>SM-G9200</name>
+			<version link="7" version="5.0.2" />
+		</model>
+		<model>
+			<name>SM-G920I</name>
+			<version link="7" version="5.0.2" />
+		</model>
+		<model>
+			<name>SM-G920K</name>
+			<version link="7" version="5.0.2" />
+		</model>
+		<model>
+			<name>SM-G920R4</name>
+			<version link="7" version="5.0.2" />
+		</model>
+		<model>
+			<name>SM-G920T</name>
+			<version link="7" version="5.0.2" />
+		</model>
+		<model>
+			<name>SM-G920V</name>
+			<version link="7" version="5.0.2" />
+		</model>
+		<model>
+			<name>SM-G920W8</name>
+			<version link="7" version="5.0.2" />
+		</model>
+		<model>
+			<name>SM-G925I</name>
+			<version link="7" version="5.0.2" />
+		</model>
+		<model>
+			<name>SM-G925V</name>
+			<version link="7" version="5.0.2" />
+		</model>
+		<model>
+			<name>SM-G925T</name>
+			<version link="7" version="5.0.2" />
+		</model>
+		<model>
+			<name>SM-G925A</name>
+			<version link="7" version="5.0.2" />
+		</model>
+		<model>
+			<name>SM-G925W8</name>
+			<version link="7" version="5.0.2" />
+		</model>
+		<model>
+			<name>SM-G925P</name>
+			<version link="7" version="5.0.2" />
+		</model>
+		<model>
+			<name>SM-G925R4</name>
+			<version link="7" version="5.0.2" />
+		</model>
+		<model>
+			<name>SM-G9250</name>
+			<version link="7" version="5.0.2" />
+		</model>
+		<model>
+			<name>SM-G925R7</name>
+			<version link="7" version="5.0.2" />
+		</model>
+		<model>
+			<name>SM-G925S</name>
+			<version link="7" version="5.0.2" />
+		</model>
+		<model>
+			<name>SM-G925K</name>
+			<version link="7" version="5.0.2" />
+		</model>
+	</v04e8>
+	<v1004 link="8">
+		<name>LG</name>
+		<ver link="6" version="2.2" /> 
+		<ver link="6" version="2.2.1" />
+		<ver link="6" version="2.2.2" />
+		<ver link="6" version="2.2.3" />
+		<ver link="6" version="2.3" />
+		<ver link="6" version="2.3.2" />
+		<ver link="6" version="2.3.4" />
+		<ver link="6" version="2.3.5" />
+		<ver link="6" version="2.3.6" />
+		<ver link="6" version="2.3.7" />
+		<ver link="6" version="3.0" />
+		<ver link="6" version="3.1" />
+		<ver link="6" version="3.2" />
+		<ver link="6" version="4.0" />
+		<ver link="6" version="4.1.0" />
+		<ver link="6" version="4.1.1" />
+		<ver link="6" version="4.1.2" />
+		<ver link="6" version="4.2" />
+		<ver link="6" version="4.2.1" />
+		<ver link="6" version="4.2.2" />
+		<ver link="6" version="4.3" />
+		<ver link="6" version="4.3.1" />
+	</v1004>
+	<v12d1 link="1">
+		<name>HUAWEI</name>
+	</v12d1>
+	<v22b8 link="1">
+		<name>Moto</name>
+	</v22b8>
+	<v0bb4 link="1">
+		<name>HTC</name>
+	</v0bb4>
+	<v0fce link="1">
+		<name>Sony</name>
+	</v0fce>
+	<link id="0">
+		<de>http://www.aiseesoft.de/android-data-recovery/android-rooten-mit-kingo-root.html</de>
+		<en>http://www.aiseesoft.com/android-data-recovery/how-to-root-android-with-kingo-root.html</en>
+		<fr>http://www.aiseesoft.fr/android-donnee-recuperation/comment-rooter-android-avec-kingo-root.html</fr>
+		<ja>http://www.aiseesoft.jp/android-data-recovery/how-to-root-android-with-kingo-root.html</ja>
+	</link>
+	<link id="1">
+		<de>http://www.aiseesoft.de/android-data-recovery/android-rooten-mit-kingo-root.html</de>
+		<en>http://www.aiseesoft.com/android-data-recovery/how-to-root-android-with-kingo-root.html</en>
+		<fr>http://www.aiseesoft.fr/android-donnee-recuperation/comment-rooter-android-avec-kingo-root.html</fr>
+		<ja>http://www.aiseesoft.jp/android-data-recovery/how-to-root-android-with-kingo-root.html</ja>
+	</link>
+	<link id="2">
+		<de>http://www.aiseesoft.de/android-data-recovery/android-rooten-mit-king-root.html</de>
+		<en>http://www.aiseesoft.com/android-data-recovery/how-to-root-android-with-king-root.html</en>
+		<fr>http://www.aiseesoft.fr/android-donnee-recuperation/comment-rooter-android-avec-king-root.html</fr>
+		<ja>http://www.aiseesoft.jp/android-data-recovery/how-to-root-android-with-king-root.html</ja>
+	</link>
+	<link id="3">
+		<de>http://www.aiseesoft.de/android-data-recovery/android-geraete-rooten-mit-iroot.html</de>
+		<en>http://www.aiseesoft.com/android-data-recovery/how-to-root-android-device-with-iroot.html</en>
+		<fr>http://www.aiseesoft.fr/android-donnee-recuperation/comment-rooter-appareil-android-avec-iroot.html</fr>
+		<ja>http://www.aiseesoft.jp/android-data-recovery/how-to-root-android-device-with-iroot.html</ja>
+	</link>
+	<link id="4">
+		<de>http://www.aiseesoft.de/android-data-recovery/android-geraete-rooten-mit-root-genius.html</de>
+		<en>http://www.aiseesoft.com/android-data-recovery/how-to-root-android-device-with-root-genius.html</en>
+		<fr>http://www.aiseesoft.fr/android-donnee-recuperation/comment-rooter-appareil-android-avec-root-genius.html</fr>
+		<ja>http://www.aiseesoft.jp/android-data-recovery/how-to-root-android-device-with-root-genius.html</ja>
+	</link>
+	<link id="5">
+		<de>http://www.aiseesoft.de/android-data-recovery/android-rooten-mit-1-click-root.html</de>
+		<en>http://www.aiseesoft.com/android-data-recovery/how-to-root-android-with-1-click-root.html</en>
+		<fr>http://www.aiseesoft.fr/android-donnee-recuperation/comment-rooter-android-avec-1-click-root.html</fr>
+		<ja>http://www.aiseesoft.jp/android-data-recovery/how-to-root-android-with-1-click-root.html</ja>
+	</link>
+	<link id="6">
+		<de>http://www.aiseesoft.de/android-data-recovery/lg-geraete-rooten.html#stumproot</de>
+		<en>http://www.aiseesoft.com/android-data-recovery/how-to-root-lg-device.html#stumproot</en>
+		<fr>http://www.aiseesoft.fr/android-donnee-recuperation/comment-rooter-appareil-lg.html#stumproot</fr>
+		<ja>http://www.aiseesoft.jp/android-data-recovery/how-to-root-lg-device.html#stumproot</ja>
+	</link>
+	<link id="7">
+		<de>http://www.aiseesoft.de/android-data-recovery/android-rooten-mit-pingpong-root.html</de>
+		<en>http://www.aiseesoft.com/android-data-recovery/how-to-root-android-with-pingpong-root.html</en>
+		<fr>http://www.aiseesoft.fr/android-donnee-recuperation/comment-rooter-android-avec-pingpong-root.html</fr>
+		<ja>http://www.aiseesoft.jp/android-data-recovery/how-to-root-android-with-pingpong-root.html</ja>
+	</link>
+	<link id="8">
+		<de>http://www.aiseesoft.de/android-data-recovery/lg-geraete-rooten.html#iroot</de>
+		<en>http://www.aiseesoft.com/android-data-recovery/how-to-root-lg-device.html#iroot</en>
+		<fr>http://www.aiseesoft.fr/android-donnee-recuperation/comment-rooter-appareil-lg.html#iroot</fr>
+		<ja>http://www.aiseesoft.jp/android-data-recovery/how-to-root-lg-device.html#iroot</ja>
+	</link>
+</suggest>
+

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><Manifest CSUVersion="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CSUManifest.xsd">
+    <UpdateID>2.4</UpdateID>
+    <OwningChannel>AdobeExportAssets264bit-2.0</OwningChannel>
+    <TargetBuildType>2</TargetBuildType>
+    <DisplayName default="en_US"><en_US>Export Options</en_US>
+        <de_DE>Export Options</de_DE>
+        <fr_FR>Export Options</fr_FR>
+        <it_IT>Export Options</it_IT>
+        <ja_JP>Export Options</ja_JP>
+        <es_ES>Export Options</es_ES>
+        <sv_SE>Export Options</sv_SE>
+        <zh_CN>Export Options</zh_CN>
+        <zh_TW>Export Options</zh_TW>
+        <nl_NL>Export Options</nl_NL>
+        <ko_KR>Export Options</ko_KR>
+        <nb_NO>Export Options</nb_NO>
+        <da_DK>Export Options</da_DK>
+        <fi_FI>Export Options</fi_FI>
+        <pl_PL>Export Options</pl_PL>
+        <cs_CZ>Export Options</cs_CZ>
+        <hu_HU>Export Options</hu_HU>
+        <ru_RU>Export Options</ru_RU>
+        <pt_BR>Export Options</pt_BR>
+        <uk_UA>Export Options</uk_UA>
+        <tr_TR>Export Options</tr_TR>        
+    </DisplayName>
+    <Description default="en_US"><en_US>Improved functionality includes multi-size export, converting to sRGB, adding metadata, new PNG options and up to 3x faster performance.</en_US>
+        <de_DE>Zur verbesserten Funktionalität zählen das Exportieren in mehreren Größen, die Konvertierung in sRGB, das Hinzufügen von Metadaten, neue PNG-Optionen und eine bis zu dreimal höhere Leistung.</de_DE>
+        <fr_FR>Fonctionnalités améliorées : exportation dans différents formats, conversion en sRVB, ajout de métadonnées, nouvelles options PNG et performances jusqu'à 3 fois plus rapides.</fr_FR>
+        <it_IT>Questa funzionalità migliorata include esportazione di più dimensioni, conversione a sRGB, aggiunta di metadati, nuove opzioni PNG e prestazioni tre volte più veloci.</it_IT>
+        <ja_JP>改善した機能には、複数サイズの書き出し、sRGB への変換、メタデータの追加、新しい PNG オプション、最大 3 倍のパフォーマンス高速化などがあります。</ja_JP>
+        <es_ES>Hemos mejorado la funcionalidad para incluir una opción de exportación a varios tamaños, conversión a sRGB, adición de metadatos, nuevas opciones de PNG y un rendimiento hasta 3 veces más rápido.</es_ES>
+        <sv_SE>De förbättrade funktionerna är bland annat funktioner för att exportera med flera storlekar, konvertera till sRGB och lägga till metadata. Dessutom finns det nya PNG-alternativ och prestanda har förbättrats med upp till 3 gånger.</sv_SE>
+        <zh_CN>改进的功能，包括多尺寸导出、转换为 sRGB、添加元数据、新的 PNG 选项以及提升高达 3 倍的性能。</zh_CN>
+        <zh_TW>改進功能包括：多尺寸轉存、轉換為 sRGB、新增中繼資料、全新 PNG 選項，以及速度快上 3 倍的效能。</zh_TW>
+        <nl_NL>Verbeterde functionaliteit, inclusief exporteren in meerdere formaten, omzetten naar sRGB, metagegevens toevoegen, nieuwe PNG-opties en tot 3x snellere prestaties.</nl_NL>
+        <ko_KR>여러 크기로 내보내기, sRGB로 변환, 메타데이터 추가, 새 PNG 옵션과 같은 기능이 개선되었으며 속도가 최대 3배 빨라졌습니다.</ko_KR>
+        <nb_NO>Den forbedrede funksjonaliteten gjør at du kan eksportere i flere størrelser, konvertere til sRGB, legge til metadata, bruke nye PNG-alternativer og få opptil tre ganger raskere ytelse.</nb_NO>
+        <da_DK>Forbedret funktionalitet omfatter eksport i flere størrelser, konvertering til sRGB, tilføjelse af metadata, nye PNG-indstillinger og op til 3x hurtigere ydeevne.</da_DK>
+        <fi_FI>Parannettuja toimintoja ovat esimerkiksi vienti useassa koossa, sRGB-muunto, metatietojen lisäys, uudet PNG-asetukset ja jopa kolme kertaa parempi suorituskyky.</fi_FI>
+        <pl_PL>Ulepszona funkcjonalność zawiera opcję eksportowania plików wielowymiarowych, opcję konwertowania do formatu sRGB, opcję dodawania metadanych i nowe opcje PNG. Nawet 3-krotnie przyspiesza wydajność.</pl_PL>
+        <cs_CZ>Mezi vylepšené funkce patří export více velikostí, převod do prostoru sRGB, přidání metadat, nové předvolby formátu PNG a až třikrát vyšší výkon.</cs_CZ>
+        <hu_HU>Továbbfejlesztett funkciók: exportálás többféle méretben, konvertálás sRGB formátumba, metaadatok hozzáadása, új PNG opciók és akár 3-szor gyorsabb működés.</hu_HU>
+        <ru_RU>Улучшены функциональные возможности, включая экспорт файлов разных размеров, преобразование в sRGB, добавление метаданных, новые параметры для формата PNG и повышение производительности до 3 раз.</ru_RU>
+        <pt_BR>A funcionalidade aprimorada inclui exportação para vários formatos, conversão para sRGB, adição de metadados, novas opções de PNG e desempenho até 3x mais rápido.</pt_BR>
+        <uk_UA>Серед нових удосконалень варто зазначити експортування файлів різних розмірів, перетворення на sRGB, додавання метаданих, нові можливості PNG та втричі більшу продуктивність.</uk_UA>
+        <tr_TR>Geliştirilmiş işlevler arasında farklı boyutlarda dışa aktarma, sRGB’ye dönüştürme, meta veri ekleme, yeni PNG seçenekleri ve 3 kata kadar daha hızlı performans yer alıyor.</tr_TR>   
+    </Description>
+    <AffectedChannels><ChannelID>AdobePhotoshopCC2015-16.0</ChannelID>
+    </AffectedChannels>
+    <InstallFiles><File RIBSBased="1"><Name>setup.zip</Name>
+      <Type>1</Type>
+      <ExecutableName>AdobePatchInstaller.exe</ExecutableName>
+      <Size>1750697</Size>
+      
+    <SignatureType>1</SignatureType>
+<Signature>DLaRcbyWG9vobqCMzNySJO+XHpV2XVLmDj3xoxYdCKx3sGEXV8kwog486YrEYgREnwNAGk0e86xJhEa6fsg/0FC4Kx2NIKApsm78GqUbBvjLuOFpwRFRr+OmSXutpQFne2uDxgrnnFdzwCOeeHCD3aQEKZvwxPoMNNvN5iF2czIvaCyW11hyodOhs7bPmcbDdp8rcxlwEOFunva9vDf80Bb7UMD6KG85eyja/DkvZnCAB+BwJNZRnNlrzjENvzR/tN+Yc5ay/jYWtpDJ/PJsRXeb5fbusDimRRo4UOAbx4xz4qs05Sqcrdi6LzFIBszgYbRets8tRyMe61gu/GLilaUKmp+8dIV8PSGal4deuHiVaRsK6u2NGA+uNWN/D6P6YCxMw8lYCSvdBV11u2lStXuJTouXaX4JLxLpXGLm4ojQGwpzF2T+fhYZU2P6W4xzvUjURxMuoaDSdLEnuUKeIvN01DPDnwtHToIsQHVzcti58s8gu5tYNMMl00DuADek</Signature>
+</File>
+  </InstallFiles>
+    <NeedsReboot>false</NeedsReboot>
+
+  
+  
+  
+  
+  
+  
+  <UpdatePayloadID>{3C285B12-AFED-4136-B575-1D6CA2B71D29}</UpdatePayloadID>
+  <OwningPayloadID>{27375F7C-0789-4FEA-889E-41BF12AC3140}</OwningPayloadID>
+  <ConflictingProcesses/>
+</Manifest>

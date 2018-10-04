@@ -1,0 +1,6 @@
+Vwin_75752ca_1.9.5.6-RC1(83a441e_1.9.5.5):181001_215428: [info] RSProxyType.cpp:RSProxyType::log(34)-1: Proxy type DIRECT
+Vwin_75752ca_1.9.5.6-RC1(83a441e_1.9.5.5):181001_223511: [warn] CLIMegaPort.cpp:CLIMegaPort::updateLoopTimer(213): Loop took 2221s.
+Vwin_75752ca_1.9.5.6-RC1(83a441e_1.9.5.5):181001_223511: [warn] OnlineManager.cpp:Cli::OnlineManager::onThreadLoop(200): CN loop not updated in 2221, ignoring timeout timer.
+Vwin_75752ca_1.9.5.6-RC1(83a441e_1.9.5.5):181001_223524: [info] CLIOnlineManager.cpp:CLIOnlineManager::_onAUTH_STATUS(1929): GUID 3242531bc6814ac3943eeb0d740090bd connected to CN (CN IP: 96.6.40.15 Remote IP: 96.6.40.15 CN thinks my IP is: 108.180.151.87).
+Vwin_75752ca_1.9.5.6-RC1(83a441e_1.9.5.5):181001_223524: [warn] RSNet.cpp:RSNetUdpPortOpen(1168): WARNING Could not bind port 192.168.0.172:5000, closing. [[10013] An attempt was made to access a socket in a way forbidden by its access permissions.]
+Vwin_75752ca_1.9.5.6-RC1(83a441e_1.9.5.5):181001_223524: [warn] CLIUPnPRequest.cpp:CLIUPnPRequest::update(87): Unable to open UPnP broadcast port '192.168.0.172:5000', cancelling UPnP.

@@ -1,0 +1,3 @@
+Vwin_75752ca_1.9.5.6-RC1(83a441e_1.9.5.5):181001_195251: [warn] CLILogUploadManager.cpp:CLILogUploader::acquireClList(492): Failed to resolve 'log.client.akadns.net'
+Vwin_75752ca_1.9.5.6-RC1(83a441e_1.9.5.5):181001_195251: [warn] CLILogUploadManager.cpp:CLILogUploader::acquireClList(536): Error occurred sending CL list request to URL 'http://log.client.akadns.net/cl/3242531bc6814ac3943eeb0d740090bd'
+Vwin_75752ca_1.9.5.6-RC1(83a441e_1.9.5.5):181001_195259: [info] RSProxyType.cpp:RSProxyType::log(34)-1: Proxy type DIRECT

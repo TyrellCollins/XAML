@@ -1,0 +1,88 @@
+{
+  "updates":
+  {
+    "cookieJar":
+    {}
+  }
+}{
+  "updates":
+  {
+    "globalData":
+    {
+      "cachePath":"C:/Users/tyrel/AppData/Local/Akamai/Cache",
+      "installCpCode":78333,
+      "dataDatImported":true,
+      "recentGuids":
+      [
+        "7bb8d4bac13d336fc7735a23aa40ae36",
+        "2016d105349c7b99ac488ed90880df26",
+        "c776f70227e50aed35295d15670dc6a1",
+        "53aa3253c3367bb91eabb2fbbba7e29a",
+        "0cdfaab5680111aff16a817c37964cdc"
+      ],
+      "installerInfo":
+      {
+        "https://client.akamai.com/install/bin/user_client_win_75752ca/installer_no_upload_silent.exe":
+        {
+          "attempts":
+          [
+            1.53861422808743e+015
+          ],
+          "hash":"FgIfxsvxSykYn1d6ulYtnA=="
+        }
+      },
+      "onlineOnlyCommandListIntervalSecs":120,
+      "unsentChangedGuid":"",
+      "onlineOnlyCommandList":
+      [],
+      "installTimeStampSec":"1533230142",
+      "guid":"3242531bc6814ac3943eeb0d740090bd",
+      "bootstrapedUserSettings":false
+    }
+  }
+}{
+  "updates":
+  {
+    "supportresources":
+    {}
+  }
+}{
+  "updates":
+  {
+    "downloadrequests":
+    {}
+  }
+}{
+  "updates":
+  {
+    "files":
+    {}
+  }
+}
+{
+  "updates":
+  {
+    "globalData":
+    {
+      "recentGuids":
+      [
+        "2016d105349c7b99ac488ed90880df26",
+        "c776f70227e50aed35295d15670dc6a1",
+        "53aa3253c3367bb91eabb2fbbba7e29a",
+        "0cdfaab5680111aff16a817c37964cdc",
+        "702058c47294c696520a26bb7cafbcf3"
+      ],
+      "installerInfo":
+      {
+        "https://client.akamai.com/install/bin/user_client_win_75752ca/installer_no_upload_silent.exe":
+        {
+          "attempts":
+          [
+            1.53861422808743e+015,
+            1.53861424351146e+015
+          ]
+        }
+      }
+    }
+  }
+}

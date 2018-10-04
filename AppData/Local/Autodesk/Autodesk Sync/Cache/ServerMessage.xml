@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SyncMessage>
+  <Message Id="E796016B-781A-4AB2-884E-D3741F060970" TargetVersion="7.2.3" BalloonTimeout="86400">
+    <Content>
+      <Title><![CDATA[A360 Desktop Expiration]]></Title>
+      <Body><![CDATA[Your current version of A360 Desktop expires on September 19, 2017. Please visit <a href="https://a360.autodesk.com/a360-desktop/">https://a360.autodesk.com/a360-desktop/</a> for more information.<br/> <br/> <br/> <br/>]]></Body>
+    </Content>
+    <LocalizedContent>
+      <Content Language="cs-CZ">
+        <Title><![CDATA[Vypršení platnosti aplikace A360 Desktop]]></Title>
+        <Body><![CDATA[Platnost vaší aktuální verze aplikace A360 Desktop vyprší ke dni September 19, 2017. Další informace můžete získat na <a href="https://a360.autodesk.com/a360-desktop/">https://a360.autodesk.com/a360-desktop/</a>.<br/> <br/> <br/> <br/>]]></Body>
+      </Content>
+      <Content Language="de-DE">
+        <Title><![CDATA[A360 Desktop – Ablauf]]></Title>
+        <Body><![CDATA[Die aktuelle Version von A360 Desktop läuft am September 19, 2017 ab. Weitere Informationen finden Sie unter <a href="https://a360.autodesk.com/a360-desktop/">https://a360.autodesk.com/a360-desktop/</a>.<br/> <br/> <br/> <br/>]]></Body>
+      </Content>
+      <Content Language="en-US">
+        <Title><![CDATA[A360 Desktop Expiration]]></Title>
+        <Body><![CDATA[Your current version of A360 Desktop expires on September 19, 2017. Please visit <a href="https://a360.autodesk.com/a360-desktop/">https://a360.autodesk.com/a360-desktop/</a> for more information.<br/> <br/> <br/> <br/>]]></Body>
+      </Content>
+      <Content Language="es-ES">
+        <Title><![CDATA[Caducidad de A360 Desktop]]></Title>
+        <Body><![CDATA[La versión actual de A360 Desktop caduca el September 19, 2017. Haga clic en el <a href="https://a360.autodesk.com/a360-desktop/">https://a360.autodesk.com/a360-desktop/</a> para obtener más información.<br/> <br/> <br/> <br/>]]></Body>
+      </Content>
+      <Content Language="fr-FR">
+        <Title><![CDATA[Expiration de A360 Desktop]]></Title>
+        <Body><![CDATA[Votre version actuelle de A360 Desktop arrive à expiration le September 19, 2017. Pour plus d'informations, visitez le site <a href="https://a360.autodesk.com/a360-desktop/">https://a360.autodesk.com/a360-desktop/</a>.<br/> <br/> <br/> <br/>]]></Body>
+      </Content>
+      <Content Language="hu-HU">
+        <Title><![CDATA[A360 Desktop – lejárat]]></Title>
+        <Body><![CDATA[Az A360 Desktop jelenlegi verziója September 19, 2017 napon lejár. Kérjük, további információért keresse fel a következő címet: <a href="https://a360.autodesk.com/a360-desktop/">https://a360.autodesk.com/a360-desktop/</a>.<br/> <br/> <br/> <br/>]]></Body>
+      </Content>
+      <Content Language="it-IT">
+        <Title><![CDATA[Scadenza di A360 Desktop]]></Title>
+        <Body><![CDATA[La versione corrente di A360 Desktop scade il September 19, 2017. Per ulteriori informazioni, visitare il sito Web all'indirizzo <a href="https://a360.autodesk.com/a360-desktop/">https://a360.autodesk.com/a360-desktop/</a>.<br/> <br/> <br/> <br/>]]></Body>
+      </Content>
+      <Content Language="ja-JP">
+        <Title><![CDATA[A360 Desktop の有効期限]]></Title>
+        <Body><![CDATA[September 19, 2017 に A360 Desktop の現在のバージョンの有効期限が切れます。詳細については、<a href="https://a360.autodesk.com/a360-desktop/">https://a360.autodesk.com/a360-desktop/</a> を参照してください。<br/> <br/> <br/> <br/>]]></Body>
+      </Content>
+      <Content Language="ko-KR">
+        <Title><![CDATA[A360 Desktop 만료]]></Title>
+        <Body><![CDATA[현재 버전의 A360 Desktop은 September 19, 2017에 만료됩니다. 자세한 내용을 보려면 <a href="https://a360.autodesk.com/a360-desktop/">https://a360.autodesk.com/a360-desktop/</a>를 방문하십시오.<br/> <br/> <br/> <br/>]]></Body>
+      </Content>
+      <Content Language="pl-PL">
+        <Title><![CDATA[Utrata ważności aplikacji A360 Desktop]]></Title>
+        <Body><![CDATA[Bieżąca wersja aplikacji A360 Desktop utraci ważność w dniu September 19, 2017. Kliknij <a href="https://a360.autodesk.com/a360-desktop/">https://a360.autodesk.com/a360-desktop/</a>, aby uzyskać więcej informacji.<br/> <br/> <br/> <br/>]]></Body>
+      </Content>
+      <Content Language="pt-BR">
+        <Title><![CDATA[Expiração do A360 Desktop]]></Title>
+        <Body><![CDATA[A versão atual do A360 Desktop expira em September 19, 2017. Visite o <a href="https://a360.autodesk.com/a360-desktop/">https://a360.autodesk.com/a360-desktop/</a> para obter mais informações.<br/> <br/> <br/> <br/>]]></Body>
+      </Content>
+      <Content Language="ru-RU">
+        <Title><![CDATA[Истечение срока действия A360 Desktop]]></Title>
+        <Body><![CDATA[Срок действия текущей версии A360 Desktop истекает September 19, 2017. Дополнительную информацию см. по <a href="https://a360.autodesk.com/a360-desktop/">https://a360.autodesk.com/a360-desktop/</a>.<br/> <br/> <br/> <br/>]]></Body>
+      </Content>
+      <Content Language="zh-CN">
+        <Title><![CDATA[A360 Desktop 到期]]></Title>
+        <Body><![CDATA[您当前版本的 A360 Desktop 将于 September 19, 2017 到期。有关详细信息，请访问 <a href="https://a360.autodesk.com/a360-desktop/">https://a360.autodesk.com/a360-desktop/</a>。<br/> <br/> <br/> <br/>]]></Body>
+      </Content>
+      <Content Language="zh-TW">
+        <Title><![CDATA[A360 Desktop 到期]]></Title>
+        <Body><![CDATA[您目前的 A360 Desktop 版本在 September 19, 2017 到期。請造訪<a href="https://a360.autodesk.com/a360-desktop/">https://a360.autodesk.com/a360-desktop/</a>以取得更多資訊。<br/> <br/> <br/> <br/>]]></Body>
+      </Content>
+    </LocalizedContent>
+  </Message>
+</SyncMessage>

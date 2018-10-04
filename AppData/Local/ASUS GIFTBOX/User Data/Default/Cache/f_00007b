@@ -1,0 +1,525 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+    <title>ASUS GIFTBOX - Explore</title>
+    <meta charset="UTF-8"/>
+
+    <link rel="shortcut icon" href="/favicon-asus.ico" type="image/x-icon" />
+
+    <!-- Reporting -->
+    <script>
+    window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:22,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(4),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:9,2:8,3:6,4:10,5:3,6:23,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3);var a=Event;n.on("fn-start",function(t){var e=t[0];e instanceof a&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof a&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:9,2:8,3:7,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],6:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=t("ee").create(),i=t(1)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t,e){function n(){return s}if(t[1]){var r=t[1];if("function"==typeof r){var s=a(r,"nr@wrapped",function(){return i(r,"fn-",n,r.name||"anonymous")});this.wrapped=t[1]=s,o.emit("initEventContext",[t,e],this.wrapped)}else"function"==typeof r.handleEvent&&i.inPlace(r,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:24,ee:"QJf3ax",gos:"7eSDFh"}],7:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState","replaceState"],"-")},{1:24,ee:"QJf3ax"}],8:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:24,ee:"QJf3ax"}],9:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){function r(){return a}this.ctx={};var a={"nr@context":this.ctx};o.emit("initTimerContext",[t,n],a),t[0]=i(t[0],"fn-",r,n)}var o=t("ee").create(),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:24,ee:"QJf3ax"}],10:[function(t,e){function n(){f.inPlace(this,p,"fn-",o)}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),e.hasOwnProperty("addEventListener")&&u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:6,2:24,ee:"QJf3ax"}],11:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=n(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1),u=window.XMLHttpRequest;t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=n(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var u=0;c>u;u++)e.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof u&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:12,3:10,4:6,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],12:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],13:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:22,2:23,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-768.min.js"},p=e.exports={offset:i(),origin:u,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:22,2:13,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],22:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],23:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],24:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:23,ee:"QJf3ax"}]},{},["G9z0Bl",4,11,5]);
+    ;NREUM.info={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",licenseKey:"7f3096cc1e",applicationID:"11819099",sa:1,agent:"js-agent.newrelic.com/nr-768.min.js"}
+</script>
+
+    <!-- Libs -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/async/1.4.2/async.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/jquery-ui.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.16.0/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/raven.js/3.7.0/raven.min.js"></script>
+
+    <!-- Plugins -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.4.1/slick.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.4.1/slick.min.js"></script>
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/Readmore.js/2.0.5/readmore.min.js"></script>
+
+    <script src="/lib/Clamp.js/clamp.min.js"></script>
+    <script src="/lib/coverflow/jquery.coverflow.js"></script>
+    <script src="/lib/df-visible/jquery.visible.min.js"></script>
+
+    <!-- Scripts -->
+    <script>
+        window.i18nStrings = {
+            "read_more": "Read More",
+            "close": "Close",
+            "loading": "Loading...",
+            "install": "install",
+            "accept_install": "Accept & Install",
+            "launch": "Launch",
+            "pending": "Pending...",
+            "downloading": "Downloading",
+            "installing": "Installing",
+            "retry": "Retry",
+            "get_it_now": "Get it now",
+            "privacy_and_terms": "privacy policy and terms of use",
+            "ftue_apps_empty_subtitle": "click <span class='link' onclick='prevSlide()'>back</span> to select apps, or <span  class='link' onclick='hideModal()'>skip</span> to continue",
+            "ftue_legal_default": "ASUS GIFTBOX <a onclick=\"openLegalLink('termsLink')\"  >terms of service</a> and <a onclick=\"openLegalLink('privacyPolicyLink')\">privacy policy</a>.",
+            "ftue_legal_confirmation": "By clicking install you are agreeing to the ASUS GIFTBOX <a onclick=\"openLegalLink('termsLink')\"  >terms </a> and <a onclick=\"openLegalLink('privacyPolicyLink')\">privacy policy</a>, and to the terms and privacy policy of the apps you are about to install - as provided on each app's website.",
+            "skip": "skip"
+        };
+
+        window.__ = function (text) {
+            return window && window.i18nStrings && window.i18nStrings[text] || text;
+        };
+
+        window.config = {"vendor":"ASUS","fullName":"ASUS GIFTBOX","siteURL":"https://asus.isappcloud.com","supportEmail":"support@isappcloud.com","dlmExeName":"AppCloud","logo":"/img/logo-header.svg","favicon":"favicon-asus.ico","feedItemsPerScroll":20,"termsLink":"https://assetscdn.isappcloud.com/pdf.js/web/viewer.html?file=/legal/Generic%20V3/Asus%20PC%20Terms/Terms.pdf","privacyPolicyLink":"https://assetscdn.isappcloud.com/pdf.js/web/viewer.html?file=/legal/Generic%20V3/Asus%20PC%20Privacy/Privacy.pdf","newRelicGlobal":6660192,"newRelicBrand":"11819099","supportedLocales":["en-US","de-DE","es-ES","fr-FR","pt-PT","ru-RU","it-IT","ja-JP","nl-NL","zh-HK","zh-TW"],"storeMenuMax":"3","windowsDownloadLink":"https://assetscdn.isappcloud.com/appcloud/setup/AsusGiftboxSetup.exe","whitelabel":"asus","exclusiveFeedPropertyName":"asus_exclusive"};
+        window.productFeedId = "d9cca0c6-f89c-41b6-8655-f2d642b27ec2";
+        window.feeds = [{"title":"Exclusives","feed_id":"25e4aa37-61cf-483e-bb1f-ed8c6f8e3332","path":"/feed/25e4aa37-61cf-483e-bb1f-ed8c6f8e3332","exclusives":true},{"title":"Popular Apps","feed_id":"d23dabba-6046-401d-bce2-f842d5323324","path":"/feed/d23dabba-6046-401d-bce2-f842d5323324","exclusives":false},{"title":"New Apps","feed_id":"50102346-638e-4638-b6e6-f9c3c05f2d9e","path":"/feed/50102346-638e-4638-b6e6-f9c3c05f2d9e","exclusives":false},{"title":"Windows Store Apps","feed_id":"1e3000f6-87ca-4ac8-853e-e472afed81c0","path":"/feed/1e3000f6-87ca-4ac8-853e-e472afed81c0","exclusives":false},{"title":"Productivity & Tools","feed_id":"951d95e1-b1e9-4bfe-b1b8-76fbbd48c01a","path":"/feed/951d95e1-b1e9-4bfe-b1b8-76fbbd48c01a","exclusives":false},{"title":"Games","feed_id":"88a7a89c-df0c-4232-b591-13e1da77f6d5","path":"/feed/88a7a89c-df0c-4232-b591-13e1da77f6d5","exclusives":false},{"title":"Media & Entertainment","feed_id":"2ec1bedd-9898-405f-a650-a1e572c2e52b","path":"/feed/2ec1bedd-9898-405f-a650-a1e572c2e52b","exclusives":false},{"title":"Travel & Shopping","feed_id":"41d101a8-79d3-4884-adc0-44570c623c44","path":"/feed/41d101a8-79d3-4884-adc0-44570c623c44","exclusives":false},{"title":"Lifestyle","feed_id":"abc3a985-9554-4c2b-9680-5e440ad5f0b0","path":"/feed/abc3a985-9554-4c2b-9680-5e440ad5f0b0","exclusives":false}];
+    </script>
+
+    <script src="/js/processData.js"></script>
+    <script src="/js/sentryReporting.js"></script>
+    <script src="/js/ui.js"></script>
+    <script src="/js/bi.js"></script>
+    <script src="/js/discovery.js"></script>
+    <script src="/js/ftue.js"></script>
+    <script src="/js/common.js"></script>
+    <script src="/js/brandCommon.js"></script>
+    <script src="/js/versionCommon.js"></script>
+
+    <!--  -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!--add css from white label folder-->
+    
+    <link rel="stylesheet" href="/css/coverflow.css">
+    
+    <link rel="stylesheet" href="/css/mediaQueries.css">
+    
+    <link rel="stylesheet" href="/css/overrides.css">
+    
+
+     <script type="text/javascript" src="/js/components/header.js"></script>
+</head>
+<body>
+
+<div class="ribbon">
+    <div>Enable discovery to access the full-featured store.
+    <a href="https://assetscdn.isappcloud.com/pdf.js/web/viewer.html?file=/legal/Generic%20V3/Asus%20PC%20Privacy/Privacy.pdf" target="_blank">Learn more</a></div>
+    <div><button class="acceptTerms" onclick="showModal('enableDiscoveryModal')">
+        Enable Discovery
+    </button></div>
+</div>
+
+<div class="modal" onClick="closeModalFromBg()">
+    <div class="modalContainer">
+        <div class="modal-content disableDiscoveryModal">
+            <h1>Disable Discovery</h1>
+
+            <p>If you choose to disable discovery, you will no longer be able to identify and launch installed apps from the ASUS GIFTBOX Store and ASUS.</p>
+
+            <p>See our <a href="https://assetscdn.isappcloud.com/pdf.js/web/viewer.html?file=/legal/Generic%20V3/Asus%20PC%20Privacy/Privacy.pdf" target="_blank"
+                                       class="link">Privacy Policy</a> &amp; <a href="https://assetscdn.isappcloud.com/pdf.js/web/viewer.html?file=/legal/Generic%20V3/Asus%20PC%20Terms/Terms.pdf"
+                                                                                             target="_blank"
+                                                                                             class="link">Terms of Service</a>
+            </p>
+
+            <div class="buttonsContainer">
+                <button class="btn cancel" onClick="hideModal()">Cancel</button>
+                <button class="btn disable" onClick="setDiscovery(false)">Disable</button>
+            </div>
+        </div>
+
+        <div class="modal-content enableDiscoveryModal">
+            <h1>Enable Discovery</h1>
+
+            <p>Discovery needs to be enabled in order for you to access the full-featured store, install apps, launch apps, and get personalized recommendations based on the apps you&#39;ve installed on your ASUS PC. You can always change this back from ASUS GIFTBOX settings</p>
+
+            <p>See our <a href="https://assetscdn.isappcloud.com/pdf.js/web/viewer.html?file=/legal/Generic%20V3/Asus%20PC%20Privacy/Privacy.pdf" target="_blank"
+                                       class="link">Privacy Policy</a> &amp; <a href="https://assetscdn.isappcloud.com/pdf.js/web/viewer.html?file=/legal/Generic%20V3/Asus%20PC%20Terms/Terms.pdf"
+                                                                                             target="_blank"
+                                                                                             class="link">Terms of Service</a>
+            </p>
+
+            <div class="buttonsContainer">
+                <button class="btn cancel" onClick="hideModal()">Cancel</button>
+                <button class="btn accept" onClick="setDiscovery(true)">Accept</button>
+            </div>
+        </div>
+
+        <div class="modal-content ftueModal">
+            <div class="content">
+                <span onclick="skip()" class="close">skip</span>
+                <div class="viewport">
+                    <div class="wrapper">
+                        <div class="welcome ftue-slide">
+                            <h1>Welcome to ASUS GIFTBOX</h1>
+
+                            <h2>Get great apps &amp; exclusive promotions</h2>
+                            <video id="intro_vid" src="/img/video/welcome_video.webm" loop></video>
+                        </div><!--
+                 --><div class="app-selection ftue-slide">
+                            <div class="inner">
+                                <h2 class="title">Here are great apps you might enjoy. Select the apps you’d like to try</h2>
+
+                                <div class="ftue-apps-cont">
+                                    <img class="ftue-loader" src="/img/loader.gif"/>
+                                </div>
+                            </div>
+                        </div><!--
+                 --><div class="complete ftue-slide">
+                            <div class="inner">
+                                <h2 class="title selected">Confirm your app selection</h2>
+
+                                <h2 class="no-selected title">no apps selected :(</h2>
+
+                                <div class="ftue-apps-cont">
+                                    <img class="ftue-loader" src="/img/loader.gif"/>
+                                </div>
+                            </div>
+                        </div><!--
+                 --><div class="empty-apps empty ftue-slide">
+                            <div class="inner">
+                                <img src="/img/summary.svg"/>
+
+                                <div class="title"> no apps selected :(</div>
+                                <div class="links-cont"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer">
+                    <div class="dots">
+                        <span class="dot-welcome selected" onclick="tabHandler('welcome')"></span>
+                        <span class="dot-app-selection" onclick="tabHandler('app-selection')"></span>
+                    <span class="dot-complete dot-empty-apps"
+                          onclick="tabHandler(selectedAppIds.length? 'complete':'empty-apps')"></span>
+                    </div>
+
+                    <div class="buttons">
+                        <button class="back" onclick="prevSlide()">back</button>
+                        <button class="next" onclick="nextSlide()">next</button>
+                        <button class="start" onclick="nextSlide()">start</button>
+                        <button class="skip" onclick="skip()">skip</button>
+                        <button class="install" onclick="installApps()">install
+                            <span class="count"></span>
+                        </button>
+                    </div>
+                </div>
+            <div class="legal"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<header>
+    <a href="/" class="logo">
+        <img onclick="reportEvent('behavior','click','header-home')" class="logo" src="/img/giftbox.svg"
+             alt="ASUS GiftBox" height="28"/>
+    </a>
+
+
+
+    <nav class="feeds-nav">
+
+       <a class="home"  onclick="reportEvent('behavior','click','header-app feed')" href="/explore">Home</a>
+
+        
+               <a class="header-item exclusives" onclick="reportEvent('behavior','click','header-app feed')" href="/feed/25e4aa37-61cf-483e-bb1f-ed8c6f8e3332">Exclusives</a>
+        
+               <a class="header-item " onclick="reportEvent('behavior','click','header-app feed')" href="/feed/d23dabba-6046-401d-bce2-f842d5323324">Popular Apps</a>
+        
+               <a class="header-item " onclick="reportEvent('behavior','click','header-app feed')" href="/feed/50102346-638e-4638-b6e6-f9c3c05f2d9e">New Apps</a>
+        
+               <a class="header-item " onclick="reportEvent('behavior','click','header-app feed')" href="/feed/1e3000f6-87ca-4ac8-853e-e472afed81c0">Windows Store Apps</a>
+        
+               <a class="header-item " onclick="reportEvent('behavior','click','header-app feed')" href="/feed/951d95e1-b1e9-4bfe-b1b8-76fbbd48c01a">Productivity &amp; Tools</a>
+        
+               <a class="header-item " onclick="reportEvent('behavior','click','header-app feed')" href="/feed/88a7a89c-df0c-4232-b591-13e1da77f6d5">Games</a>
+        
+               <a class="header-item " onclick="reportEvent('behavior','click','header-app feed')" href="/feed/2ec1bedd-9898-405f-a650-a1e572c2e52b">Media &amp; Entertainment</a>
+        
+               <a class="header-item " onclick="reportEvent('behavior','click','header-app feed')" href="/feed/41d101a8-79d3-4884-adc0-44570c623c44">Travel &amp; Shopping</a>
+        
+               <a class="header-item " onclick="reportEvent('behavior','click','header-app feed')" href="/feed/abc3a985-9554-4c2b-9680-5e440ad5f0b0">Lifestyle</a>
+        
+
+
+        <a class="link-menu" onclick="toggleMenu()">More Collections</a>
+             <ul class="menu">
+              
+                       <li class="menu-item" onclick="reportEvent('behavior','click','header-app feed')">
+                       <a href="/feed/25e4aa37-61cf-483e-bb1f-ed8c6f8e3332">Exclusives</a>
+                       </li>
+              
+                       <li class="menu-item" onclick="reportEvent('behavior','click','header-app feed')">
+                       <a href="/feed/d23dabba-6046-401d-bce2-f842d5323324">Popular Apps</a>
+                       </li>
+              
+                       <li class="menu-item" onclick="reportEvent('behavior','click','header-app feed')">
+                       <a href="/feed/50102346-638e-4638-b6e6-f9c3c05f2d9e">New Apps</a>
+                       </li>
+              
+                       <li class="menu-item" onclick="reportEvent('behavior','click','header-app feed')">
+                       <a href="/feed/1e3000f6-87ca-4ac8-853e-e472afed81c0">Windows Store Apps</a>
+                       </li>
+              
+                       <li class="menu-item" onclick="reportEvent('behavior','click','header-app feed')">
+                       <a href="/feed/951d95e1-b1e9-4bfe-b1b8-76fbbd48c01a">Productivity &amp; Tools</a>
+                       </li>
+              
+                       <li class="menu-item" onclick="reportEvent('behavior','click','header-app feed')">
+                       <a href="/feed/88a7a89c-df0c-4232-b591-13e1da77f6d5">Games</a>
+                       </li>
+              
+                       <li class="menu-item" onclick="reportEvent('behavior','click','header-app feed')">
+                       <a href="/feed/2ec1bedd-9898-405f-a650-a1e572c2e52b">Media &amp; Entertainment</a>
+                       </li>
+              
+                       <li class="menu-item" onclick="reportEvent('behavior','click','header-app feed')">
+                       <a href="/feed/41d101a8-79d3-4884-adc0-44570c623c44">Travel &amp; Shopping</a>
+                       </li>
+              
+                       <li class="menu-item" onclick="reportEvent('behavior','click','header-app feed')">
+                       <a href="/feed/abc3a985-9554-4c2b-9680-5e440ad5f0b0">Lifestyle</a>
+                       </li>
+              
+             </ul>
+    </nav>
+</header>
+
+
+<script>
+    window.exclusives = {"id":"25e4aa37-61cf-483e-bb1f-ed8c6f8e3332","lastModified":"2017-12-03T00:05:36.000Z","blacklist":[],"apps":[{"id":"03e76a68-d2ed-4ada-9eba-12d134517a09","rating":5,"properties":{},"name":"Adobe Acrobat Pro DC","summary":"Save 13% off with 12-month subscription!","url":"https://www.adobe.com/","publisher":"Adobe Systems Incorporated.","assets":[{"type":"icon","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1497256830/app/9be3c2f5-965c-7c47-fbd2-980fe2bd1c1a.png.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1497257033/app/368ef698-5990-919b-aa37-cc724f142252.png.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1497257034/app/2691d26f-1182-325b-a739-0669e70b3d2c.png.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1497257038/app/5d0db3e9-8d55-34e6-ddb3-960559f35284.png.png","properties":{}},{"type":"oobe_ic","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1497257053/app/2288e9d4-2420-665f-11f4-62e4e3893e5f.png.png","properties":{}},{"type":"win_ico","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1497257055/app/8ce0e200-f69a-56dc-bc88-0fb8703cf2fc.ico.ico","properties":{}},{"type":"oobe_sc","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1497257059/app/5e39ddc6-0f86-f06e-4e07-4392210e8372.png.png","properties":{}},{"type":"promo-tile","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1497257075/app/854eba5c-0404-8308-fe3a-e1c1d78e2d22.png.png","properties":{}},{"type":"promo_text","format":"other","url":"Get 13% off!","properties":{}},{"type":"ribbon","format":"other","url":"13% off","properties":{"color":"#E50707"}}],"category":{"name":"Utilities & Tools","id":578},"token":"eyJ2IjoxLCJpZCI6IjAzZTc2YTY4LWQyZWQtNGFkYS05ZWJhLTEyZDEzNDUxN2EwOSIsImltcGlkIjoiMjVhYmJhNTYtOTdiMC00N2FjLWE2YWYtZjA4MzdmMWRiNDg3LWVkOGM2ZjhlMzMzMi0wIiwidHlwZSI6MiwiY2F0YWxvZ19pZCI6NCwiZGVsaXZlcnlfbWV0aG9kcyI6W3sidHlwZSI6ImJyb3dzZXJfYXBweSIsInByaW9yaXR5IjoxLCJwcm9wZXJ0aWVzIjp7ImRlbGl2ZXJ5X3VybCI6Imh0dHBzOi8vYXBlLWFzdXMuaXNhcHBjbG91ZC5jb20vcmVkaXJlY3QvMDNlNzZhNjgtZDJlZC00YWRhLTllYmEtMTJkMTM0NTE3YTA5P3RrPWE2NWNkOTg4YzYwYzkzY2NkMDBiZWNjZDU0Yjc1MGY1YzA3MDQ0MWUyMjFjNTlmNDRiNWYxZTQzOWYwZDY5MWMmcmlkPTI1YWJiYTU2LTk3YjAtNDdhYy1hNmFmLWYwODM3ZjFkYjQ4NyZsPTEmY2Q9JTdCJTIyYXBpdiUyMiUzQTIwMTUxMTI1JTJDJTIybCUyMiUzQSUyMmVuX0NBJTIyJTJDJTIyc2FwaXYlMjIlM0EyMDE3MDMxOSUyQyUyMmNpZCUyMiUzQSUyMmFwcGNsb3VkJTIwd2luZG93cyUyMiUyQyUyMmN2JTIyJTNBJTIyNy42LjUlMjIlMkMlMjJ1aWQlMjIlM0ElMjJhMzFjN2U0YS0wMjFlLTRjZmUtOGI3ZC1kNzJjMDg4MTQ1YzglMjIlMkMlMjJkaWQlMjIlM0ElMjJhY2VkNWM2Yy05OTUzLWI5OGYtZDVkNC1jNThiZDQ3NmE4MjklMjIlMkMlMjJvcyUyMiUzQSUyMldpbmRvd3NfTlQlMjIlMkMlMjJvc2ElMjIlM0ElMjI2NGJpdCUyMiUyQyUyMm9zdiUyMiUzQSUyMjEwLjAuMTYyOTklMjIlMkMlMjJzcmMlMjIlM0ElMjJwcmVsb2FkJTIyJTJDJTIyYWJ0JTIyJTNBMTM2JTJDJTIyZG1hJTIyJTNBJTIyQVNVU1RlSyUyMENPTVBVVEVSJTIwSU5DLiUyMiUyQyUyMmRiJTIyJTNBJTIyVVglMjIlMkMlMjJkcCUyMiUzQSUyMiUyMiUyQyUyMmRtb3YlMjIlM0ElMjIxLjAlMjIlMkMlMjJkbW8lMjIlM0ElMjJVWDQzMFVRJTIyJTdEIn19XSwidHJhY2tpbmdfdXJsIjoiaHR0cHM6Ly9hcGUtYXN1cy5pc2FwcGNsb3VkLmNvbS90cmFja2luZz90az1hNjVjZDk4OGM2MGM5M2NjZDAwYmVjY2Q1NGI3NTBmNWMwNzA0NDFlMjIxYzU5ZjQ0YjVmMWU0MzlmMGQ2OTFjJnJpZD0yNWFiYmE1Ni05N2IwLTQ3YWMtYTZhZi1mMDgzN2YxZGI0ODcmYWlkPTAzZTc2YTY4LWQyZWQtNGFkYS05ZWJhLTEyZDEzNDUxN2EwOSZjdWlkPWE1MzY4ZjE2LTZkMmMtMTFlNi1hOGE5LTBhMDZhNWM2ZTJiOSJ9","feedId":"25e4aa37-61cf-483e-bb1f-ed8c6f8e3332"},{"id":"781dfb2f-b1ad-494e-9ebd-737887044e25","rating":5,"properties":{},"name":"Adobe Premiere Pro CC","summary":"Save 20% off with 12-month subscription!","url":"https://www.adobe.com/","publisher":"Adobe Systems Incorporated.","assets":[{"type":"oobe_ic","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1497257397/app/67dff3e2-8a04-53e3-749c-6d93de4929c8.png.png","properties":{}},{"type":"oobe_sc","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1497257403/app/9ab989bd-0247-5242-2b6e-22f2558c7a58.png.png","properties":{}},{"type":"icon","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1497257413/app/884048a8-766e-70dc-4217-267a886278cf.png.png","properties":{}},{"type":"win_ico","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1497257416/app/55262ae3-a422-e5b5-cc3a-d84fd3c33782.ico.ico","properties":{}},{"type":"promo-tile","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1497257427/app/c9f3a4c1-e2b4-af41-8fcb-6239d7003392.png.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1497257437/app/26ecb51e-be12-741a-7d4d-ab5016762bcd.png.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1497257439/app/a46de02c-f6db-9d2e-6e19-858118db883e.png.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1497257441/app/c28a266c-8fa4-8c57-01c4-f965704e7b94.png.png","properties":{}},{"type":"promo_text","format":"other","url":"Get 20% off!","properties":{}},{"type":"ribbon","format":"other","url":"20% off","properties":{"color":"#E50707"}}],"category":{"name":"Utilities & Tools","id":578},"token":"eyJ2IjoxLCJpZCI6Ijc4MWRmYjJmLWIxYWQtNDk0ZS05ZWJkLTczNzg4NzA0NGUyNSIsImltcGlkIjoiMjVhYmJhNTYtOTdiMC00N2FjLWE2YWYtZjA4MzdmMWRiNDg3LWVkOGM2ZjhlMzMzMi0xIiwidHlwZSI6MiwiY2F0YWxvZ19pZCI6NCwiZGVsaXZlcnlfbWV0aG9kcyI6W3sidHlwZSI6ImJyb3dzZXJfYXBweSIsInByaW9yaXR5IjoxLCJwcm9wZXJ0aWVzIjp7ImRlbGl2ZXJ5X3VybCI6Imh0dHBzOi8vYXBlLWFzdXMuaXNhcHBjbG91ZC5jb20vcmVkaXJlY3QvNzgxZGZiMmYtYjFhZC00OTRlLTllYmQtNzM3ODg3MDQ0ZTI1P3RrPWE2NWNkOTg4YzYwYzkzY2NkMDBiZWNjZDU0Yjc1MGY1YzA3MDQ0MWUyMjFjNTlmNDRiNWYxZTQzOWYwZDY5MWMmcmlkPTI1YWJiYTU2LTk3YjAtNDdhYy1hNmFmLWYwODM3ZjFkYjQ4NyZsPTEmY2Q9JTdCJTIyYXBpdiUyMiUzQTIwMTUxMTI1JTJDJTIybCUyMiUzQSUyMmVuX0NBJTIyJTJDJTIyc2FwaXYlMjIlM0EyMDE3MDMxOSUyQyUyMmNpZCUyMiUzQSUyMmFwcGNsb3VkJTIwd2luZG93cyUyMiUyQyUyMmN2JTIyJTNBJTIyNy42LjUlMjIlMkMlMjJ1aWQlMjIlM0ElMjJhMzFjN2U0YS0wMjFlLTRjZmUtOGI3ZC1kNzJjMDg4MTQ1YzglMjIlMkMlMjJkaWQlMjIlM0ElMjJhY2VkNWM2Yy05OTUzLWI5OGYtZDVkNC1jNThiZDQ3NmE4MjklMjIlMkMlMjJvcyUyMiUzQSUyMldpbmRvd3NfTlQlMjIlMkMlMjJvc2ElMjIlM0ElMjI2NGJpdCUyMiUyQyUyMm9zdiUyMiUzQSUyMjEwLjAuMTYyOTklMjIlMkMlMjJzcmMlMjIlM0ElMjJwcmVsb2FkJTIyJTJDJTIyYWJ0JTIyJTNBMTM2JTJDJTIyZG1hJTIyJTNBJTIyQVNVU1RlSyUyMENPTVBVVEVSJTIwSU5DLiUyMiUyQyUyMmRiJTIyJTNBJTIyVVglMjIlMkMlMjJkcCUyMiUzQSUyMiUyMiUyQyUyMmRtb3YlMjIlM0ElMjIxLjAlMjIlMkMlMjJkbW8lMjIlM0ElMjJVWDQzMFVRJTIyJTdEIn19XSwidHJhY2tpbmdfdXJsIjoiaHR0cHM6Ly9hcGUtYXN1cy5pc2FwcGNsb3VkLmNvbS90cmFja2luZz90az1hNjVjZDk4OGM2MGM5M2NjZDAwYmVjY2Q1NGI3NTBmNWMwNzA0NDFlMjIxYzU5ZjQ0YjVmMWU0MzlmMGQ2OTFjJnJpZD0yNWFiYmE1Ni05N2IwLTQ3YWMtYTZhZi1mMDgzN2YxZGI0ODcmYWlkPTc4MWRmYjJmLWIxYWQtNDk0ZS05ZWJkLTczNzg4NzA0NGUyNSZjdWlkPWE1MzY4ZjE2LTZkMmMtMTFlNi1hOGE5LTBhMDZhNWM2ZTJiOSJ9","feedId":"25e4aa37-61cf-483e-bb1f-ed8c6f8e3332"},{"id":"98f4e82c-0835-4b22-a135-8d3e20684d6a","rating":5,"properties":{"afterDownloadPromoStore":"true","afterDownloadPromoStoreAppId":"98f4e82c-0835-4b22-a135-8d3e20684d6a","oobe2":"true","show_condition":"not_installed"},"name":"Dropbox","summary":"Dropbox is the place for your photos, docs, videos, and other files.","url":"https://www.dropbox.com/","publisher":"Dropbox Inc.","assets":[{"type":"icon","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1479377889/app/132593f9-8b2f-0548-831d-c7fbea0f4967.png","properties":{}},{"type":"oobe_ic","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1479377888/app/9be358fd-2a66-f40f-aa89-8af65238f269.png","properties":{}},{"type":"oobe_sc","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1479378007/app/43256b5d-0ed7-c13c-42ae-1f021c5e0f0a.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1479378011/app/14084487-1a7f-cef2-c239-dd85da2518b9.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1479378017/app/5e3d480d-ec16-68a0-4cc3-774e460f4f44.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1479378022/app/5742fcb8-d7b4-73e4-3d5a-d9179834e146.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1479378025/app/7c392f52-16a4-591e-f8df-ffed2ddbbebb.png","properties":{}},{"type":"promo-tile","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1495099822/app/afeee03c-63c7-9f52-18cf-bcd3e81cda95.png.png","properties":{}},{"type":"oobe_3x2_banner","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1482934572/app/e4e7f0ff-8f2b-ef3f-69d9-13cb7ad27f77.png","properties":{}},{"type":"after_download_banner","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1490256624/app/c97b84ce-e123-d0a1-9571-ccb9e6973858.png.png","properties":{}},{"type":"promo_text","format":"other","url":"Get FREE 25GB for 1 year","properties":{}},{"type":"after_download_title","format":"other","url":"Try our exclusive Dropbox deal for ASUS users","properties":{}},{"type":"after_download_btn_label_install","format":"other","url":"Get It Now","properties":{}},{"type":"after_download_btn_label_launch","format":"other","url":"Get It Now","properties":{}},{"type":"after_download_bg_gradient","format":"other","url":"linear-gradient(to bottom, #0080ff 0%,#0080ff 100%)","properties":{}},{"type":"ribbon","format":"other","url":"Free 25GB","properties":{"color":"#E50707"}}],"category":{"name":"Utilities & Tools","id":578},"token":"eyJ2IjoxLCJpZCI6Ijk4ZjRlODJjLTA4MzUtNGIyMi1hMTM1LThkM2UyMDY4NGQ2YSIsImltcGlkIjoiMjVhYmJhNTYtOTdiMC00N2FjLWE2YWYtZjA4MzdmMWRiNDg3LWVkOGM2ZjhlMzMzMi0yIiwidHlwZSI6MSwiY2F0YWxvZ19pZCI6MSwiY2F0YWxvZ19hcHBfaWQiOiIxMzkzIiwiZGVsaXZlcnlfbWV0aG9kcyI6W3sidHlwZSI6ImFtYSIsInByaW9yaXR5IjowLCJwcm9wZXJ0aWVzIjp7ImV4dGVybmFsX2lkIjoiMTM5MyIsInByaW1hcnlfc2lnbmF0dXJlIjoiYTljYTEyOTEwNWI1NGVkNWRiZDMzN2ZjMzczZGQ4YWNlMDI1MTFjOTFjZGNmMThiZjYxYWIyODIxODdjMmYxZWVlNjI4ZmYyZWQ4ZGJiMmNjY2NiZDFjNTE5OTM0ZjA3Njg5MTE5OGQyMzA4Y2Q2MTY3YWI1MmI5MmNlZDcxMDgiLCJzZWNvbmRhcnlfc2lnbmF0dXJlIjoiIiwiZGlyZWN0X2RlbGl2ZXJ5X3VybCI6Imh0dHA6Ly9hc3NldHNjZG4uaXNhcHBjbG91ZC5jb20vZXhlLzIyNDQyZjQ5LTIzMzgtYjc2YS0xMjc0LTIzZmIxZDViZGQ3NS5leGUiLCJleGVfcGFyYW1zIjoiL1MiLCJoYXNoIjoiYjk5ODU2M2M5MTRkMjJjMDJiOThjZTE1YmI3MjY0NWFjMTRiY2NiOCIsInNpemUiOjY5MDA4MH19XSwidHJhY2tpbmdfdXJsIjoiaHR0cHM6Ly9hcGUtYXN1cy5pc2FwcGNsb3VkLmNvbS90cmFja2luZz90az1hNjVjZDk4OGM2MGM5M2NjZDAwYmVjY2Q1NGI3NTBmNWMwNzA0NDFlMjIxYzU5ZjQ0YjVmMWU0MzlmMGQ2OTFjJnJpZD0yNWFiYmE1Ni05N2IwLTQ3YWMtYTZhZi1mMDgzN2YxZGI0ODcmYWlkPTk4ZjRlODJjLTA4MzUtNGIyMi1hMTM1LThkM2UyMDY4NGQ2YSZjdWlkPWE1MzY4ZjE2LTZkMmMtMTFlNi1hOGE5LTBhMDZhNWM2ZTJiOSJ9","feedId":"25e4aa37-61cf-483e-bb1f-ed8c6f8e3332"},{"id":"156317b9-b280-4cc7-a896-efa7cc637707","rating":5,"properties":{},"name":"Adobe Creative Cloud","summary":"Join Adobe now to have 15% off discount for ASUS users only.","url":"http://www.adobe.com/","publisher":"Adobe Systems Incorporated","assets":[{"type":"icon","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1449223167/app/c882e390-5f09-8a79-b023-6722cd11dfad.png","properties":{}},{"type":"oobe_sc","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1449223176/app/a2c0ac09-8ea4-51cc-14e6-f555ae450324.png","properties":{}},{"type":"win_ico","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1449208703/app/4049c36f-6561-4b72-b2e0-310185a451f3.ico","properties":{}},{"type":"promo-tile","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1449545408/app/96afca71-0c02-ec8e-7c51-d1e21d4f6bb0.png","properties":{}},{"type":"cover","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1449223278/app/616ad869-cdea-b215-7bac-5ce6f0da333a.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1449223305/app/212f2a4a-70ed-5f78-f4a1-3d718fdbc301.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1449223315/app/38018c14-b800-3689-177d-54b77718d39e.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1449223324/app/42a787fa-dbc2-9ec4-0cad-ec048534b546.png","properties":{}},{"type":"app_url","format":"url","url":"http://www.adobe.com/limited/affinity/asus-welcome-entrance.html","properties":{}},{"type":"promo_text","format":"other","url":"Save $90 a year!","properties":{"storeAppDetailsTextColor":"#FF0000"}},{"type":"ribbon","format":"other","url":"Save 15%","properties":{"color":"#E50707"}}],"category":{"name":"Productivity","id":571},"token":"eyJ2IjoxLCJpZCI6IjE1NjMxN2I5LWIyODAtNGNjNy1hODk2LWVmYTdjYzYzNzcwNyIsImltcGlkIjoiMjVhYmJhNTYtOTdiMC00N2FjLWE2YWYtZjA4MzdmMWRiNDg3LWVkOGM2ZjhlMzMzMi0zIiwidHlwZSI6MiwiY2F0YWxvZ19pZCI6NCwiZGVsaXZlcnlfbWV0aG9kcyI6W3sidHlwZSI6ImJyb3dzZXJfYXBweSIsInByaW9yaXR5IjowLCJwcm9wZXJ0aWVzIjp7ImRlbGl2ZXJ5X3VybCI6Imh0dHBzOi8vYXBlLWFzdXMuaXNhcHBjbG91ZC5jb20vcmVkaXJlY3QvMTU2MzE3YjktYjI4MC00Y2M3LWE4OTYtZWZhN2NjNjM3NzA3P3RrPWE2NWNkOTg4YzYwYzkzY2NkMDBiZWNjZDU0Yjc1MGY1YzA3MDQ0MWUyMjFjNTlmNDRiNWYxZTQzOWYwZDY5MWMmcmlkPTI1YWJiYTU2LTk3YjAtNDdhYy1hNmFmLWYwODM3ZjFkYjQ4NyZsPTEmY2Q9JTdCJTIyYXBpdiUyMiUzQTIwMTUxMTI1JTJDJTIybCUyMiUzQSUyMmVuX0NBJTIyJTJDJTIyc2FwaXYlMjIlM0EyMDE3MDMxOSUyQyUyMmNpZCUyMiUzQSUyMmFwcGNsb3VkJTIwd2luZG93cyUyMiUyQyUyMmN2JTIyJTNBJTIyNy42LjUlMjIlMkMlMjJ1aWQlMjIlM0ElMjJhMzFjN2U0YS0wMjFlLTRjZmUtOGI3ZC1kNzJjMDg4MTQ1YzglMjIlMkMlMjJkaWQlMjIlM0ElMjJhY2VkNWM2Yy05OTUzLWI5OGYtZDVkNC1jNThiZDQ3NmE4MjklMjIlMkMlMjJvcyUyMiUzQSUyMldpbmRvd3NfTlQlMjIlMkMlMjJvc2ElMjIlM0ElMjI2NGJpdCUyMiUyQyUyMm9zdiUyMiUzQSUyMjEwLjAuMTYyOTklMjIlMkMlMjJzcmMlMjIlM0ElMjJwcmVsb2FkJTIyJTJDJTIyYWJ0JTIyJTNBMTM2JTJDJTIyZG1hJTIyJTNBJTIyQVNVU1RlSyUyMENPTVBVVEVSJTIwSU5DLiUyMiUyQyUyMmRiJTIyJTNBJTIyVVglMjIlMkMlMjJkcCUyMiUzQSUyMiUyMiUyQyUyMmRtb3YlMjIlM0ElMjIxLjAlMjIlMkMlMjJkbW8lMjIlM0ElMjJVWDQzMFVRJTIyJTdEIn19XSwidHJhY2tpbmdfdXJsIjoiaHR0cHM6Ly9hcGUtYXN1cy5pc2FwcGNsb3VkLmNvbS90cmFja2luZz90az1hNjVjZDk4OGM2MGM5M2NjZDAwYmVjY2Q1NGI3NTBmNWMwNzA0NDFlMjIxYzU5ZjQ0YjVmMWU0MzlmMGQ2OTFjJnJpZD0yNWFiYmE1Ni05N2IwLTQ3YWMtYTZhZi1mMDgzN2YxZGI0ODcmYWlkPTE1NjMxN2I5LWIyODAtNGNjNy1hODk2LWVmYTdjYzYzNzcwNyZjdWlkPWE1MzY4ZjE2LTZkMmMtMTFlNi1hOGE5LTBhMDZhNWM2ZTJiOSJ9","feedId":"25e4aa37-61cf-483e-bb1f-ed8c6f8e3332"},{"id":"16169bae-78b6-4b42-9dd7-a85bc47d2e86","rating":5,"properties":{"oobe2":"true"},"name":"Polaris Office","summary":"Work anytime, anywhere, on any device!","url":"https://www.polarisoffice.com/","publisher":"POLARIS OFFICE Corp.","assets":[{"type":"icon","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1468496654/app/0114cb01-874f-7d85-363f-64c7dd0fed77.png","properties":{}},{"type":"oobe_ic","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1468496657/app/2206cf55-c084-1a1e-778b-f35cd5556a41.png","properties":{}},{"type":"oobe_sc","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1468496661/app/6e5f3e3b-2095-79d2-4870-7246deb82a42.png","properties":{}},{"type":"promo-tile","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1468496664/app/3dba8a8a-a495-04ee-64d7-2aada832201c.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1468496370/app/6428b127-c57b-613a-47ac-5738fee915f2.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1468496371/app/2cb9d29e-f018-7b61-aadc-85696f76847c.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1468496375/app/057b894e-1636-7f86-ecf3-aef0e7a6e314.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1468496376/app/02231cba-7b21-2e3c-286d-d2898565c268.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1468496378/app/3936dde3-ee4a-4f9a-ca6c-374890094f97.png","properties":{}},{"type":"promo_text","format":"other","url":"$20 Free gift & 30% off","properties":{}},{"type":"ribbon","format":"other","url":"30% discount","properties":{"color":"#E50707"}},{"type":"oobe_ribbon","format":"other","url":"Exclusive","properties":{"color":"#33CFFF"}}],"category":{"name":"Productivity","id":571},"token":"eyJ2IjoxLCJpZCI6IjE2MTY5YmFlLTc4YjYtNGI0Mi05ZGQ3LWE4NWJjNDdkMmU4NiIsImltcGlkIjoiMjVhYmJhNTYtOTdiMC00N2FjLWE2YWYtZjA4MzdmMWRiNDg3LWVkOGM2ZjhlMzMzMi00IiwidHlwZSI6MSwiY2F0YWxvZ19pZCI6MSwiY2F0YWxvZ19hcHBfaWQiOiIxODcyOCIsImRlbGl2ZXJ5X21ldGhvZHMiOlt7InR5cGUiOiJhbWEiLCJwcmlvcml0eSI6MCwicHJvcGVydGllcyI6eyJleHRlcm5hbF9pZCI6IjE4NzI4IiwicHJpbWFyeV9zaWduYXR1cmUiOiI1OTY1OTFmNDJmMGE2MTRjMTA3NWFjMTAwNmQ2YWM2MmVhZjQyZTdlNzYzNWMyNDY2NTQ4MzhiZGVhMDdhM2ZlMTM1OGRmN2ZjOTUxZWE5MzVmMGYzYjEwOTlhMTVkZTA5ZGYxOWRjNWI2NWM1NmU4MWFkMDMzNGNlMzA5ZTkwMCIsInNlY29uZGFyeV9zaWduYXR1cmUiOiIifX1dLCJ0cmFja2luZ191cmwiOiJodHRwczovL2FwZS1hc3VzLmlzYXBwY2xvdWQuY29tL3RyYWNraW5nP3RrPWE2NWNkOTg4YzYwYzkzY2NkMDBiZWNjZDU0Yjc1MGY1YzA3MDQ0MWUyMjFjNTlmNDRiNWYxZTQzOWYwZDY5MWMmcmlkPTI1YWJiYTU2LTk3YjAtNDdhYy1hNmFmLWYwODM3ZjFkYjQ4NyZhaWQ9MTYxNjliYWUtNzhiNi00YjQyLTlkZDctYTg1YmM0N2QyZTg2JmN1aWQ9YTUzNjhmMTYtNmQyYy0xMWU2LWE4YTktMGEwNmE1YzZlMmI5In0=","feedId":"25e4aa37-61cf-483e-bb1f-ed8c6f8e3332"},{"id":"be0880bf-0111-4b17-86d3-eec145c9d50f","rating":5,"properties":{"oobe2":"true"},"name":"WPS Office for ASUS","summary":"With over 550M Windows Users worldwide, WPS Office is the world’s most popular Office Suite.\nComposed of Writer, Presentation and Spreadsheets, WPS Office is committed to providing easy-to-use and efficient office software.","url":"http://www.wps.com/","publisher":"Kingsoft Office Software","assets":[{"type":"icon","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1459060937/app/f311b723-3b50-86e9-65a0-da720332ef20.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1459061219/app/f6104c34-1a7c-870a-9aef-3f5ce9bb914d.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1459061222/app/10165fc6-af7e-3dde-28a4-f6e64322151e.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1459061226/app/c72ebb3e-6a69-8f6b-8d27-0fd60db721ca.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1459061237/app/d60f90b0-47db-7803-04be-33a12858e01b.png","properties":{}},{"type":"promo-tile","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1483974983/app/0c227f79-1bbc-84c4-9af9-9c59eafd040e.png","properties":{}},{"type":"promo_text","format":"other","url":"Save $30 and FREE for 60 days","properties":{}},{"type":"ribbon","format":"other","url":"Save $30","properties":{"color":"#E50707"}}],"category":{"name":"Productivity","id":571},"token":"eyJ2IjoxLCJpZCI6ImJlMDg4MGJmLTAxMTEtNGIxNy04NmQzLWVlYzE0NWM5ZDUwZiIsImltcGlkIjoiMjVhYmJhNTYtOTdiMC00N2FjLWE2YWYtZjA4MzdmMWRiNDg3LWVkOGM2ZjhlMzMzMi01IiwidHlwZSI6MSwiY2F0YWxvZ19pZCI6MSwiY2F0YWxvZ19hcHBfaWQiOiIxODcyNSIsImRlbGl2ZXJ5X21ldGhvZHMiOlt7InR5cGUiOiJhbWEiLCJwcmlvcml0eSI6MCwicHJvcGVydGllcyI6eyJleHRlcm5hbF9pZCI6IjE4NzI1IiwicHJpbWFyeV9zaWduYXR1cmUiOiIyYjViM2ExNGU2OWZkMTBkZTc4NTE2OTcwZjlmMWUwZTYzOTRhNmQzYzFiNzgzOGRiYmZlMTMzZTZlYTRiMjRlNDAyNWU2YjZkNDFlOTAzMzZlYzE0MTkyMjQ5ZmQwODVlZTc5ZmUxMzNlZTVmNzkzNzE3ZjEyZDk1NmFiMjcwYyIsInNlY29uZGFyeV9zaWduYXR1cmUiOiIifX1dLCJ0cmFja2luZ191cmwiOiJodHRwczovL2FwZS1hc3VzLmlzYXBwY2xvdWQuY29tL3RyYWNraW5nP3RrPWE2NWNkOTg4YzYwYzkzY2NkMDBiZWNjZDU0Yjc1MGY1YzA3MDQ0MWUyMjFjNTlmNDRiNWYxZTQzOWYwZDY5MWMmcmlkPTI1YWJiYTU2LTk3YjAtNDdhYy1hNmFmLWYwODM3ZjFkYjQ4NyZhaWQ9YmUwODgwYmYtMDExMS00YjE3LTg2ZDMtZWVjMTQ1YzlkNTBmJmN1aWQ9YTUzNjhmMTYtNmQyYy0xMWU2LWE4YTktMGEwNmE1YzZlMmI5In0=","feedId":"25e4aa37-61cf-483e-bb1f-ed8c6f8e3332"},{"id":"51917e7b-cd16-4894-ab48-8617e3a757e1","rating":5,"properties":{"oobe2":"true","show_condition":"not_installed"},"name":"TriDef SmartCam","summary":"Easily replace or blur your webcam background.","url":"https://www.tridef.com","publisher":"DDD Group plc.","assets":[{"type":"icon","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1482929332/app/1dc3a5ce-190f-3e4e-49b4-ce61a06a6ae0.png","properties":{}},{"type":"oobe_ic","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1482929459/app/cd5b7935-74f4-f29f-6991-be7e79bfbca0.png","properties":{}},{"type":"oobe_sc","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1482929461/app/252a4f1b-0ec7-d1e8-5fd8-8814886dccf8.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1482929480/app/85c7adf3-3246-f616-7ed4-c5b02caf181d.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1482929498/app/907be501-edcc-7df2-078a-054503a25e3f.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1482929502/app/9824eb96-2ab0-2342-6699-fafd33f2c375.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1482929504/app/d8d214a2-0444-6930-c50b-73cbe982801c.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1482929506/app/a2a33c2a-17d1-e6b5-558c-2a27f0692c6d.png","properties":{}},{"type":"promo-tile","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1482929478/app/a7e390e5-2612-6ac2-787d-d6b66362bfb4.png","properties":{}},{"type":"cover","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1482929475/app/f0556b99-abf9-9a2f-3820-2c1eeccf8078.png","properties":{}},{"type":"promo_text","format":"other","url":"20% off plus 30 days free trial","properties":{}},{"type":"ribbon","format":"other","url":"20% discount","properties":{"color":"#49EAF5"}}],"category":{"name":"Photo & Video","id":8608},"token":"eyJ2IjoxLCJpZCI6IjUxOTE3ZTdiLWNkMTYtNDg5NC1hYjQ4LTg2MTdlM2E3NTdlMSIsImltcGlkIjoiMjVhYmJhNTYtOTdiMC00N2FjLWE2YWYtZjA4MzdmMWRiNDg3LWVkOGM2ZjhlMzMzMi02IiwidHlwZSI6MSwiY2F0YWxvZ19pZCI6MSwiY2F0YWxvZ19hcHBfaWQiOiIxODgxNyIsImRlbGl2ZXJ5X21ldGhvZHMiOlt7InR5cGUiOiJhbWEiLCJwcmlvcml0eSI6MCwicHJvcGVydGllcyI6eyJleHRlcm5hbF9pZCI6IjE4ODE3IiwicHJpbWFyeV9zaWduYXR1cmUiOiIyZjhlNTJiZWZiN2IxMjgxZDFkNTg0M2MwOTI3OGM5ZTNjYmVlMmM3NjAzNDg1YTY4MWY5MTYwYzgxZGNiYzA4OGM4YmEwNmFlNDBhZjIyNDA5ZDgxMjA2ZTBlZTg3N2I0ZjI0ZTJlNmQxNzMxYjM1ZjA2ODBiNWNlZDA4NTgwOSIsInNlY29uZGFyeV9zaWduYXR1cmUiOiIiLCJkaXJlY3RfZGVsaXZlcnlfdXJsIjoiaHR0cDovL2Fzc2V0c2Nkbi5pc2FwcGNsb3VkLmNvbS9leGUvNmQ0MmU1YjUtODMzZC1kYmZmLWQ3YWUtY2NhMTcyYWFkMTU4LmV4ZSIsImV4ZV9wYXJhbXMiOiIvUyIsImhhc2giOiI0ZmFiMjE2ZjkwYzcyNTRlMTdkMDFhZmEyNjgwODVkYTZlZmU0MTU4Iiwic2l6ZSI6MjYzODIwMzJ9fV0sInRyYWNraW5nX3VybCI6Imh0dHBzOi8vYXBlLWFzdXMuaXNhcHBjbG91ZC5jb20vdHJhY2tpbmc/dGs9YTY1Y2Q5ODhjNjBjOTNjY2QwMGJlY2NkNTRiNzUwZjVjMDcwNDQxZTIyMWM1OWY0NGI1ZjFlNDM5ZjBkNjkxYyZyaWQ9MjVhYmJhNTYtOTdiMC00N2FjLWE2YWYtZjA4MzdmMWRiNDg3JmFpZD01MTkxN2U3Yi1jZDE2LTQ4OTQtYWI0OC04NjE3ZTNhNzU3ZTEmY3VpZD1hNTM2OGYxNi02ZDJjLTExZTYtYThhOS0wYTA2YTVjNmUyYjkifQ==","feedId":"25e4aa37-61cf-483e-bb1f-ed8c6f8e3332"},{"id":"9f2494a4-a583-4c28-a63f-250b56853db4","rating":5,"properties":{"show_condition":"preinstalled"},"name":"ASUS Splendid Video Enhancement Technology","summary":"Modifies every pixel, providing you with a brilliant display on your ASUS notebook PC.","url":"http://www.asus.com","publisher":"ASUSTeK Computer Inc","assets":[{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1459062140/app/42a94577-b4ca-47da-6162-a545ea3238fc.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1459062143/app/5632bb66-d64e-042e-7481-3fb5a8475c1e.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1459062147/app/cd041b87-6ed7-5649-99ed-f63c26dfe338.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1459062164/app/c33154dc-716b-17c8-7adc-e42a000cc51c.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1459062171/app/8bb09efa-47b5-d616-0bc3-e162aa354b5e.png","properties":{}},{"type":"icon","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1459061817/app/db6e5b07-2e9b-daa9-6088-eabfc8895001.png","properties":{}},{"type":"promo-tile","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1459083353/app/73ea9419-0dff-442c-8dac-38ef7065e6ba.png","properties":{"show_condition":"preinstalled"}},{"type":"promo_text","format":"other","url":"Enhances your ASUS notebook PC screen, reproducing richer and deeper colors for visually stunning experience.","properties":{"show_condition":"preinstalled"}}],"category":{"name":"Photo & Video","id":8608},"token":"eyJ2IjoxLCJpZCI6IjlmMjQ5NGE0LWE1ODMtNGMyOC1hNjNmLTI1MGI1Njg1M2RiNCIsImltcGlkIjoiMjVhYmJhNTYtOTdiMC00N2FjLWE2YWYtZjA4MzdmMWRiNDg3LWVkOGM2ZjhlMzMzMi03IiwidHlwZSI6MSwiY2F0YWxvZ19pZCI6MSwiY2F0YWxvZ19hcHBfaWQiOiIxODczMiIsImRlbGl2ZXJ5X21ldGhvZHMiOlt7InR5cGUiOiJhbWEiLCJwcmlvcml0eSI6MCwicHJvcGVydGllcyI6eyJleHRlcm5hbF9pZCI6IjE4NzMyIiwicHJpbWFyeV9zaWduYXR1cmUiOiI2ZjY0M2YzNTMxODM2NDE5Mjk1ZWE4MDk0YTZlOGNmNzhlODM0NDU2MTg1YmQ0OWFhZThiNTgxOTYxMjU1M2MwMWI4OTBlNWVhNDBkZDBlMDNhNGQwYWIwZDY3YzAwODg4ZjRmNzM2ZmMwYmZjNzRmYWFlMWI0MmU0M2JhZTMwOSIsInNlY29uZGFyeV9zaWduYXR1cmUiOiIifX1dLCJ0cmFja2luZ191cmwiOiJodHRwczovL2FwZS1hc3VzLmlzYXBwY2xvdWQuY29tL3RyYWNraW5nP3RrPWE2NWNkOTg4YzYwYzkzY2NkMDBiZWNjZDU0Yjc1MGY1YzA3MDQ0MWUyMjFjNTlmNDRiNWYxZTQzOWYwZDY5MWMmcmlkPTI1YWJiYTU2LTk3YjAtNDdhYy1hNmFmLWYwODM3ZjFkYjQ4NyZhaWQ9OWYyNDk0YTQtYTU4My00YzI4LWE2M2YtMjUwYjU2ODUzZGI0JmN1aWQ9YTUzNjhmMTYtNmQyYy0xMWU2LWE4YTktMGEwNmE1YzZlMmI5In0=","feedId":"25e4aa37-61cf-483e-bb1f-ed8c6f8e3332"},{"id":"45f26dc5-f18e-4eb2-aa51-d4134b634102","rating":5,"properties":{"oobe2":"true","show_condition":"not_installed"},"name":"ASUS Webstorage","summary":"Store all your data and share to everyone you want.","url":"https://www.asuswebstorage.com","publisher":"ASUS Cloud Corporation","assets":[{"type":"icon","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1482929846/app/9517a281-4d4e-7385-ae47-29406da6bcd3.png","properties":{}},{"type":"oobe_ic","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1482940637/app/fcaedf93-ef62-357c-9316-420cf0be2e79.png","properties":{}},{"type":"oobe_sc","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1482940643/app/d5618ed8-ac26-18dc-6919-b5b906c4d262.png","properties":{}},{"type":"cover","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1482940647/app/53f7eb7a-cf90-4540-5f12-1431eb072f26.png","properties":{}},{"type":"promo-tile","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1482940661/app/6921a82f-cc34-cfa5-e0e2-02804030bce5.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1482940680/app/f5d31077-7257-c54e-e563-146bfeea74ae.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1482940682/app/ccd0b303-3ae1-8715-0fa6-1488815470b2.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1482940685/app/39f71ed2-faa4-5300-73b0-ff6d7dc4fe93.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1482940691/app/d7b8db71-dfeb-e248-c70f-daba8fcd03c4.png","properties":{}},{"type":"promo_text","format":"other","url":"Save up to $99.99 a year","properties":{}},{"type":"ribbon","format":"other","url":"1TB a year","properties":{"color":"#E50707"}}],"category":{"name":"Utilities & Tools","id":578},"token":"eyJ2IjoxLCJpZCI6IjQ1ZjI2ZGM1LWYxOGUtNGViMi1hYTUxLWQ0MTM0YjYzNDEwMiIsImltcGlkIjoiMjVhYmJhNTYtOTdiMC00N2FjLWE2YWYtZjA4MzdmMWRiNDg3LWVkOGM2ZjhlMzMzMi04IiwidHlwZSI6MSwiY2F0YWxvZ19pZCI6MSwiY2F0YWxvZ19hcHBfaWQiOiIxODgxNiIsImRlbGl2ZXJ5X21ldGhvZHMiOlt7InR5cGUiOiJhbWEiLCJwcmlvcml0eSI6MCwicHJvcGVydGllcyI6eyJleHRlcm5hbF9pZCI6IjE4ODE2In19XSwidHJhY2tpbmdfdXJsIjoiaHR0cHM6Ly9hcGUtYXN1cy5pc2FwcGNsb3VkLmNvbS90cmFja2luZz90az1hNjVjZDk4OGM2MGM5M2NjZDAwYmVjY2Q1NGI3NTBmNWMwNzA0NDFlMjIxYzU5ZjQ0YjVmMWU0MzlmMGQ2OTFjJnJpZD0yNWFiYmE1Ni05N2IwLTQ3YWMtYTZhZi1mMDgzN2YxZGI0ODcmYWlkPTQ1ZjI2ZGM1LWYxOGUtNGViMi1hYTUxLWQ0MTM0YjYzNDEwMiZjdWlkPWE1MzY4ZjE2LTZkMmMtMTFlNi1hOGE5LTBhMDZhNWM2ZTJiOSJ9","feedId":"25e4aa37-61cf-483e-bb1f-ed8c6f8e3332"}],"properties":{"name":"Store - ASUS Exclusives","title":"Exclusives","description":"Exclusive Deals by ASUS","show_condition":"preinstalled, cli, oobe, store, not_installed","asus_exclusive":"true"},"preselect":[]};
+    window.carouselApps = [{"id":"425635f9-58f6-4148-80ba-bd49b623ef6f","rating":4.86,"properties":{"carousel_store":"true","homepage_legal":"https://www.mozilla.org/en-US/firefox/new/","oobe2":"true"},"name":"Firefox","summary":"FAST. SMART. YOURS. Firefox is the independent, people-first browser made with you in mind.","url":"https://www.mozilla.org/en-US/firefox/new/","publisher":"Mozilla","assets":[{"type":"cover","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1467530512/app/9ec4e99e-2b43-0b16-7e82-cf7b0d0509c8.png","properties":{}},{"type":"oobe_3x2_banner","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1474814779/app/031915a6-e4a7-8a03-eeff-9627a0ca27dd.png","properties":{}},{"type":"icon","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1510738355/app/74757007-2395-11f3-d6c0-7a48c73355e5.png.png","properties":{}},{"type":"oobe_ic","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1510738359/app/c13f37ff-860e-1d23-06df-960fc630b789.png.png","properties":{}},{"type":"oobe_sc","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1510738370/app/cb680766-c8b6-58d9-bc0d-7c9dfbdb811c.png.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1510738373/app/54f76865-53b4-da9c-c6c0-90e1f35a9e3c.png.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1510738377/app/ff704e25-66ff-8efc-f2c8-681b56015fa0.png.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1510738381/app/11b9590f-462f-19e2-f681-cd2b5f393b96.png.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1510738384/app/da696881-15fe-d0a9-6e24-b5619928ceca.png.png","properties":{}}],"category":{"name":"Utilities & Tools","id":578},"token":"eyJ2IjoxLCJpZCI6IjQyNTYzNWY5LTU4ZjYtNDE0OC04MGJhLWJkNDliNjIzZWY2ZiIsImltcGlkIjoiMjVhYmJhNTYtOTdiMC00N2FjLWE2YWYtZjA4MzdmMWRiNDg3LTM5OGRjM2IyOWNkMC0wIiwiY2lkIjoiMGNjMmM3ODgtMDIxZS00NThjLTg5MzUtMGM3ZWNiMGMzNGM3IiwidHlwZSI6MSwiY2F0YWxvZ19pZCI6MSwiY2F0YWxvZ19hcHBfaWQiOiIxMzk1IiwiZGVsaXZlcnlfbWV0aG9kcyI6W3sidHlwZSI6ImFtYSIsInByb3BlcnRpZXMiOnsiZXh0ZXJuYWxfaWQiOiIxMzk1IiwiZGlyZWN0X2RlbGl2ZXJ5X3VybCI6Imh0dHA6Ly9hc3NldHNjZG4uaXNhcHBjbG91ZC5jb20vZXhlLzk4NTJiY2ZjLWY4OGYtZGQzNS01ZDY2LTMxNDkyYTliMWQ3ZS5leGUiLCJoYXNoIjoiNTFmN2YzYWJhMjA2NzgyODBiOGMxYzdiNWMyMGU2YzBiZDZiYmJhNiIsInByaW1hcnlfc2lnbmF0dXJlIjoiNDIxMDA1ZjgwMGM4OGViZThlNTY2ZjJjZTE2OTdlYzM5MjEyOWJhOTViODEzNWMzMTM3OGJlOTBkOTBhYTczM2I4MGYxZDgyNjA3MTc0MGRiNmYzMThmZDY1ZTk3YmFhMWI4NDU1ZWQ3NTgxYjc2ZTkyMGZiZDJmMmMwZmVhMDciLCJzZWNvbmRhcnlfc2lnbmF0dXJlIjoiIiwic2l6ZSI6MzkyOTg0MzJ9fV0sInRyYWNraW5nX3VybCI6Imh0dHBzOi8vYXBlLWFzdXMuaXNhcHBjbG91ZC5jb20vdHJhY2tpbmc/dGs9YTY1Y2Q5ODhjNjBjOTNjY2QwMGJlY2NkNTRiNzUwZjVjMDcwNDQxZTIyMWM1OWY0NGI1ZjFlNDM5ZjBkNjkxYyZyaWQ9MjVhYmJhNTYtOTdiMC00N2FjLWE2YWYtZjA4MzdmMWRiNDg3JmFpZD00MjU2MzVmOS01OGY2LTQxNDgtODBiYS1iZDQ5YjYyM2VmNmYmY3VpZD1hNTM2OGYxNi02ZDJjLTExZTYtYThhOS0wYTA2YTVjNmUyYjkmY2lkPTBjYzJjNzg4LTAyMWUtNDU4Yy04OTM1LTBjN2VjYjBjMzRjNyJ9","feedId":"02767947-4f28-4a26-b83a-398dc3b29cd0"},{"id":"1a46653d-c853-4fa4-b20a-df52ac4f0616","rating":5,"properties":{"oobe2":"true"},"name":"SodaPDF","summary":"Soda PDF is a highly powerful and customizable PDF solution.","url":"http://www.sodapdf.com","publisher":"LULU Software™","assets":[{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1486397161/app/dff4eb65-3628-e5cf-0cb2-a7910811c2a5.jpg","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1486397164/app/264be758-0374-27fc-32be-c9adacaee952.jpg","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1486397167/app/dc483c4a-f94c-1fae-cbea-9c53fc8f5c6f.jpg","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1486397187/app/2c2080f9-266b-ab94-e917-c7a9d7af806e.jpg","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1486397196/app/0484514d-6dbf-d0f3-cb03-14ed7874c7c2.jpg","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1486397208/app/b8d25b12-59c3-a021-dee6-052922f86e4f.jpg","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1486397211/app/709d71a1-f4c3-59e3-c8bc-7260a74188c2.jpg","properties":{}},{"type":"oobe_sc","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1503814198/app/e4b887f2-876d-3d76-a873-26ec5c2437e2.png.png","properties":{}},{"type":"oobe_3x2_banner","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1474545555/app/6d604b07-a79b-fa22-1da8-ead534139f34.png","properties":{}},{"type":"icon","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1508917496/app/21fc6ab2-1cfd-282d-c623-4d461c690576.jpg.jpg","properties":{}},{"type":"oobe_ic","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1508917499/app/1b9821b0-310c-9cd2-feec-e7284a87d8c5.jpg.jpg","properties":{}},{"type":"cover","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1508917492/app/caba4fc9-942a-a956-c857-251151fb7443.jpg.jpg","properties":{}}],"category":{"name":"Utilities & Tools","id":578},"token":"eyJ2IjoxLCJpZCI6IjFhNDY2NTNkLWM4NTMtNGZhNC1iMjBhLWRmNTJhYzRmMDYxNiIsImltcGlkIjoiMjVhYmJhNTYtOTdiMC00N2FjLWE2YWYtZjA4MzdmMWRiNDg3LTM5OGRjM2IyOWNkMC0xIiwiY2lkIjoiNTcwZWU2NjUtMzE0Yi00M2E4LWJiMTYtYWRiNDU4ZjQxZTJmIiwidHlwZSI6MSwiY2F0YWxvZ19pZCI6MSwiY2F0YWxvZ19hcHBfaWQiOiIxODY4NSIsImRlbGl2ZXJ5X21ldGhvZHMiOlt7InR5cGUiOiJhbWEiLCJwcmlvcml0eSI6MCwicHJvcGVydGllcyI6eyJleHRlcm5hbF9pZCI6IjE4Njg1IiwicHJpbWFyeV9zaWduYXR1cmUiOiJlMjJhYWJmNjM3NDIzOTkxYjQ2YWZkYzEwNGMwOGE5Njg4MzQzZTUxNTI2YjM3NzFmOWU5MTE5YWUyZTdhOGZhZjIyNTQ5YjA3OWI0ZjA5OTYzOWExOGEzYTlhNDA3ZDlhNzNhNmIyMmQ1ZWI4NmU5YTExYzRmNGQ5ZjFkZmQwMCIsInNlY29uZGFyeV9zaWduYXR1cmUiOiIifX1dLCJ0cmFja2luZ191cmwiOiJodHRwczovL2FwZS1hc3VzLmlzYXBwY2xvdWQuY29tL3RyYWNraW5nP3RrPWE2NWNkOTg4YzYwYzkzY2NkMDBiZWNjZDU0Yjc1MGY1YzA3MDQ0MWUyMjFjNTlmNDRiNWYxZTQzOWYwZDY5MWMmcmlkPTI1YWJiYTU2LTk3YjAtNDdhYy1hNmFmLWYwODM3ZjFkYjQ4NyZhaWQ9MWE0NjY1M2QtYzg1My00ZmE0LWIyMGEtZGY1MmFjNGYwNjE2JmN1aWQ9YTUzNjhmMTYtNmQyYy0xMWU2LWE4YTktMGEwNmE1YzZlMmI5JmNpZD01NzBlZTY2NS0zMTRiLTQzYTgtYmIxNi1hZGI0NThmNDFlMmYifQ==","feedId":"02767947-4f28-4a26-b83a-398dc3b29cd0"},{"id":"22ca9955-fd3d-420f-8b2e-b0cb3b84e301","rating":5,"properties":{"oobe2":"true","oobeInstallPriority":"99"},"name":"Avast Free Antivirus","summary":"Easy-to-use, lightweight antivirus trusted by 400 million users around the world.\nNote that another antivirus may be installed on your device.","url":"https://www.avast.com/","publisher":"AVAST Software s.r.o.","assets":[{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1481021205/app/8b14de48-059c-af01-7023-e25494e76109.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1487060698/app/dd966dbd-179a-8e8a-b7f2-091a1dfdc4c7.jpg","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1481021283/app/301b26e8-3254-72c6-d0bc-6a5385b6c61a.png","properties":{}},{"type":"oobe_sc","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1487060694/app/81cd7f1b-a3d7-9d56-2a39-90ec771cdb64.jpg","properties":{}},{"type":"oobe_3x2_banner","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1474814742/app/1ac4696d-647a-9b85-e756-3f74a8ed03f4.png","properties":{}},{"type":"icon","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1488287011/app/9b888a03-143a-d57b-2298-b0c8f5c8bcf3.png.png","properties":{}},{"type":"oobe_ic","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1488287015/app/7332bf61-9655-47e7-7811-a4c53d4e9078.png.png","properties":{}},{"type":"cover","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1480848547/app/6bfc5965-8e5c-5939-8a16-053c8f0903ee.jpg","properties":{}},{"type":"after_download_banner","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1501165681/app/3ff39b09-3c9a-6740-2a5b-008bdc4560bd.png.png","properties":{}},{"type":"promo_text","format":"other","url":"Make sure your PC is protected, with the #1 FREE Antivirus","properties":{"storeAppDetailsTextColor":"#e02828"}},{"type":"after_download_title","format":"other","url":"Avast Free Antivirus – easy-to-use, lightweight antivirus trusted by millions","properties":{}},{"type":"after_download_btn_label_install","format":"other","url":"Protect Me","properties":{}},{"type":"after_download_btn_label_launch","format":"other","url":"Launch","properties":{}},{"type":"after_download_bg_gradient","format":"other","url":"linear-gradient(to bottom, #4C556C 0%,#4C556C 100%)","properties":{}}],"category":{"name":"Security","id":572},"token":"eyJ2IjoxLCJpZCI6IjIyY2E5OTU1LWZkM2QtNDIwZi04YjJlLWIwY2IzYjg0ZTMwMSIsImltcGlkIjoiMjVhYmJhNTYtOTdiMC00N2FjLWE2YWYtZjA4MzdmMWRiNDg3LTM5OGRjM2IyOWNkMC0yIiwiY2lkIjoiYzkxM2Y0OGMtYzllNi00NTdkLWE5NTItYTUzYjMxNDBkODgyIiwidHlwZSI6MSwiY2F0YWxvZ19pZCI6MSwiY2F0YWxvZ19hcHBfaWQiOiIxOTc5IiwiZGVsaXZlcnlfbWV0aG9kcyI6W3sidHlwZSI6ImFtYSIsInByaW9yaXR5IjowLCJwcm9wZXJ0aWVzIjp7ImV4dGVybmFsX2lkIjoiMTk3OSIsInByaW1hcnlfc2lnbmF0dXJlIjoiYjY0MTY5ZTM0NmVmMDU1OTgwMmE1MGY2NzgwNDY1YTBiN2MxOGRkZjc0ZTViYzI5ZGJjOGMwOTdiNTQ0NjlkMTAwYjY2MTM5ZmNkYmQxY2MyZjg4MTk1MDQxMDg1M2NhZWQzNDdlNjIyMzY1ODQ2MTBmYmVlNmU4YzZmODg0MGIiLCJzZWNvbmRhcnlfc2lnbmF0dXJlIjoiIn19XSwidHJhY2tpbmdfdXJsIjoiaHR0cHM6Ly9hcGUtYXN1cy5pc2FwcGNsb3VkLmNvbS90cmFja2luZz90az1hNjVjZDk4OGM2MGM5M2NjZDAwYmVjY2Q1NGI3NTBmNWMwNzA0NDFlMjIxYzU5ZjQ0YjVmMWU0MzlmMGQ2OTFjJnJpZD0yNWFiYmE1Ni05N2IwLTQ3YWMtYTZhZi1mMDgzN2YxZGI0ODcmYWlkPTIyY2E5OTU1LWZkM2QtNDIwZi04YjJlLWIwY2IzYjg0ZTMwMSZjdWlkPWE1MzY4ZjE2LTZkMmMtMTFlNi1hOGE5LTBhMDZhNWM2ZTJiOSZjaWQ9YzkxM2Y0OGMtYzllNi00NTdkLWE5NTItYTUzYjMxNDBkODgyIn0=","feedId":"02767947-4f28-4a26-b83a-398dc3b29cd0"},{"id":"f1231216-7d25-49f1-9faf-5a1492cfb6c3","rating":5,"properties":{"carousel_store":"true","oobe2":"true"},"name":"Booking.com","summary":"you’re looking for hotels, homes, or vacation rentals, you’ll always find the guaranteed best price. Browse our 1,110,385 accommodations in over 85,000 destinations.","url":"http://www.booking.com/","publisher":"The Priceline Group","assets":[{"type":"icon","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1479309136/app/e629ea88-0634-8d81-874a-b3a39964033b.png","properties":{}},{"type":"win_ico","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1479309141/app/185738ad-6ba3-6b55-ebc7-6a4a1a8f1c20.ico","properties":{}},{"type":"oobe_ic","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1479309143/app/eba2e154-8032-6e0e-473a-1db0ae2b308f.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1449762203/app/6c2f7ba1-42f1-cb91-30b8-7711dcb57487.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1449762197/app/14a1ed9e-5390-893f-4a0f-12341eb88812.png","properties":{}},{"type":"screenshot","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1449762193/app/0e56eff0-bd11-2550-1c64-953c8f9725f0.png","properties":{}},{"type":"oobe_sc","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1449762208/app/38ba5bfb-3775-eb94-c0d9-740da0a4fe65.png","properties":{}},{"type":"cover_splash","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1449762182/app/75890234-4aae-ab5f-b15d-d31b4865f37a.png","properties":{}},{"type":"cover","format":"image","url":"https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1463473230/app/cae0a2d5-c85e-d01c-7fe4-16a634f103b9.jpg","properties":{}},{"type":"accent_color","format":"color","url":"#003580","properties":{}}],"category":{"name":"Travel","id":579},"token":"eyJ2IjoxLCJpZCI6ImYxMjMxMjE2LTdkMjUtNDlmMS05ZmFmLTVhMTQ5MmNmYjZjMyIsImltcGlkIjoiMjVhYmJhNTYtOTdiMC00N2FjLWE2YWYtZjA4MzdmMWRiNDg3LTM5OGRjM2IyOWNkMC0zIiwiY2lkIjoiMTZlZjUyM2EtZjVjNC00YjdmLWIwYWItOGE5ZjNjYjJkNmE3IiwidHlwZSI6MiwiY2F0YWxvZ19pZCI6NCwiZGVsaXZlcnlfbWV0aG9kcyI6W3sidHlwZSI6ImFwcHkiLCJwcmlvcml0eSI6MCwicHJvcGVydGllcyI6eyJkZWxpdmVyeV91cmwiOiJodHRwczovL2FwZS1hc3VzLmlzYXBwY2xvdWQuY29tL3JlZGlyZWN0L2YxMjMxMjE2LTdkMjUtNDlmMS05ZmFmLTVhMTQ5MmNmYjZjMz90az1hNjVjZDk4OGM2MGM5M2NjZDAwYmVjY2Q1NGI3NTBmNWMwNzA0NDFlMjIxYzU5ZjQ0YjVmMWU0MzlmMGQ2OTFjJnJpZD0yNWFiYmE1Ni05N2IwLTQ3YWMtYTZhZi1mMDgzN2YxZGI0ODcmbD0xJmNkPSU3QiUyMmFwaXYlMjIlM0EyMDE1MTEyNSUyQyUyMmwlMjIlM0ElMjJlbl9DQSUyMiUyQyUyMnNhcGl2JTIyJTNBMjAxNzAzMTklMkMlMjJjaWQlMjIlM0ElMjJhcHBjbG91ZCUyMHdpbmRvd3MlMjIlMkMlMjJjdiUyMiUzQSUyMjcuNi41JTIyJTJDJTIydWlkJTIyJTNBJTIyYTMxYzdlNGEtMDIxZS00Y2ZlLThiN2QtZDcyYzA4ODE0NWM4JTIyJTJDJTIyZGlkJTIyJTNBJTIyYWNlZDVjNmMtOTk1My1iOThmLWQ1ZDQtYzU4YmQ0NzZhODI5JTIyJTJDJTIyb3MlMjIlM0ElMjJXaW5kb3dzX05UJTIyJTJDJTIyb3NhJTIyJTNBJTIyNjRiaXQlMjIlMkMlMjJvc3YlMjIlM0ElMjIxMC4wLjE2Mjk5JTIyJTJDJTIyc3JjJTIyJTNBJTIycHJlbG9hZCUyMiUyQyUyMmFidCUyMiUzQTEzNiUyQyUyMmRtYSUyMiUzQSUyMkFTVVNUZUslMjBDT01QVVRFUiUyMElOQy4lMjIlMkMlMjJkYiUyMiUzQSUyMlVYJTIyJTJDJTIyZHAlMjIlM0ElMjIlMjIlMkMlMjJkbW92JTIyJTNBJTIyMS4wJTIyJTJDJTIyZG1vJTIyJTNBJTIyVVg0MzBVUSUyMiU3RCZjaWQ9MTZlZjUyM2EtZjVjNC00YjdmLWIwYWItOGE5ZjNjYjJkNmE3IiwibmF2aWdhdGlvbiI6dHJ1ZSwicmVzaXphYmxlIjp0cnVlfX1dLCJ0cmFja2luZ191cmwiOiJodHRwczovL2FwZS1hc3VzLmlzYXBwY2xvdWQuY29tL3RyYWNraW5nP3RrPWE2NWNkOTg4YzYwYzkzY2NkMDBiZWNjZDU0Yjc1MGY1YzA3MDQ0MWUyMjFjNTlmNDRiNWYxZTQzOWYwZDY5MWMmcmlkPTI1YWJiYTU2LTk3YjAtNDdhYy1hNmFmLWYwODM3ZjFkYjQ4NyZhaWQ9ZjEyMzEyMTYtN2QyNS00OWYxLTlmYWYtNWExNDkyY2ZiNmMzJmN1aWQ9YTUzNjhmMTYtNmQyYy0xMWU2LWE4YTktMGEwNmE1YzZlMmI5JmNpZD0xNmVmNTIzYS1mNWM0LTRiN2YtYjBhYi04YTlmM2NiMmQ2YTcifQ==","feedId":"02767947-4f28-4a26-b83a-398dc3b29cd0"}];
+ </script>
+
+<link rel="stylesheet" href="../css/mediaQueries.css">
+
+<div class="container home-page">
+    
+    <div class="homepage-carousel apps static">
+        <div class="coverflow">
+            
+            <div onclick="reportCarouselClick('425635f9-58f6-4148-80ba-bd49b623ef6f')"
+                 app-id="carousel_425635f9-58f6-4148-80ba-bd49b623ef6f"
+                 class="cover"
+                 title="FAST. SMART. YOURS. Firefox is the independent, people-first browser made with you in mind."
+                 style="background-image: url('https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1467530512/app/9ec4e99e-2b43-0b16-7e82-cf7b0d0509c8.png')"></div>
+            
+            <div onclick="reportCarouselClick('1a46653d-c853-4fa4-b20a-df52ac4f0616')"
+                 app-id="carousel_1a46653d-c853-4fa4-b20a-df52ac4f0616"
+                 class="cover"
+                 title="Soda PDF is a highly powerful and customizable PDF solution."
+                 style="background-image: url('https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1508917492/app/caba4fc9-942a-a956-c857-251151fb7443.jpg.jpg')"></div>
+            
+            <div onclick="reportCarouselClick('22ca9955-fd3d-420f-8b2e-b0cb3b84e301')"
+                 app-id="carousel_22ca9955-fd3d-420f-8b2e-b0cb3b84e301"
+                 class="cover"
+                 title="Easy-to-use, lightweight antivirus trusted by 400 million users around the world.
+Note that another antivirus may be installed on your device."
+                 style="background-image: url('https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1480848547/app/6bfc5965-8e5c-5939-8a16-053c8f0903ee.jpg')"></div>
+            
+            <div onclick="reportCarouselClick('f1231216-7d25-49f1-9faf-5a1492cfb6c3')"
+                 app-id="carousel_f1231216-7d25-49f1-9faf-5a1492cfb6c3"
+                 class="cover"
+                 title="you’re looking for hotels, homes, or vacation rentals, you’ll always find the guaranteed best price. Browse our 1,110,385 accommodations in over 85,000 destinations."
+                 style="background-image: url('https://cloudinary-res.isappcloud.com/image/upload/q_auto,f_auto/v1463473230/app/cae0a2d5-c85e-d01c-7fe4-16a634f103b9.jpg')"></div>
+            
+        </div>
+        <img id="prev" class="arrow" src="img/arrow.svg">
+        <img id="next" class="arrow" src="img/arrow.svg">
+    </div>
+    
+
+    <div class="apps main">
+        <div class="container index exclusives">
+            
+            <section>
+                <header>
+                    <h2>
+                        <a href="/exclusives">Exclusives</a>
+                    </h2>
+                    <a class="view-all" href="/exclusives">View All</a>
+                </header>
+
+                <div class="carousel large items">
+                    
+                    <div onclick="reportAppClick('exclusive','03e76a68-d2ed-4ada-9eba-12d134517a09')" class="app-block tween" app-id="03e76a68-d2ed-4ada-9eba-12d134517a09">
+                        <a title="Save 13% off with 12-month subscription!" href="/feed/25e4aa37-61cf-483e-bb1f-ed8c6f8e3332/app/03e76a68-d2ed-4ada-9eba-12d134517a09" class="app-info">
+                            <div class="ribbon-container"><span class="ribbon"><p class="text">exclusive</p></span></div>
+                            <div class="icon-cont">
+
+                                <span class="checked"></span>
+
+                                <div class="icon"></div>
+                            </div>
+                            <h3 class="app-name">Adobe Acrobat Pro DC</h3>
+
+                            <div class="small promo-text"></div>
+                        </a>
+
+                        <div class="actions"></div>
+                    </div>
+                    
+                    <div onclick="reportAppClick('exclusive','781dfb2f-b1ad-494e-9ebd-737887044e25')" class="app-block tween" app-id="781dfb2f-b1ad-494e-9ebd-737887044e25">
+                        <a title="Save 20% off with 12-month subscription!" href="/feed/25e4aa37-61cf-483e-bb1f-ed8c6f8e3332/app/781dfb2f-b1ad-494e-9ebd-737887044e25" class="app-info">
+                            <div class="ribbon-container"><span class="ribbon"><p class="text">exclusive</p></span></div>
+                            <div class="icon-cont">
+
+                                <span class="checked"></span>
+
+                                <div class="icon"></div>
+                            </div>
+                            <h3 class="app-name">Adobe Premiere Pro CC</h3>
+
+                            <div class="small promo-text"></div>
+                        </a>
+
+                        <div class="actions"></div>
+                    </div>
+                    
+                    <div onclick="reportAppClick('exclusive','98f4e82c-0835-4b22-a135-8d3e20684d6a')" class="app-block tween" app-id="98f4e82c-0835-4b22-a135-8d3e20684d6a">
+                        <a title="Dropbox is the place for your photos, docs, videos, and other files." href="/feed/25e4aa37-61cf-483e-bb1f-ed8c6f8e3332/app/98f4e82c-0835-4b22-a135-8d3e20684d6a" class="app-info">
+                            <div class="ribbon-container"><span class="ribbon"><p class="text">exclusive</p></span></div>
+                            <div class="icon-cont">
+
+                                <span class="checked"></span>
+
+                                <div class="icon"></div>
+                            </div>
+                            <h3 class="app-name">Dropbox</h3>
+
+                            <div class="small promo-text"></div>
+                        </a>
+
+                        <div class="actions"></div>
+                    </div>
+                    
+                    <div onclick="reportAppClick('exclusive','156317b9-b280-4cc7-a896-efa7cc637707')" class="app-block tween" app-id="156317b9-b280-4cc7-a896-efa7cc637707">
+                        <a title="Join Adobe now to have 15% off discount for ASUS users only." href="/feed/25e4aa37-61cf-483e-bb1f-ed8c6f8e3332/app/156317b9-b280-4cc7-a896-efa7cc637707" class="app-info">
+                            <div class="ribbon-container"><span class="ribbon"><p class="text">exclusive</p></span></div>
+                            <div class="icon-cont">
+
+                                <span class="checked"></span>
+
+                                <div class="icon"></div>
+                            </div>
+                            <h3 class="app-name">Adobe Creative Cloud</h3>
+
+                            <div class="small promo-text"></div>
+                        </a>
+
+                        <div class="actions"></div>
+                    </div>
+                    
+                    <div onclick="reportAppClick('exclusive','16169bae-78b6-4b42-9dd7-a85bc47d2e86')" class="app-block tween" app-id="16169bae-78b6-4b42-9dd7-a85bc47d2e86">
+                        <a title="Work anytime, anywhere, on any device!" href="/feed/25e4aa37-61cf-483e-bb1f-ed8c6f8e3332/app/16169bae-78b6-4b42-9dd7-a85bc47d2e86" class="app-info">
+                            <div class="ribbon-container"><span class="ribbon"><p class="text">exclusive</p></span></div>
+                            <div class="icon-cont">
+
+                                <span class="checked"></span>
+
+                                <div class="icon"></div>
+                            </div>
+                            <h3 class="app-name">Polaris Office</h3>
+
+                            <div class="small promo-text"></div>
+                        </a>
+
+                        <div class="actions"></div>
+                    </div>
+                    
+                    <div onclick="reportAppClick('exclusive','be0880bf-0111-4b17-86d3-eec145c9d50f')" class="app-block tween" app-id="be0880bf-0111-4b17-86d3-eec145c9d50f">
+                        <a title="With over 550M Windows Users worldwide, WPS Office is the world’s most popular Office Suite.
+Composed of Writer, Presentation and Spreadsheets, WPS Office is committed to providing easy-to-use and efficient office software." href="/feed/25e4aa37-61cf-483e-bb1f-ed8c6f8e3332/app/be0880bf-0111-4b17-86d3-eec145c9d50f" class="app-info">
+                            <div class="ribbon-container"><span class="ribbon"><p class="text">exclusive</p></span></div>
+                            <div class="icon-cont">
+
+                                <span class="checked"></span>
+
+                                <div class="icon"></div>
+                            </div>
+                            <h3 class="app-name">WPS Office for ASUS</h3>
+
+                            <div class="small promo-text"></div>
+                        </a>
+
+                        <div class="actions"></div>
+                    </div>
+                    
+                    <div onclick="reportAppClick('exclusive','51917e7b-cd16-4894-ab48-8617e3a757e1')" class="app-block tween" app-id="51917e7b-cd16-4894-ab48-8617e3a757e1">
+                        <a title="Easily replace or blur your webcam background." href="/feed/25e4aa37-61cf-483e-bb1f-ed8c6f8e3332/app/51917e7b-cd16-4894-ab48-8617e3a757e1" class="app-info">
+                            <div class="ribbon-container"><span class="ribbon"><p class="text">exclusive</p></span></div>
+                            <div class="icon-cont">
+
+                                <span class="checked"></span>
+
+                                <div class="icon"></div>
+                            </div>
+                            <h3 class="app-name">TriDef SmartCam</h3>
+
+                            <div class="small promo-text"></div>
+                        </a>
+
+                        <div class="actions"></div>
+                    </div>
+                    
+                    <div onclick="reportAppClick('exclusive','9f2494a4-a583-4c28-a63f-250b56853db4')" class="app-block tween" app-id="9f2494a4-a583-4c28-a63f-250b56853db4">
+                        <a title="Modifies every pixel, providing you with a brilliant display on your ASUS notebook PC." href="/feed/25e4aa37-61cf-483e-bb1f-ed8c6f8e3332/app/9f2494a4-a583-4c28-a63f-250b56853db4" class="app-info">
+                            <div class="ribbon-container"><span class="ribbon"><p class="text">exclusive</p></span></div>
+                            <div class="icon-cont">
+
+                                <span class="checked"></span>
+
+                                <div class="icon"></div>
+                            </div>
+                            <h3 class="app-name">ASUS Splendid Video Enhancement Technology</h3>
+
+                            <div class="small promo-text"></div>
+                        </a>
+
+                        <div class="actions"></div>
+                    </div>
+                    
+                    <div onclick="reportAppClick('exclusive','45f26dc5-f18e-4eb2-aa51-d4134b634102')" class="app-block tween" app-id="45f26dc5-f18e-4eb2-aa51-d4134b634102">
+                        <a title="Store all your data and share to everyone you want." href="/feed/25e4aa37-61cf-483e-bb1f-ed8c6f8e3332/app/45f26dc5-f18e-4eb2-aa51-d4134b634102" class="app-info">
+                            <div class="ribbon-container"><span class="ribbon"><p class="text">exclusive</p></span></div>
+                            <div class="icon-cont">
+
+                                <span class="checked"></span>
+
+                                <div class="icon"></div>
+                            </div>
+                            <h3 class="app-name">ASUS Webstorage</h3>
+
+                            <div class="small promo-text"></div>
+                        </a>
+
+                        <div class="actions"></div>
+                    </div>
+                    
+                </div>
+            </section>
+            
+        </div>
+        <div class="feeds container index "></div>
+        <img class="scroll-loader" src="/img/loader.gif"/>
+    </div>
+
+    <img class="page-loader" src="/img/loader.gif"/>
+
+</div>
+
+<script type="text/javascript" src="/js/explore.js"></script>
+
+<footer>
+    <span>© 2016-2017 ASUS GIFTBOX</span>
+
+    <nav>
+        <a onclick="
+            reportEvent('behavior','click','footer-privacy policy');
+            openWindow('pp', config.privacyPolicyLink);
+        ">Privacy Policy</a>
+
+        <a onclick="
+            reportEvent('behavior','click','footer-eula');
+            openWindow('tos', config.termsLink);
+        ">Terms of Service</a>
+
+        <a onclick="reportEvent('behavior','click','footer-settings')"
+           class="settingsLink"
+           href="/Settings">Settings</a>
+    </nav>
+</footer>
+</body>
+</html>

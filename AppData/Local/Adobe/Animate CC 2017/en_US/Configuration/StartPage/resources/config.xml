@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+<startpage version="2.0">
+	<layout>
+	<!-- list of the columns used -->
+		<column>
+			<!--can be one of recentitems, newitems or sampleitems-->
+			<recentitems max="10"/>
+			<sampleitems max="3"/>
+            <extenditems max="1"/>
+		</column>
+		<column>
+			<!--can be one of recentitems, newitems or sampleitems-->
+			<newitems max="13"/>
+		</column>
+		<column>
+			<!--can be one of recentitems, newitems or sampleitems-->
+			<introduction max="4"/>
+			<learn max="4" />
+		</column>
+	</layout>
+	
+	<strings>
+	<!-- list all strings used-->	
+		<!-- used for default content when no internet connection is detected -->
+		<productname>Flash</productname>
+		<nointernethead>Adobe® TV </nointernethead>
+		<nointernetmain>Tune in to your online source for expert tutorials, insight, and inspiration.</nointernetmain>
+
+		<!-- column 1: templates/extend -->
+		<createfromtemplates>Templates >></createfromtemplates>
+		<extend>Adobe Exchange >></extend>
+		
+		<!-- column 2: new/recent -->
+		<createnew>Create New</createnew>
+		<openrecentitem>Open Recent Item</openrecentitem>
+		<open>Open...</open>
+		<more>More...</more>
+		<customDocTypes>Custom</customDocTypes>
+		<!-- column 3: learn -->
+		<learn>Learn</learn>
+		
+		<!-- column 3: Introduction : new in v13 -->
+		<introduction>Introduction</introduction>
+		
+		<!-- don't show again checkbox at the bottom-->
+		<dontshowagain>Don't show again</dontshowagain>
+		<checkboxalert>To show Welcome Screen again, use Reset All Warning Dialogs setting in General category of Preferences dialog.</checkboxalert>
+		
+		<!-- these are live urls on the screen-->
+		<exchange>Adobe Exchange »</exchange>
+		<quicktour>Getting Started »</quicktour>
+		<tutorial>New Features »</tutorial>
+		<training>Developers »</training>
+		<training2>Designers »</training2>
+		<introduction0>Getting Started »</introduction0>
+		<introduction1>New Features »</introduction1>
+		<introduction2>Developers »</introduction2>
+		<introduction3>Designers »</introduction3>
+		<learn0>Flash Developer Center »</learn0>
+		<learn1>ActionScript Technology Center »</learn1>
+		<learn2>CreateJS Developer Center »</learn2>
+		<learn3>Game Development »</learn3>
+		
+		<!-- used for issuing MMExecute JS commands -->
+		<appobject>fl</appobject>
+		
+		<!-- list of localizable weblinks -->
+		<urlexchange>http://www.adobe.com/go/flash_exchange</urlexchange>
+		<urlquicktour>http://www.adobe.com/go/flashgettingstarted_en/</urlquicktour>
+		<urltutorial>http://www.adobe.com/go/flashnewfeatures_en/</urltutorial>
+		<urltraining>http://www.adobe.com/go/flash_training_en/</urltraining>
+		<urltraining2>http://www.adobe.com/go/flash_training2_en/</urltraining2>
+		<urlshim>https://www.adobe.com/startpage/flashPro.swf</urlshim>
+		<urllearn0>http://www.adobe.com/go/learn_flash_devnet_en</urllearn0>
+		<urllearn1>http://www.adobe.com/go/learn_actionScript_devnet_en</urllearn1>
+		<urllearn2>http://www.adobe.com/go/learn_createjs_devnet_en</urllearn2>
+		<urllearn3>http://www.adobe.com/go/learn_games_devnet_en</urllearn3>
+		<localshim>resources/defaultdynswf.swf</localshim>
+	</strings>
+	
+	<resources>
+		<!-- list of image resources -->
+        <folder_location>resources/images</folder_location>
+        <images>
+            <banner>
+                <dark>
+                    <lo>banner_dark.png</lo>
+                    <hi>banner_dark_x2.png</hi>
+                </dark>
+                <light>
+                    <lo>banner_light.png</lo>
+                    <hi>banner_light_x2.png</hi>
+                </light>
+            </banner>
+			<iconappxl>
+				<dark>
+					<lo>adobeTV.png</lo>
+					<hi>adobeTV_x2.png</hi>
+				</dark>
+				<light>
+					<lo>adobeTV.png</lo>
+					<hi>adobeTV_x2.png</hi>
+				</light>
+			</iconappxl>
+			<vsepline>
+				<dark>
+					<lo>sep_v_dark.png</lo>
+					<hi>sep_v_dark_x2.png</hi>
+				</dark>
+				<light>
+					<lo>sep_v_light.png</lo>
+					<hi>sep_v_light_x2.png</hi>
+				</light>			
+			</vsepline>
+			<hsepline>
+				<dark>
+					<lo>sep_h_dark.png</lo>
+					<hi>sep_h_dark_x2.png</hi>
+				</dark>
+				<light>
+					<lo>sep_h_light.png</lo>
+					<hi>sep_h_light_x2.png</hi>
+				</light>			
+			</hsepline>
+			<iconintro>
+				<dark>
+					<lo>SP_Info_Md_N_D.png</lo>
+					<hi>SP_x2_Info_Md_N_D.png</hi>
+				</dark>
+				<light>
+					<lo>SP_Info_Md_N.png</lo>
+					<hi>SP_x2_Info_Md_N.png</hi>
+				</light>			
+			</iconintro>
+			<iconlearn>
+				<dark>
+					<lo>SP_Info_Md_N_D.png</lo>
+					<hi>SP_x2_Info_Md_N_D.png</hi>
+				</dark>
+				<light>
+					<lo>SP_Info_Md_N.png</lo>
+					<hi>SP_x2_Info_Md_N.png</hi>
+				</light>			
+			</iconlearn>
+			<iconmru>
+				<dark>
+					<lo>SP_FolderOpen_Md_N_D.png</lo>
+					<hi>SP_x2_FolderOpen_Md_N_D.png</hi>
+				</dark>
+				<light>
+					<lo>SP_FolderOpen_Md_N.png</lo>
+					<hi>SP_x2_FolderOpen_Md_N.png</hi>
+				</light>			
+			</iconmru>
+			<iconcreatenew>
+				<dark>
+					<lo>SP_FlaDocBranded_Md_N_D.png</lo>
+					<hi>SP_x2_FlaDocBranded_Md_N_D.png</hi>
+				</dark>
+				<light>
+					<lo>SP_FlaDocBranded_Md_N.png</lo>
+					<hi>SP_x2_FlaDocBranded_Md_N.png</hi>
+				</light>			
+			</iconcreatenew>
+			<iconsample>
+				<dark>
+					<lo>SP_Document_Md_N_D.png</lo>
+					<hi>SP_x2_Document_Md_N_D.png</hi>
+				</dark>
+				<light>
+					<lo>SP_Document_Md_N.png</lo>
+					<hi>SP_x2_Document_Md_N.png</hi>
+				</light>			
+			</iconsample>
+			<iconext>
+				<dark>
+					<lo>SP_AdobeExchange_Md_N_D.png</lo>
+					<hi>SP_x2_AdobeExchange_Md_N_D.png</hi>
+				</dark>
+				<light>
+					<lo>SP_AdobeExchange_Md_N.png</lo>
+					<hi>SP_x2_AdobeExchange_Md_N.png</hi>
+				</light>
+			</iconext>
+			<checkbox_off>
+				<dark>
+					<lo>checkOff_up_dark.png</lo>
+					<hi>checkOff_up_dark_x2.png</hi>
+				</dark>
+				<light>
+					<lo>checkOff_up_light.png</lo>
+					<hi>checkOff_up_light_x2.png</hi>
+				</light>
+			</checkbox_off>
+			<checkbox_on>
+				<dark>
+					<lo>checkOn_up_dark.png</lo>
+					<hi>checkOn_up_dark_x2.png</hi>
+				</dark>
+				<light>
+					<lo>checkOn_up_light.png</lo>
+					<hi>checkOn_up_light_x2.png</hi>
+				</light>
+			</checkbox_on>
+        </images>
+	</resources>
+	
+	<filetypes>
+		<!-- links extensions to images and names-->
+			<!-- fticon maps to a resource in the image resources list above-->
+		<type>
+			<ftextension>fla</ftextension>
+			<fticon>icondoc</fticon>
+		</type>
+		<type>
+			<ftextension>fla</ftextension>
+			<fticon>icondoc</fticon>
+		</type>
+		<type>
+			<ftextension>fla</ftextension>
+			<fticon>icondoc</fticon>
+		</type>
+		<type>
+			<ftextension>as</ftextension>
+			<fticon>iconnewas</fticon>
+		</type>
+		<type>
+			<ftextension>asc</ftextension>
+			<fticon>iconnewas</fticon>
+		</type>
+		<type>
+			<ftextension>jsfl</ftextension>
+			<fticon>iconnewjsfl</fticon>
+		</type>
+		<type>
+			<ftextension>flp</ftextension>
+			<fticon>iconnewflp</fticon>
+		</type>
+	</filetypes>
+	
+	<dimensions>
+		<dialog>
+			<w>650</w><h>514</h>
+		</dialog>
+		<icon>
+			<w>16</w><h>16</h>
+		</icon>
+		<prodicon>
+			<w>48</w><h>48</h>
+		</prodicon>
+		<header>
+			<w>650</w><h>104</h>
+		</header>
+		<footer>
+			<w>650</w><h>27</h>
+		</footer>
+		<listarea>
+			<w>412</w><h>271</h>
+		</listarea>
+		<linksarea>
+			<w>232</w><h>112</h>
+		</linksarea>
+		<itemline>
+			<w>180</w><h>22</h>
+		</itemline>
+		<headline>
+			<w>180</w><h>27</h>
+		</headline>
+		<paddingoverall>
+			<w>20</w><h>20</h>
+		</paddingoverall>
+		<indentitemline>
+			<w>20</w><h>0</h>
+		</indentitemline>
+		<vdivider>
+			<w>412</w><h>385</h>
+		</vdivider>
+		<dontshowpadding>
+			<w>-6</w><h>0</h>
+		</dontshowpadding>
+		<doctypepadding>
+			<w>60</w><h>14</h>
+		</doctypepadding>
+	</dimensions>
+	
+	<colors>
+		<cbackground>
+			<dark>4D4D4D</dark>
+			<light>BEBEBE</light>
+		</cbackground>
+		<clinksarea>
+			<dark>4D4D4D</dark>
+			<light>BEBEBE</light>
+		</clinksarea>
+		<cfooter>
+			<dark>4D4D4D</dark>
+			<light>BEBEBE</light>
+		</cfooter>
+	</colors>
+	
+	<fonts>
+		<headline>
+			<name>
+				<win>Arial</win>
+				<mac>Lucida Grande</mac>
+			</name>
+			<size>13</size>
+			<bold>true</bold>
+			<italic>false</italic>
+			<color>
+				<dark>FFFFFF</dark> 
+				<light>262626</light> 
+			</color>
+		</headline>
+		<itemline>
+			<name>
+				<win>Arial</win>
+				<mac>Lucida Grande</mac>
+			</name>
+			<size>11</size>
+			<bold>false</bold>
+			<italic>false</italic>
+			<color>
+				<dark>B8B8B8</dark>
+				<light>2D2D2D</light>
+			</color>
+		</itemline>
+		<itemlineemph>
+			<name>
+				<win>Arial</win>
+				<mac>Lucida Grande</mac>
+			</name>
+			<size>11</size>
+			<bold>true</bold>
+			<italic>false</italic>
+			<color>
+				<dark>B8B8B8</dark>
+				<light>2D2D2D</light>
+			</color>
+		</itemlineemph>
+		<itemlineitalic>
+			<name>
+				<win>Arial</win>
+				<mac>Arial</mac>
+			</name>
+			<size>11</size>
+			<bold>false</bold>
+			<italic>true</italic>
+			<color>
+				<dark>B8B8B8</dark>
+				<light>2D2D2D</light>
+			</color>
+		</itemlineitalic>
+	</fonts>
+</startpage>

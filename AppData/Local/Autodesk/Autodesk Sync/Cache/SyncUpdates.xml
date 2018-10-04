@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SyncUpdates>
+    <!-- Posted on: 9-Sep-2014 -->
+    <!--
+        5.0 Live update 2 Build 3 (5.2.3.1000)
+        Full Build : \\H***N\BRE_AIRMax\Builds\A360Rel5.2\A360Rel5.2_0828_WIN (5.2.3.1000 at 464091)
+        Minimum Target Build: SLU4_0305_WIN (4.8.5.800, CL448103)
+    -->
+    <SyncUpdate Version="5.2.3.1000"
+                MinTargetVersion="4.8.5.800"
+                MaxTargetVersion="4.100.0.800"
+                MinTargetOSVersion="6.1"
+                MaxTargetOSVersion=""
+                InstallerType="MSI"
+                InstallerCommandLine=""
+                AboutUrl=""
+                VisibleAfter="2014-09-09T00:00:00Z">
+        <InstallerWin32>
+            <File Url="https://s3.amazonaws.com/com.autodesk.sync.public.production/sync/liveupdate/install/5.2.3/x86/AdSync.msi"/>
+            <File Url="https://s3.amazonaws.com/com.autodesk.sync.public.production/sync/liveupdate/install/5.2.3/x86/data1.cab"/>
+        </InstallerWin32>
+        <InstallerWin64>
+            <File Url="https://s3.amazonaws.com/com.autodesk.sync.public.production/sync/liveupdate/install/5.2.3/x64/AdSync.msi"/>
+            <File Url="https://s3.amazonaws.com/com.autodesk.sync.public.production/sync/liveupdate/install/5.2.3/x64/data1.cab"/>
+        </InstallerWin64>
+        <Message><![CDATA[Autodesk 360 version 5.2.3.1000 has been downloaded and is ready to install. <br/><br/><a href=AdSync.InstallUpdate>Install now</a>]]></Message>
+    </SyncUpdate>
+
+    <!-- Posted on: 1-Mar-2017 -->
+    <!--
+        7.x Live update 1 Build 3 (7.3.6.1809)
+        Full Build : \\B****t\eng**s_builds\A360_Sync\A360_2017\A360_2017-1010-0284-WIN (7.3.6.1809 at 464091)
+        Minimum Target Build: A360_2017\A360_2017-0202-0154-WIN (7.2.3.1800, CL510478)
+    -->
+    <SyncUpdate Version="7.3.6.1809"
+                MinTargetVersion="7.2.3.1800"
+                MaxTargetVersion="7.2.3.1800"
+                MinTargetOSVersion="6.1"
+                MaxTargetOSVersion=""
+                InstallerType="MSP"
+                InstallerCommandLine=""
+                AboutUrl=""
+                VisibleAfter="2017-03-01T00:00:00Z">
+        <InstallerWin32>
+            <File Url="https://s3.amazonaws.com/com.autodesk.sync.public.production/sync/liveupdate/install/7.3.6.1809/x86/Autodesk360_x86_Release.msp"/>
+        </InstallerWin32>
+        <InstallerWin64>
+            <File Url="https://s3.amazonaws.com/com.autodesk.sync.public.production/sync/liveupdate/install/7.3.6.1809/x64/Autodesk360_x64_Release.msp"/>
+        </InstallerWin64>
+        <Message><![CDATA[A360 Desktop version 7.3.6.1809 has been downloaded and is ready to install. <br/><br/><a href=AdSync.InstallUpdate>Install now</a>]]></Message>
+    </SyncUpdate>
+</SyncUpdates>

@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Updates CSUVersion="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CSUTracker.xsd">
+<UpdateRef Combo="0" PreviewPatch="0" ReFetch="0" RefID="AdobeExportAssets264bit-2.0/2.4" Viewed="0" WaitingForProductEvent="0">
+<RecommendationList>
+<Recommendation>
+<ChannelID>AdobeExportAssets264bit-2.0</ChannelID>
+</Recommendation>
+<Recommendation>
+<ChannelID>AdobePhotoshopCC2015-16.0</ChannelID>
+<LEID>V7{}Photoshop-16-Win-GM</LEID>
+</Recommendation>
+</RecommendationList>
+<TargetBuildType>2</TargetBuildType>
+<TargetLicensingType>0</TargetLicensingType>
+<State>0</State>
+<Error>0</Error>
+<DisplayName default="en_US">
+<en_US>Export Options</en_US>
+<de_DE>Export Options</de_DE>
+<fr_FR>Export Options</fr_FR>
+<it_IT>Export Options</it_IT>
+<ja_JP>Export Options</ja_JP>
+<es_ES>Export Options</es_ES>
+<sv_SE>Export Options</sv_SE>
+<zh_CN>Export Options</zh_CN>
+<zh_TW>Export Options</zh_TW>
+<nl_NL>Export Options</nl_NL>
+<ko_KR>Export Options</ko_KR>
+<nb_NO>Export Options</nb_NO>
+<da_DK>Export Options</da_DK>
+<fi_FI>Export Options</fi_FI>
+<pl_PL>Export Options</pl_PL>
+<cs_CZ>Export Options</cs_CZ>
+<hu_HU>Export Options</hu_HU>
+<ru_RU>Export Options</ru_RU>
+<pt_BR>Export Options</pt_BR>
+<uk_UA>Export Options</uk_UA>
+<tr_TR>Export Options</tr_TR>
+</DisplayName>
+<Description default="en_US">
+<en_US>Improved functionality includes multi-size export, converting to sRGB, adding metadata, new PNG options and up to 3x faster performance.</en_US>
+<de_DE>Zur verbesserten Funktionalität zählen das Exportieren in mehreren Größen, die Konvertierung in sRGB, das Hinzufügen von Metadaten, neue PNG-Optionen und eine bis zu dreimal höhere Leistung.</de_DE>
+<fr_FR>Fonctionnalités améliorées : exportation dans différents formats, conversion en sRVB, ajout de métadonnées, nouvelles options PNG et performances jusqu&apos;à 3 fois plus rapides.</fr_FR>
+<it_IT>Questa funzionalità migliorata include esportazione di più dimensioni, conversione a sRGB, aggiunta di metadati, nuove opzioni PNG e prestazioni tre volte più veloci.</it_IT>
+<ja_JP>改善した機能には、複数サイズの書き出し、sRGB への変換、メタデータの追加、新しい PNG オプション、最大 3 倍のパフォーマンス高速化などがあります。</ja_JP>
+<es_ES>Hemos mejorado la funcionalidad para incluir una opción de exportación a varios tamaños, conversión a sRGB, adición de metadatos, nuevas opciones de PNG y un rendimiento hasta 3 veces más rápido.</es_ES>
+<sv_SE>De förbättrade funktionerna är bland annat funktioner för att exportera med flera storlekar, konvertera till sRGB och lägga till metadata. Dessutom finns det nya PNG-alternativ och prestanda har förbättrats med upp till 3 gånger.</sv_SE>
+<zh_CN>改进的功能，包括多尺寸导出、转换为 sRGB、添加元数据、新的 PNG 选项以及提升高达 3 倍的性能。</zh_CN>
+<zh_TW>改進功能包括：多尺寸轉存、轉換為 sRGB、新增中繼資料、全新 PNG 選項，以及速度快上 3 倍的效能。</zh_TW>
+<nl_NL>Verbeterde functionaliteit, inclusief exporteren in meerdere formaten, omzetten naar sRGB, metagegevens toevoegen, nieuwe PNG-opties en tot 3x snellere prestaties.</nl_NL>
+<ko_KR>여러 크기로 내보내기, sRGB로 변환, 메타데이터 추가, 새 PNG 옵션과 같은 기능이 개선되었으며 속도가 최대 3배 빨라졌습니다.</ko_KR>
+<nb_NO>Den forbedrede funksjonaliteten gjør at du kan eksportere i flere størrelser, konvertere til sRGB, legge til metadata, bruke nye PNG-alternativer og få opptil tre ganger raskere ytelse.</nb_NO>
+<da_DK>Forbedret funktionalitet omfatter eksport i flere størrelser, konvertering til sRGB, tilføjelse af metadata, nye PNG-indstillinger og op til 3x hurtigere ydeevne.</da_DK>
+<fi_FI>Parannettuja toimintoja ovat esimerkiksi vienti useassa koossa, sRGB-muunto, metatietojen lisäys, uudet PNG-asetukset ja jopa kolme kertaa parempi suorituskyky.</fi_FI>
+<pl_PL>Ulepszona funkcjonalność zawiera opcję eksportowania plików wielowymiarowych, opcję konwertowania do formatu sRGB, opcję dodawania metadanych i nowe opcje PNG. Nawet 3-krotnie przyspiesza wydajność.</pl_PL>
+<cs_CZ>Mezi vylepšené funkce patří export více velikostí, převod do prostoru sRGB, přidání metadat, nové předvolby formátu PNG a až třikrát vyšší výkon.</cs_CZ>
+<hu_HU>Továbbfejlesztett funkciók: exportálás többféle méretben, konvertálás sRGB formátumba, metaadatok hozzáadása, új PNG opciók és akár 3-szor gyorsabb működés.</hu_HU>
+<ru_RU>Улучшены функциональные возможности, включая экспорт файлов разных размеров, преобразование в sRGB, добавление метаданных, новые параметры для формата PNG и повышение производительности до 3 раз.</ru_RU>
+<pt_BR>A funcionalidade aprimorada inclui exportação para vários formatos, conversão para sRGB, adição de metadados, novas opções de PNG e desempenho até 3x mais rápido.</pt_BR>
+<uk_UA>Серед нових удосконалень варто зазначити експортування файлів різних розмірів, перетворення на sRGB, додавання метаданих, нові можливості PNG та втричі більшу продуктивність.</uk_UA>
+<tr_TR>Geliştirilmiş işlevler arasında farklı boyutlarda dışa aktarma, sRGB’ye dönüştürme, meta veri ekleme, yeni PNG seçenekleri ve 3 kata kadar daha hızlı performans yer alıyor.</tr_TR>
+</Description>
+<AffectedChannels>
+<ChannelID>AdobePhotoshopCC2015-16.0</ChannelID>
+</AffectedChannels>
+<InstallFiles>
+<File RIBSBased="1">
+<Name>setup.zip</Name>
+<Type>1</Type>
+<ExecutableName>AdobePatchInstaller.exe</ExecutableName>
+<Size>1750697</Size>
+<SignatureType>1</SignatureType>
+<Signature>DLaRcbyWG9vobqCMzNySJO+XHpV2XVLmDj3xoxYdCKx3sGEXV8kwog486YrEYgREnwNAGk0e86xJhEa6fsg/0FC4Kx2NIKApsm78GqUbBvjLuOFpwRFRr+OmSXutpQFne2uDxgrnnFdzwCOeeHCD3aQEKZvwxPoMNNvN5iF2czIvaCyW11hyodOhs7bPmcbDdp8rcxlwEOFunva9vDf80Bb7UMD6KG85eyja/DkvZnCAB+BwJNZRnNlrzjENvzR/tN+Yc5ay/jYWtpDJ/PJsRXeb5fbusDimRRo4UOAbx4xz4qs05Sqcrdi6LzFIBszgYbRets8tRyMe61gu/GLilaUKmp+8dIV8PSGal4deuHiVaRsK6u2NGA+uNWN/D6P6YCxMw8lYCSvdBV11u2lStXuJTouXaX4JLxLpXGLm4ojQGwpzF2T+fhYZU2P6W4xzvUjURxMuoaDSdLEnuUKeIvN01DPDnwtHToIsQHVzcti58s8gu5tYNMMl00DuADek</Signature>
+<State>0</State>
+<Error>0</Error>
+</File>
+</InstallFiles>
+<NeedsReboot>0</NeedsReboot>
+</UpdateRef>
+<UpdateRef Combo="0" PreviewPatch="0" ReFetch="0" RefID="AdobePreviewCC-1.0.0/1.1.3" Viewed="0" WaitingForProductEvent="0">
+<RecommendationList>
+<Recommendation>
+<ChannelID>AdobePreviewCC-1.0.0</ChannelID>
+</Recommendation>
+<Recommendation>
+<ChannelID>AdobePhotoshopCC2015-16.0</ChannelID>
+<LEID>V7{}Photoshop-16-Win-GM</LEID>
+</Recommendation>
+</RecommendationList>
+<TargetBuildType>2</TargetBuildType>
+<TargetLicensingType>0</TargetLicensingType>
+<State>0</State>
+<Error>0</Error>
+<DisplayName default="en_US">
+<en_US>Adobe Preview CC</en_US>
+<de_DE>Adobe Preview CC</de_DE>
+<fr_FR>Adobe Preview CC</fr_FR>
+<it_IT>Adobe Preview CC</it_IT>
+<ja_JP>Adobe Preview CC</ja_JP>
+<es_ES>Adobe Preview CC</es_ES>
+<sv_SE>Adobe Preview CC</sv_SE>
+<zh_CN>Adobe Preview CC</zh_CN>
+<zh_TW>Adobe Preview CC</zh_TW>
+<nl_NL>Adobe Preview CC</nl_NL>
+<ko_KR>Adobe Preview CC</ko_KR>
+<nb_NO>Adobe Preview CC</nb_NO>
+<da_DK>Adobe Preview CC</da_DK>
+<fi_FI>Adobe Preview CC</fi_FI>
+<pl_PL>Adobe Preview CC</pl_PL>
+<cs_CZ>Adobe Preview CC</cs_CZ>
+<hu_HU>Adobe Preview CC</hu_HU>
+<ru_RU>Adobe Preview CC</ru_RU>
+<pt_BR>Adobe Preview CC</pt_BR>
+<uk_UA>Adobe Preview CC</uk_UA>
+<tr_TR>Adobe Preview CC</tr_TR>
+</DisplayName>
+<Description default="en_US">
+<en_US>New option to manually check for Wi-Fi devices. Fixed issues with Wi-Fi connections, preview image updating, and color accuracy.</en_US>
+<fr_FR>Nouvelle option permettant de rechercher manuellement les appareils Wi-Fi. Correction de problèmes de connexion Wi-Fi, de mise à jour de l&apos;image d&apos;aperçu et de précision des couleurs.</fr_FR>
+<de_DE>Neue Option für die manuelle Suche nach WLAN-Geräten. Fehlerbehebungen für WLAN-Verbindungen, die Aktualisierung von Vorschaubildern und die Farbgenauigkeit.</de_DE>
+<it_IT>Nuova opzione per cercare manualmente dispositivi Wi-Fi. Correzione dei problemi relativi alle connessioni Wi-Fi, all&apos;aggiornamento dell&apos;immagine di anteprima e alla precisione cromatica.</it_IT>
+<ja_JP>Wi-Fi デバイスを手動で確認する機能を追加し、Wi-Fi 接続、プレビュー画像の更新、およびカラーの正確さに関する問題を修正しました。</ja_JP>
+<es_ES>Nueva opción para comprobar manualmente si hay dispositivos Wi-Fi. Se han corregido problemas relacionados con las conexiones Wi-Fi, la actualización de imágenes de previsualización y la precisión de los colores.</es_ES>
+<sv_SE>Nytt alternativ som du kan använda till att söka efter Wi-Fi-enheter manuellt. Problem med Wi-Fi-anslutningar, uppdatering av förhandsvisningsbilder och färgåtergivning har åtgärdats.</sv_SE>
+<zh_CN>用于手动检查 Wi-Fi 设备的新选项。修复了 Wi-Fi 连接、预览图像更新和颜色精准度的问题。</zh_CN>
+<zh_TW>提供手動檢查無線網路裝置的新功能。已修正無線網路連線、預覽圖片更新和色彩的正確性。</zh_TW>
+<nl_NL>Nieuwe optie om handmatig te controleren op wifi-apparaten. Problemen verholpen met wifi-verbindingen, het bijwerken van voorvertoningen van afbeeldingen, en kleurprecisie.</nl_NL>
+<cs_CZ>Nová volba pro ruční kontrolu přítomnosti Wi-Fi zařízení. Opraveny chyby připojení Wi-Fi, aktualizace obrazů náhledu a přesnosti barev.</cs_CZ>
+<nb_NO>Nytt alternativ for å søke etter Wi-Fi-enheter manuelt. Løsning av problemer med Wi-Fi-tilkobling, oppdatering av forhåndsvisningsbilde og fargenøyaktighet.</nb_NO>
+<da_DK>Ny indstilling til manuel søgning efter Wi-Fi-enheder. Har løst problemer med Wi-Fi-forbindelser, opdatering af eksempelbillede og farvenøjagtighed.</da_DK>
+<fi_FI>Uusi mahdollisuus tarkistaa Wi-Fi-laitteet manuaalisesti. Korjattu Wi-Fi-yhteyksien, esikatselukuvan päivityksen ja värien tarkkuuden ongelmia.</fi_FI>
+<pl_PL>Wprowadzono nową opcję umożliwiającą ręczne sprawdzenie dostępności urządzeń Wi-Fi. Naprawiono problem z połączeniem Wi-Fi, aktualizacją podglądu obrazu i zachowaniem wierności kolorów.</pl_PL>
+<ko_KR>Wi-Fi 기기를 수동으로 확인하는 신규 옵션. Wi-Fi 연결 관련 문제 수정, 이미지 미리보기 업데이트, 색 정확도.</ko_KR>
+<hu_HU>Új opció a Wi-Fi-s eszközök kézi keresésére. Hibajavítások a Wi-Fi-kapcsolatokkal, az előnézeti kép frissítésével és a színpontossággal kapcsolatban.</hu_HU>
+<ru_RU>Новый параметр для проверки наличия устройств Wi-Fi вручную. Исправлены проблемы, связанные с соединениями Wi-Fi, обновлением изображений предпросмотра и точностью передачи цвета.</ru_RU>
+<pt_BR>Nova opção para procurar manualmente por dispositivos Wi-Fi. Corrigidos problemas com as conexões Wi-Fi , atualização da visualização de imagem e precisão de cores.</pt_BR>
+<uk_UA>Доступна нова функція перевірки вручну на наявність пристроїв із Wi-Fi. Виправлено помилки, пов’язані з підключенням до Wi-Fi, оновлені зображення для попереднього перегляду, а також збільшено точність передачі кольору.</uk_UA>
+<tr_TR>Wi-Fi aygıtlarını manuel olarak kontrol etmek için yeni seçenek. Wi-Fi bağlantıları, önizleme görüntüsü güncelleme ve renk doğruluğuna ilişkin sorunlar giderilmiştir.</tr_TR>
+</Description>
+<AffectedChannels>
+<ChannelID>AdobePhotoshopCC2015-16.0</ChannelID>
+</AffectedChannels>
+<InstallFiles>
+<File RIBSBased="1">
+<Name>setup.zip</Name>
+<Type>1</Type>
+<ExecutableName>Setup/AdobePatchInstaller.exe</ExecutableName>
+<Size>8890266</Size>
+<SignatureType>1</SignatureType>
+<Signature>NKNQ/FX00IJULP7NNTmGNd4BG3h7kzXxFEe7rhTi2xxNHNOdPrIRfNx0XfhO1mCVucEtC/WR/reKgrq0c0XXj0LkL3khEgMgmdxt0bLAatdJqDmZQN6VDC74J094073fz9Fgh8x+N4IJw7Z0ohv37f4a3I7yQcfMcIKLZTI1q5/rv/FmZEvARYo0upoWsA/zCzwQb3wXwMcWRuGs/XdP/VIhmT+YVclNoj9raPNVTOP/YkFOtN2V+uSDDTjj/ipMoriJ6xPMfkc8/wN+diTGceFjKmvKcBuue8RpQfol9T1DqIJPH20ewGC1SN7hwFRDsfrPbDfsZ0MgZGD0QqjF4aYw5lDtzyL9Lceq9Tk7YNjuNg/zpVSJyE136ZSX8w/2+CIXK2YHK8BN3rdKrr1seb4jrHo9ljwHSJbGKjGYBFbEwomt8V3i8Mj+kwuhLL2sPeadqSbTfAUcugSVWcudkkbDhUukdm9RdrOn5mKK/tBCqpJ/quP2xsN//wAVHPMi</Signature>
+<State>0</State>
+<Error>0</Error>
+</File>
+</InstallFiles>
+<NeedsReboot>0</NeedsReboot>
+</UpdateRef>
+<UpdateRef Combo="1" PreviewPatch="0" ReFetch="0" RefID="AdobePhotoshopCC2015-16.0/16.1.2" Viewed="0" WaitingForProductEvent="0">
+<RecommendationList>
+<Recommendation>
+<ChannelID>AdobePhotoshopCC2015-16.0</ChannelID>
+<UpdateID>16.1.2</UpdateID>
+<OwningID>AdobePhotoshopCC2015EnglishLanguagePack-16.0</OwningID>
+<LEID>V7{}Photoshop-16-Win-GM</LEID>
+</Recommendation>
+<Recommendation>
+<ChannelID>AdobePhotoshopCC2015-16.0</ChannelID>
+<LEID>V7{}Photoshop-16-Win-GM</LEID>
+<UpdateID>16.1.2</UpdateID>
+<OwningID>AdobePhotoshopCC2015-16.0</OwningID>
+</Recommendation>
+</RecommendationList>
+<TargetBuildType>2</TargetBuildType>
+<TargetLicensingType>1</TargetLicensingType>
+<State>0</State>
+<Error>0</Error>
+<DisplayName default="en_US">
+<en_US>Adobe Photoshop 2015.1.2</en_US>
+<en_GB>Adobe Photoshop 2015.1.2</en_GB>
+<cs_CZ>Adobe Photoshop 2015.1.2</cs_CZ>
+<da_DK>Adobe Photoshop 2015.1.2</da_DK>
+<de_DE>Adobe Photoshop 2015.1.2</de_DE>
+<es_ES>Adobe Photoshop 2015.1.2</es_ES>
+<es_MX>Adobe Photoshop 2015.1.2</es_MX>
+<fi_FI>Adobe Photoshop 2015.1.2</fi_FI>
+<fr_FR>Adobe Photoshop 2015.1.2</fr_FR>
+<fr_CA>Adobe Photoshop 2015.1.2</fr_CA>
+<fr_MA>Adobe Photoshop 2015.1.2</fr_MA>
+<hu_HU>Adobe Photoshop 2015.1.2</hu_HU>
+<it_IT>Adobe Photoshop 2015.1.2</it_IT>
+<ja_JP>Adobe Photoshop 2015.1.2</ja_JP>
+<ko_KR>Adobe Photoshop 2015.1.2</ko_KR>
+<nb_NO>Adobe Photoshop 2015.1.2</nb_NO>
+<nl_NL>Adobe Photoshop 2015.1.2</nl_NL>
+<pl_PL>Adobe Photoshop 2015.1.2</pl_PL>
+<pt_BR>Adobe Photoshop 2015.1.2</pt_BR>
+<ru_RU>Adobe Photoshop 2015.1.2</ru_RU>
+<sv_SE>Adobe Photoshop 2015.1.2</sv_SE>
+<tr_TR>Adobe Photoshop 2015.1.2</tr_TR>
+<uk_UA>Adobe Photoshop 2015.1.2</uk_UA>
+<zh_CN>Adobe Photoshop 2015.1.2</zh_CN>
+<zh_TW>Adobe Photoshop 2015.1.2</zh_TW>
+<en_AE>Adobe Photoshop 2015.1.2</en_AE>
+<en_IL>Adobe Photoshop 2015.1.2</en_IL>
+</DisplayName>
+<Description default="en_US">
+<en_US>This update addresses a number of issues discovered after the previous Adobe Photoshop CC update was released.</en_US>
+<en_GB>This update addresses a number of issues discovered after the previous Adobe Photoshop CC update was released.</en_GB>
+<cs_CZ>Tato aktualizace řeší několik problémů, které byly objeveny po vydání předchozí aktualizace aplikace Adobe Photoshop CC.</cs_CZ>
+<da_DK>Denne opdatering løser en række problemer, der er blevet fundet, efter at den forrige Adobe Photoshop CC-opdatering blev udgivet</da_DK>
+<de_DE>Diese Aktualisierung behebt eine Reihe von Problemen, die nach der Veröffentlichung der vorhergehenden Aktualisierung von Adobe Photoshop CC entdeckt wurden.</de_DE>
+<es_ES>En esta actualización se han corregido diversos problemas detectados en la actualización anterior de Adobe Photoshop CC.</es_ES>
+<es_MX>En esta actualización se han corregido diversos problemas detectados en la actualización anterior de Adobe Photoshop CC.</es_MX>
+<fi_FI>Tämä päivitys korjaa useita edellisen Adobe Photoshop CC -päivityksen jälkeen löytyneitä ongelmia.</fi_FI>
+<fr_FR>Cette mise à jour corrige un certain nombre de problèmes détectés après la publication de la dernière mise à jour Adobe Photoshop CC.</fr_FR>
+<fr_CA>Cette mise à jour corrige un certain nombre de problèmes détectés après la publication de la dernière mise à jour Adobe Photoshop CC.</fr_CA>
+<fr_MA>Cette mise à jour corrige un certain nombre de problèmes détectés après la publication de la dernière mise à jour Adobe Photoshop CC.</fr_MA>
+<en_IL>This update addresses a number of issues discovered after the previous Adobe Photoshop CC update was released.</en_IL>
+<hu_HU>Ez a frissítés számos olyan hibát javít, amelyeket az előző Adobe Photoshop CC frissítés kiadása után fedeztünk fel.</hu_HU>
+<it_IT>Questo aggiornamento risolve diversi problemi rilevati in seguito al rilascio dell&apos;aggiornamento per Adobe Photoshop CC precedente.</it_IT>
+<ja_JP>このアップデートは以前の Adobe Photoshop CC アップデートのリリース以降に発見されたさまざまな問題を解決します。</ja_JP>
+<ko_KR>본 업데이트는 기존 Adobe Photoshop CC 업데이트가 릴리즈된 후 발견된 여러 문제들을 다룹니다.</ko_KR>
+<nb_NO>Denne oppdateringen løser flere problemer som ble funnet etter forrige oppdatering til Adobe Photoshop CC.</nb_NO>
+<nl_NL>In deze update wordt een aantal problemen opgelost die zijn ontdekt na de vorige release van Adobe Photoshop CC.</nl_NL>
+<pl_PL>Ta aktualizacja dotyczy kilku problemów, jakie pojawiły się od poprzedniej aktualizacji do programu Adobe Photoshop CC.</pl_PL>
+<pt_BR>Esta atualização soluciona vários problemas descobertos após o lançamento da versão anterior do Adobe Photoshop CC.</pt_BR>
+<ru_RU>В этом обновлении исправлен ряд проблем, обнаруженных после выпуска предыдущего обновления Adobe Photoshop CC.</ru_RU>
+<sv_SE>I den här uppdateringen har ett antal problem som har upptäckts efter den tidigare uppdateringen av Adobe Photoshop CC korrigerats.</sv_SE>
+<tr_TR>Bu güncelleme, bir önceki Adobe Photoshop CC güncellemesi piyasaya çıkıktan sonra tespit edilen sorunlara yöneliktir.</tr_TR>
+<uk_UA>У цьому випуску пропонується цілий ряд виправлень помилок, виявлених після попереднього випуску оновлень до Adobe Photoshop CC.</uk_UA>
+<zh_CN>此更新解决了在之前的 Adobe Photoshop CC 更新发布后发现的一些问题。</zh_CN>
+<zh_TW>此更新解決了自前次 Adobe Photoshop CC 更新發佈以來發現的各種問題。</zh_TW>
+<en_AE>This update addresses a number of issues discovered after the previous Adobe Photoshop CC update was released.</en_AE>
+</Description>
+<AffectedChannels>
+<ChannelID>AdobePhotoshopCC2015-16.0</ChannelID>
+</AffectedChannels>
+<InstallFiles>
+<File RIBSBased="1">
+<Name>setup.zip</Name>
+<Type>1</Type>
+<ExecutableName>AdobePatchInstaller.exe</ExecutableName>
+<Size>369546377</Size>
+<SignatureType>1</SignatureType>
+<Signature>k7eIpcrRCxSZN7zWoZx9GXPA2EtK8Q7IuRZPCckyR/UxzmXI7CEapmZtWe9s0DBEImt86f6GJjCtEnbeiQY9OEUIy6Gb8POO6WKmjtOwkAxXWGLqDFTjlNhcSKEm+1HD1X8V7px0SKr6sp7ORThSv5Zym72FY8t2omaBEY4nmbs25ANT+Jor2PsMRodbGZqjv4oIxFIdXJsDyAm5iyXOByuT0EMDjxuQKw7iatSEyPzXZ/LYo9DYO6JEK5h2opIler7kqb3udauc7xIgYnQ2aGZr1pwE33GzbKub2sC9MG5BIsx5ieiimunRuwmWNRwnqSIC2lRj4nqPKv1PbDrOGUqngRnQnwvgztX6OO/ybXEXJ+RADcKS34XwTpCPdEMjstNYPkzv+efe+rNCoSF6JDDuZzYCLZihJdFu+yHy5YhYf/0PBbzD5JOg9e+J3ZlQ6T1AM+uaUR4YpSTx3DF2ctnAIngafMrd0zA2/9eA097kIPgvak9QF37a9k7X9O8p</Signature>
+<State>0</State>
+<Error>0</Error>
+</File>
+</InstallFiles>
+<NeedsReboot>0</NeedsReboot>
+</UpdateRef>
+<UpdateRef Combo="0" PreviewPatch="0" ReFetch="0" RefID="AdobeLightroom-6.0/6.14" Viewed="0" WaitingForProductEvent="0">
+<RecommendationList>
+<Recommendation>
+<ChannelID>AdobeLightroom-6.0</ChannelID>
+<LEID>V7{}Lightroom-6-Win-GM</LEID>
+</Recommendation>
+</RecommendationList>
+<TargetBuildType>2</TargetBuildType>
+<TargetLicensingType>0</TargetLicensingType>
+<State>0</State>
+<Error>0</Error>
+<DisplayName default="en_US">
+<en_US>Lightroom 6.14</en_US>
+<de_DE>Lightroom 6.14</de_DE>
+<es_ES>Lightroom 6.14</es_ES>
+<fr_FR>Lightroom 6.14</fr_FR>
+<it_IT>Lightroom 6.14</it_IT>
+<ja_JP>Lightroom 6.14</ja_JP>
+<ko_KR>Lightroom 6.14</ko_KR>
+<nl_NL>Lightroom 6.14</nl_NL>
+<pt_BR>Lightroom 6.14</pt_BR>
+<sv_SE>Lightroom 6.14</sv_SE>
+<zh_CN>Lightroom 6.14</zh_CN>
+<zh_TW>Lightroom 6.14</zh_TW>
+</DisplayName>
+<Description default="en_US">
+<en_US>This update includes bug fixes and new camera support.</en_US>
+<de_DE>Dieses Update enthält Fehlerbehebungen und bietet Unterstützung für neue Kameras.</de_DE>
+<es_ES>En esta actualización se han aplicado correcciones de errores y se ofrece compatibilidad con nuevas cámaras.</es_ES>
+<fr_FR>Cette mise à jour inclut des correctifs et un nouvel appareil photo pris en charge.</fr_FR>
+<it_IT>L&apos;aggiornamento include la correzione di alcuni bug e il supporto per le nuove fotocamere.</it_IT>
+<ja_JP>この更新には新しいカメラのサポートとバグ修正が含まれています。</ja_JP>
+<ko_KR>이 업데이트에는 버그 수정과 새 카메라 지원이 포함되어 있습니다.</ko_KR>
+<nl_NL>Deze update bevat oplossingen voor problemen en ondersteuning voor nieuwe camera&apos;s.</nl_NL>
+<pt_BR>Esta atualização inclui correções de erros e compatibilidade com novas câmeras.</pt_BR>
+<sv_SE>Den här uppdateringen innehåller programrättningar och stöd för nya kameror.</sv_SE>
+<zh_CN>此更新包含错误修复和对新相机的支持。</zh_CN>
+<zh_TW>這個更新包含了錯誤修正及新相機的支援。</zh_TW>
+</Description>
+<AffectedChannels>
+<ChannelID>AdobePhotoshopLightroom6-6.0</ChannelID>
+</AffectedChannels>
+<InstallFiles>
+<File RIBSBased="1">
+<Name>setup.zip</Name>
+<Type>1</Type>
+<ExecutableName>AdobePatchInstaller.exe</ExecutableName>
+<Size>400417486</Size>
+<SignatureType>1</SignatureType>
+<Signature>jbNS9RQ7yThVJYDPlFfmf7AGCveYWaixdkuB8KRgeh6F4pvbQlcw6i+erhJiQeagoqv+Kkobt9hRNkdOqiO6k/OUW/up4cx1j/UsvkZP18mVW8kHBgZKixjOxDFHpAXnIdr8tYRIlff61eFjaNebyGryLvwk73MYp4YPQ2WA1emNKlSibyUIt5P/VqGlhI3YG6UoU2w7AbsNiTjE2Ue5orJo3UPn7iSAnfMT1EkYQLGSB1gmQG7/yZQTxGZxfwxWokN2mRMKeGd8TdUqSfG33KVnDzhmhH+0SiDCtYTYmKqtqv3ZUlKM9sC5nb6Ta+psb/YGIgW1KpE8pNVHG8udBErqgXxr7SA+r7o+mnQhBdgYrHiLjl6AgN7pGjHqwQu3BDYIsBomi3td++1+lUB+Q+sPN2a3H7Xml7R7WKm4csiKtfamO/GIQnYH7I+JT/jbwEb/4Jh1SH1IIjekFqBFxCV1rhbSzD5c3j9BieU+GV67q8+w47/CYK366UExsX3e</Signature>
+<State>0</State>
+<Error>0</Error>
+</File>
+</InstallFiles>
+<NeedsReboot>0</NeedsReboot>
+</UpdateRef>
+<UpdateRef Combo="1" PreviewPatch="0" ReFetch="0" RefID="PhotoshopCameraRaw8-8.0/10.3.59" Viewed="0" WaitingForProductEvent="0">
+<RecommendationList>
+<Recommendation>
+<ChannelID>PhotoshopCameraRaw8-8.0</ChannelID>
+<UpdateID>10.3.59</UpdateID>
+<OwningID>PhotoshopCameraRaw864bit-8.0</OwningID>
+<LEID>Camera_Raw-8-Win-GM</LEID>
+</Recommendation>
+<Recommendation>
+<ChannelID>PhotoshopCameraRaw8-8.0</ChannelID>
+<UpdateID>10.3.59</UpdateID>
+<OwningID>CameraProfilesInstaller-8.0</OwningID>
+<LEID>Camera_Raw-8-Win-GM</LEID>
+</Recommendation>
+<Recommendation>
+<ChannelID>PhotoshopCameraRaw8-8.0</ChannelID>
+<LEID>Camera_Raw-8-Win-GM</LEID>
+<UpdateID>10.3.59</UpdateID>
+<OwningID>PhotoshopCameraRaw8-8.0</OwningID>
+</Recommendation>
+</RecommendationList>
+<TargetBuildType>2</TargetBuildType>
+<TargetLicensingType>0</TargetLicensingType>
+<State>0</State>
+<Error>0</Error>
+<DisplayName default="en_US">
+<en_US>Photoshop Camera Raw 10.3(CC)</en_US>
+<de_DE>Photoshop Camera Raw 10.3(CC)-Update</de_DE>
+<fr_FR>Mise à jour 10.3(CC) de Photoshop Camera Raw</fr_FR>
+<fr_CA>Mise à jour 10.3(CC) de Photoshop Camera Raw</fr_CA>
+<fr_MA>Mise à jour 10.3(CC) de Photoshop Camera Raw</fr_MA>
+<it_IT>Aggiornamento di Photoshop Camera Raw 10.3(CC)</it_IT>
+<ja_JP>Photoshop Camera Raw 10.3(CC) アップデート</ja_JP>
+<es_ES>Actualización Photoshop Camera Raw 10.3(CC)</es_ES>
+<es_MX>Actualización Photoshop Camera Raw 10.3(CC)</es_MX>
+<sv_SE>Uppdatering till Photoshop Camera Raw 10.3(CC)</sv_SE>
+<zh_CN>Photoshop Camera Raw 10.3(CC) 更新</zh_CN>
+<zh_TW>Photoshop Camera Raw 10.3(CC) 更新</zh_TW>
+<nl_NL>Photoshop Camera Raw 10.3(CC)-update</nl_NL>
+<ko_KR>Photoshop Camera Raw 10.3(CC) 업데이트</ko_KR>
+<nb_NO>Oppdatering for Photoshop Camera Raw 10.3(CC)</nb_NO>
+<da_DK>Photoshop Camera Raw 10.3(CC)-opdatering</da_DK>
+<fi_FI>Photoshop Camera Raw 10.3(CC) -päivitys</fi_FI>
+<pl_PL>Photoshop Camera Raw 10.3(CC) – aktualizacja</pl_PL>
+<cs_CZ>Aktualizace Photoshop Camera Raw 10.3(CC)</cs_CZ>
+<ro_RO>Actualizare Photoshop Camera Raw 10.3(CC)</ro_RO>
+<hu_HU>Photoshop Camera Raw 10.3(CC) frissítés</hu_HU>
+<ru_RU>Обновление Photoshop Camera Raw 10.3(CC)</ru_RU>
+<pt_BR>Atualização do Photoshop Camera Raw 10.3(CC)</pt_BR>
+<uk_UA>Оновлення Photoshop Camera Raw 10.3(CC)</uk_UA>
+<tr_TR>Photoshop Camera Raw 10.3(CC) Güncellemesi</tr_TR>
+</DisplayName>
+<Description default="en_US">
+<en_US>Update to the Camera Raw plug-in that ships with Photoshop CC. Adds raw support for new camera models.</en_US>
+<fr_FR>Mise à jour du module externe Camera Raw fourni avec Photoshop CC. Ajoute la prise en charge des fichiers Raw pour les nouveaux modèles d&apos;appareils photo.</fr_FR>
+<fr_CA>Mise à jour du module externe Camera Raw fourni avec Photoshop CC. Ajoute la prise en charge des fichiers Raw pour les nouveaux modèles d&apos;appareils photo.</fr_CA>
+<fr_MA>Mise à jour du module externe Camera Raw fourni avec Photoshop CC. Ajoute la prise en charge des fichiers Raw pour les nouveaux modèles d&apos;appareils photo.</fr_MA>
+<de_DE>Update für das Camera Raw-Zusatzmodul, das im Lieferumfang von Photoshop CC enthalten ist. Zusätzliche Unterstützung für Raw-Dateien aus neuen Kameramodellen.</de_DE>
+<it_IT>Eseguite l&apos;aggiornamento del plug-in di Camera Raw in dotazione con Photoshop CC. Consente il supporto per i file raw per nuovi modelli di fotocamere.</it_IT>
+<ja_JP>Photoshop CC に同梱されている Camera Raw プラグインに更新します。 新しいカメラモデル対応の Raw サポートが追加されます。</ja_JP>
+<es_ES>Actualización para el plugin Camera Raw suministrado con Photoshop CC. Permite la compatibilidad con los archivos RAW de los nuevos modelos de cámara.</es_ES>
+<es_MX>Actualización para el plugin Camera Raw suministrado con Photoshop CC. Permite la compatibilidad con los archivos RAW de los nuevos modelos de cámara.</es_MX>
+<sv_SE>Uppdatera plugin-programmet Camera Raw som levereras med Photoshop CC. Lägger till stöd för raw-format för nya kameramodeller.</sv_SE>
+<zh_CN>Photoshop CC 随附的 Camera Raw 插件的更新。针对新相机型号增加 raw 文件格式支持。</zh_CN>
+<zh_TW>更新 Photoshop CC 隨附的 Camera Raw 增效模組。 新增對新相機機型的原生支援。</zh_TW>
+<nl_NL>Update voor de Camera Raw-plug-in die bij Photoshop CC wordt geleverd. Voegt RAW-ondersteuning toe voor nieuwe cameramodellen.</nl_NL>
+<cs_CZ>Aktualizace zásuvného modulu Camera Raw, dodávaného s aplikací Photoshop CC. Přidává podporu formátu raw u nových modelů fotoaparátů.</cs_CZ>
+<nb_NO>Oppdatering for tilleggsmodulen Camera Raw som leveres med Photoshop CC. Legger til ekte støtte for nye kameramodeller.</nb_NO>
+<da_DK>Opdatering til Camera Raw-ekstramodulet, der leveres sammen med Photoshop CC. Føjer Raw-understøttelse til nye kameramodeller.</da_DK>
+<fi_FI>Photoshop CC:n mukana toimitettavan Camera Raw -laajennuksen päivitys. Lisää raw-tuen uusille kameramalleille.</fi_FI>
+<pl_PL>Aktualizacja wtyczki Camera Raw, która jest dołączona do programu Photoshop CC. Dodaje obsługę RAW dla nowych modeli aparatów.</pl_PL>
+<ko_KR>Photoshop CC와 함께 제공된 Camera Raw 플러그인을 업데이트합니다. 새 카메라 모델의 raw 파일 지원 추가.</ko_KR>
+<ro_RO>Actualizaţi la plugin-ul Camera Raw livrat cu Photoshop CC. Acesta adaugă compatibilitate cu formate brute de la noi modele de camere foto.</ro_RO>
+<hu_HU>A Photoshop CC verzióhoz tartozó Camera Raw bővítmény frissítése. Biztosítja a raw-formátum támogatását újabb fényképezőgép-típusok esetében is.</hu_HU>
+<ru_RU>Обновление внешнего модуля Camera Raw, который входит в комплект поставки Photoshop CC. Добавлена поддержка формата raw для новых моделей камер.</ru_RU>
+<pt_BR>Atualização do plug-in do Camera Raw fornecido com o Photoshop CC. Inclusão de suporte adicional para novos modelos de câmeras.</pt_BR>
+<uk_UA>Оновлення для модуля Camera Raw, що постачається з пакетом Photoshop CC. Додано підтримку формату raw для нових моделей фотокамер.</uk_UA>
+<tr_TR>Photoshop CC ile birlikte verilen Camera Raw eklentisine güncelleyin. Yeni fotoğraf makinesi modelleri için raw desteği sağlar.</tr_TR>
+</Description>
+<AffectedChannels>
+<ChannelID>PhotoshopCameraRaw8-8.0</ChannelID>
+</AffectedChannels>
+<InstallFiles>
+<File RIBSBased="1">
+<Name>setup.zip</Name>
+<Type>1</Type>
+<ExecutableName>AdobePatchInstaller.exe</ExecutableName>
+<Size>323639024</Size>
+<SignatureType>1</SignatureType>
+<Signature>IHueVdPOmIlGehP4Vhpiv2tDZyd179zD+PDo5qzrLWk6gScyIuARX7swpUNUohSnGA1kbHloXAuy24SGMOQn+Efg+U9dWTshAXjV0ViXJHwuNZ2K93eUAxgct8Zg0pqYGV4nB4+VlVdrzPYKn0C/86zhbZjylQzVunBU4cg861Pfg4jsfdregJA+mMmuilhbOw9oMpy1ZWELm/WgxN4Zp0vLExo2EcCot5NRXk8EuZz8aa7KKYD0vVnPAB/ReTKCl5ZTbQ2Nd/U3qwUO8Z7vyk6S8/OEvO+obI/2wwewxpN+bKC9hdeY5WA9d0sI9a9ix6xJWkODATSpWMfXSQ1IGdfmXqCcop4CWsifEbclSqwXUeXBsGKacU6/B1SpffcZI7W4hfpa0t541Lk0oFkXc/ApzEdMbriChFXhLE/zScTcdUv557IzdloWZ8xBqO2ii6sL1v7huVDCs+KPY6yN/rc7hUGSEqt2UKlLU5StVEeDDet23SH/Ki6vdiTgTCqv</Signature>
+<CompareType name="OSPlatformLookup">
+<TargetValue>6.1</TargetValue>
+<Operator>GreaterThan</Operator>
+</CompareType>
+<State>0</State>
+<Error>0</Error>
+</File>
+</InstallFiles>
+<NeedsReboot>0</NeedsReboot>
+</UpdateRef>
+</Updates>

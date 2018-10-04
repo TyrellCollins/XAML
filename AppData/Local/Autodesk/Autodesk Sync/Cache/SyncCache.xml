@@ -1,0 +1,3 @@
+<SyncCache>
+    <ReferenceConfig Server="Production" UpdateDate="2017-11-10T00:55:04Z"><![CDATA[{"limits":[{"name":"create-delete","endpoints":"POST /reference/v1/refs, DELETE /reference/v1/refs","requestLimits":{"assets":"50","links":"200","metadataSize":"1024"}},{"name":"get-parents-children","endpoints":"POST /reference/v1/children, POST /reference/v1/parents, GET /reference/v1/asset/{locators}/children/{linkTypes}, GET /reference/v1/asset/{locators}/parents/{linkTypes}","requestLimits":{"assets":"50"},"responseLimits":{"links":"500"}},{"name":"locators-by-linktype","endpoints":"POST /reference/v1/hasLinkTypes","requestLimits":{"assets":"50","linkTypes":"10"}}]}]]></ReferenceConfig>
+</SyncCache>

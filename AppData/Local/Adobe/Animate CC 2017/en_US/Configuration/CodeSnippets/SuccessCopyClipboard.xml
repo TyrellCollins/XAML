@@ -1,0 +1,15 @@
+<dialog id="dialog"
+	title=""
+	buttons="accept">
+	<vbox>
+		<label
+			value="Code snippet has been copied to clipboard. Please paste it into the Actions panel or ActionScript file."/>
+
+	</vbox>
+	<vbox>
+	<spacer/>
+		<checkbox id="disableWarning_ch"
+			label="Don't show again."
+			checked="false"/>
+	</vbox>
+</dialog>

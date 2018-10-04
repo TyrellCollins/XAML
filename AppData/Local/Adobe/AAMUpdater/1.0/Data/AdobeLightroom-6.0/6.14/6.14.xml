@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><Manifest CSUVersion="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CSUManifest.xsd">  
+ <UpdateID>6.14</UpdateID>
+<TargetBuildType>2</TargetBuildType>
+ <OwningChannel>AdobeLightroom-6.0</OwningChannel>
+  <DisplayName default="en_US"><en_US>Lightroom 6.14</en_US>
+    <de_DE>Lightroom 6.14</de_DE>
+    <es_ES>Lightroom 6.14</es_ES>
+    <fr_FR>Lightroom 6.14</fr_FR>
+    <it_IT>Lightroom 6.14</it_IT>
+    <ja_JP>Lightroom 6.14</ja_JP>
+    <ko_KR>Lightroom 6.14</ko_KR>
+    <nl_NL>Lightroom 6.14</nl_NL>
+    <pt_BR>Lightroom 6.14</pt_BR>
+    <sv_SE>Lightroom 6.14</sv_SE>
+    <zh_CN>Lightroom 6.14</zh_CN>
+    <zh_TW>Lightroom 6.14</zh_TW>
+  </DisplayName>
+  <!-- One for each locale to be displayed in CS Updater-->
+  <Description default="en_US"><en_US>This update includes bug fixes and new camera support.</en_US>
+    <de_DE>Dieses Update enthält Fehlerbehebungen und bietet Unterstützung für neue Kameras.</de_DE>
+    <es_ES>En esta actualización se han aplicado correcciones de errores y se ofrece compatibilidad con nuevas cámaras.</es_ES>
+    <fr_FR>Cette mise à jour inclut des correctifs et un nouvel appareil photo pris en charge.</fr_FR>
+    <it_IT>L'aggiornamento include la correzione di alcuni bug e il supporto per le nuove fotocamere.</it_IT>
+    <ja_JP>この更新には新しいカメラのサポートとバグ修正が含まれています。</ja_JP>
+    <ko_KR>이 업데이트에는 버그 수정과 새 카메라 지원이 포함되어 있습니다.</ko_KR>
+    <nl_NL>Deze update bevat oplossingen voor problemen en ondersteuning voor nieuwe camera's.</nl_NL>
+    <pt_BR>Esta atualização inclui correções de erros e compatibilidade com novas câmeras.</pt_BR>
+    <sv_SE>Den här uppdateringen innehåller programrättningar och stöd för nya kameror.</sv_SE>
+    <zh_CN>此更新包含错误修复和对新相机的支持。</zh_CN>
+    <zh_TW>這個更新包含了錯誤修正及新相機的支援。</zh_TW>
+  </Description>
+  <AffectedChannels><ChannelID>AdobePhotoshopLightroom6-6.0</ChannelID>
+  </AffectedChannels>
+  <InstallFiles><File RIBSBased="1"><Name>setup.zip</Name>
+      <Type>1</Type>
+      <ExecutableName>AdobePatchInstaller.exe</ExecutableName>
+      <Size>400417486</Size>
+      
+    <SignatureType>1</SignatureType>
+<Signature>jbNS9RQ7yThVJYDPlFfmf7AGCveYWaixdkuB8KRgeh6F4pvbQlcw6i+erhJiQeagoqv+Kkobt9hRNkdOqiO6k/OUW/up4cx1j/UsvkZP18mVW8kHBgZKixjOxDFHpAXnIdr8tYRIlff61eFjaNebyGryLvwk73MYp4YPQ2WA1emNKlSibyUIt5P/VqGlhI3YG6UoU2w7AbsNiTjE2Ue5orJo3UPn7iSAnfMT1EkYQLGSB1gmQG7/yZQTxGZxfwxWokN2mRMKeGd8TdUqSfG33KVnDzhmhH+0SiDCtYTYmKqtqv3ZUlKM9sC5nb6Ta+psb/YGIgW1KpE8pNVHG8udBErqgXxr7SA+r7o+mnQhBdgYrHiLjl6AgN7pGjHqwQu3BDYIsBomi3td++1+lUB+Q+sPN2a3H7Xml7R7WKm4csiKtfamO/GIQnYH7I+JT/jbwEb/4Jh1SH1IIjekFqBFxCV1rhbSzD5c3j9BieU+GV67q8+w47/CYK366UExsX3e</Signature>
+</File>
+  </InstallFiles>
+  <NeedsReboot>false</NeedsReboot>
+  
+  
+
+<TargetLicensingType>0</TargetLicensingType>
+  <RecommendingChannels><ChannelID>AdobePhotoshopLightroom6-6.0</ChannelID>
+  </RecommendingChannels>
+  
+  
+  
+  
+  
+  
+  <UpdatePayloadID>{94A81F8B-CB2A-5124-906C-53D4FE05DB3B}</UpdatePayloadID>
+  <OwningPayloadID>{8048A5DF-8A70-5BE1-954B-E0FDE1BD0D0D}</OwningPayloadID>
+  <ConflictingProcesses><Process blocking="1" processType="Adobe">^[Ll][Ii][Gg][Hh][Tt][Rr][Oo][Oo][Mm]\.[Ee][Xx][Ee]$</Process>
+  </ConflictingProcesses>
+</Manifest>

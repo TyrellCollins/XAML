@@ -1,0 +1,12 @@
+<?xml version='1.0'?>
+<Sync IsSyncPaused="False" UserWarnedForBlockedVersion="7.2.3.1800">
+    <Settings QuotaThresholdReminderIntervalSecs="14400"/>
+    <LiveUpdate ReminderIntervalMinutes="1440" LastReminded="2017-10-26T06:02:18Z">
+        <DownloadedUpdate TargetVersion="7.2.3.1800" InstallerCommandLine="" Version="7.3.6.1809" InstallerType="MSP" AboutUrl="">
+            <Installer>
+                <File Url="https://s3.amazonaws.com/com.autodesk.sync.public.production/sync/liveupdate/install/7.3.6.1809/x64/Autodesk360_x64_Release.msp" LocalPath="C:/Users/tyrel/AppData/Local/Autodesk/Autodesk Sync/Cache/LiveUpdate/InstallerWin64_7.3.6.1809/Autodesk360_x64_Release.msp"/>
+            </Installer>
+            <Message>A360 Desktop version 7.3.6.1809 has been downloaded and is ready to install. &lt;br/>&lt;br/>&lt;a href=AdSync.InstallUpdate>Install now&lt;/a></Message>
+        </DownloadedUpdate>
+    </LiveUpdate>
+</Sync>

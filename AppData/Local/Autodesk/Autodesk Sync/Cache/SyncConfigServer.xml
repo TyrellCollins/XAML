@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Last updated on 02-Sep-2015-->
+<SyncConfig>
+    <!--SyncFrequency, SyncDelayAfterServerError, MaxIntervalBetweenUploadFinishedEvent should be in seconds-->
+    <GeneralSettings SyncFrequency="120" SyncDelayAfterServerError="300" UseChangeService="True" MaxItemsInUploadFinishedEvent="1000" MaxIntervalBetweenUploadFinishedEvent="1800"/>
+
+    <CheckConnectionUrls><![CDATA[https://s3.amazonaws.com/com.autodesk.sync.public.production/CheckInternetConnectivity.txt;https://360.autodesk.com;http://www.google.com]]></CheckConnectionUrls>
+
+    <IncrementalSyncSettings IsIncrementalSyncEnabled="False" DisableIncrementalSyncForFiles="" MinFileSizeForIncrementalSync="102400" MaxChangeForIncrementalSync="0.50" MaxDeltaForIncrementalSync="0.70"/>
+
+    <!--All times are in minutes-->
+    <LiveUpdateSettings FirstCheckDelay="15" CheckInterval="1440" />
+
+    <!--Interval in seconds at which sync displays server messages in
+    system tray after showing it once on startup. This interval can be any
+    value. Note: there is a bug in sync versions 2014-LU3 and before.
+    These versions will display the message once in 2 days if the interval
+    is longer than 2 days. This bug has been fixed in LU4 and longer
+    intervals will work correctly in 2014-LU4 and later.-->
+    <ServerMessage CheckInterval="172800"/>
+
+    <Filters>
+        <SyncFilters>
+            <FileFilters>
+                <!--Maximum file size for upload and download. Files above
+                    this size won't be uploaded/downloaded-->
+                <MaxFileSize>-1</MaxFileSize>
+                <!--Files to be excluded from upload and download. Semicolon
+                    separated list of regular expressions to match with file
+                    names.-->
+                <ExcludeSync><![CDATA[\.[0-9]{4}\.rvt$;\.bk[1-9]{1}$;\.sv\$$;\.bak$;\.pcp$;\.err$;\.log$;\.lnk$;^thumbs\.db$;desktop\.ini$;\.ipj\.bak$;lockfile\.lck$;\.fins$;\.fmsh$;\.fres$;\.fsat$;\.ftes$;\.fwiz$;\.fx_t$;\.ins$;\.msh$;\.res$;\.sat$;\.tes$;\.wiz$;\.x_t$;\.aso$;\.ast$;\.acr$;\.ado$;\.afr$;\.al$;\.al1$;\.alg$;\.aml$;\.amo$;\.ao4$;\.as[457]$;\.a[st]o$;\.blm$;\.BSO$;\.bsobin$;\.BST$;\.das$;\.do$;\.do[2-7]$;\.do[dp]$;\.efo$;\.el$;\.fr[8dp]$;\.hfo$;\.l(4|5|6|7|10|11)$;\.ld$;\.lf[ct]$;\.lg[4-9de]$;\.lg[fpstu]$;\.lrd$;\.lt[mt]$;\.ml8$;\.mo(|8)$;\.ncg$;\.neo$;\.ns[457d]$;\.pf[lv]$;\.sf(l|rate|s|v)$;\.ske$;\.st4$;\.thf$;\.to$;\.tto$;\.uf(e|l|n|rate|s|v)$;\.u[km]e$;\.umn$;\.vo$;\.wcg$;\.rsp$;\.of1$;\.s100$;\.sum$;\.st$;^AutoBackup[0-9]{2}\.max$;^maxhold.mx$;\.tmp\$$;\.bak$;\.dwl(|2)$;\.[0-9]{4}\.mb$;\.dat$;\.slog$;\.rws$;\.mockup$;\.$]]></ExcludeSync>
+                <!--Files to be excluded from upload only. Semicolon
+                    separated list of regular expressions to match with file
+                    names.-->
+                <ExcludeUpload><![CDATA[]]></ExcludeUpload>
+                <!--Files to be excluded from download only. Semicolon
+                    separated list of regular expressions to match with file
+                    names.-->
+                <ExcludeDownload><![CDATA[]]></ExcludeDownload>
+            </FileFilters>
+            <FolderFilters>
+                <ExcludeSync><![CDATA[\.$;^OldVersions$]]></ExcludeSync>
+                <ExcludeUpload><![CDATA[^Revit_temp$;_backup$]]></ExcludeUpload>
+                <ExcludeDownload><![CDATA[^Revit_temp$;_backup$]]></ExcludeDownload>
+            </FolderFilters>
+        </SyncFilters>
+        <FileLinkFilters>
+            <!--Files to be processed for file links. Semicolon
+                separated list of regular expressions to match with file
+                names.-->
+            <SupportFileLinks>dwg;dws;dwt;dxf;ipj;iam;ipt;idw;ipn;rvt;max;ifl;imsq;fbx;maxc;mat;mix;ma;mb;nwd;nwf;nwc;a3s;html;sim;fem;mpi;cfdst;rtd;</SupportFileLinks>
+        </FileLinkFilters>
+    </Filters>
+    <GeneratedFiles>
+        <!--Generated files will be supported only for these products.
+            Include production/staging consumer keys of all products which
+            require support for generated files as semicolon separated
+            values. Currently only showcase requires this support.-->
+        <SupportedProducts>05ff84de-49a7-43ef-a14d-27d3b0011627;f5c06595-7a76-4f5b-a7c7-eea0a022de3a;</SupportedProducts>
+    </GeneratedFiles>
+    <BlockedVersions>
+        <BlockedVersion Version="4.0.27"/>
+        <BlockedVersion Version="4.0.32"/>
+        <BlockedVersion Version="4.5.4"/>
+        <BlockedVersion Version="4.6.12"/>
+        <BlockedVersion Version="4.7.0"/>
+        <BlockedVersion Version="4.8.5"/>
+        <BlockedVersion Version="4.9.3"/>
+        <BlockedVersion Version="5.0.20.1100" />
+        <BlockedVersion Version="5.0.23.1100" />
+        <BlockedVersion Version="5.0.25.1100" />
+        <BlockedVersion Version="5.0.27.1100" />
+        <BlockedVersion Version="5.0.28.1100" />
+        <BlockedVersion Version="5.0.29.1101" />
+        <BlockedVersion Version="5.1.1.1001" />
+        <BlockedVersion Version="5.1.2.1000" />
+        <BlockedVersion Version="5.1.4.1000" />
+        <BlockedVersion Version="5.2.3.1000" />
+        <BlockedVersion Version="5.3.5.1100" />
+        <BlockedVersion Version="6.0.3.1100" />
+        <BlockedVersion Version="6.0.5.1100" />
+        <BlockedVersion Version="6.1.0.1100" />
+        <BlockedVersion Version="6.1.1.1100" />
+        <BlockedVersion Version="6.2.10.1700" />
+        <BlockedVersion Version="6.2.11.1704" />
+        <BlockedVersion Version="7.2.3.1800" />
+        <BlockedVersion Version="8.2.3.1800" />
+    </BlockedVersions>
+
+    <!--Version specific settings. These settings will be applied only to
+        specific version of sync and they will override the above settings.
+        Only explicitly specified settings will be overridden.-->
+    <SyncVersions>
+        <!--Version attribute can contain 1-4 parts. Only the specified
+            parts will be compared with the current sync version. Ex. It can
+            be 4.0, 4.0.5, 4.0.5.10, etc. For example if version is 4.0 the
+            settings will be applied on all sync versions 4.0.*.*-->
+        <SyncVersion Version="5.1.4">
+            <!--All the settings which appear under root node can appear
+                here, but it should use the same schema. Whatever settings are
+                found here will be applied as override to this version of
+                sync.-->
+            <GeneralSettings SyncFrequency="180" SyncDelayAfterServerError="300" UseChangeService="True" MaxItemsInUploadFinishedEvent="1000" MaxIntervalBetweenUploadFinishedEvent="1800"/>
+        </SyncVersion>
+    </SyncVersions>
+</SyncConfig>

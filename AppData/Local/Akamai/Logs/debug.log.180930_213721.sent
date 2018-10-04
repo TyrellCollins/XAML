@@ -1,0 +1,4 @@
+Vwin_75752ca_1.9.5.6-RC1(83a441e_1.9.5.5):180930_213717: [info] RSHttpBroker.cpp:RSHttpBroker::State::sendCommon(788): Sent first few bytes to host [client.akamai.com:443]; resolved IP is [23.45.236.207].  Proxy URL is [].
+Vwin_75752ca_1.9.5.6-RC1(83a441e_1.9.5.5):180930_213717: [info] CLIOnlineManager.cpp:CLIOnlineManager::_onAUTH_STATUS(1929): GUID 3242531bc6814ac3943eeb0d740090bd connected to CN (CN IP: 2.16.162.15 Remote IP: 2.16.162.15 CN thinks my IP is: 193.105.134.129).
+Vwin_75752ca_1.9.5.6-RC1(83a441e_1.9.5.5):180930_213718: [info] RSProxyType.cpp:RSProxyType::log(34)-1: Proxy type DIRECT
+Vwin_75752ca_1.9.5.6-RC1(83a441e_1.9.5.5):180930_213721: [info] EscapeHatch.cpp:Cli::EscapeHatch::stop(125): Stopping pid: 15068.  Akamai NetSession Interface (83a441e;win;1.9.5.5;Win8): Client binary name: [netsession_win.exe] in [C:/Users/tyrel/AppData/Local/Akamai].  Built-in component version: [1.9.5.5].  Built-in BinId: [83a441e].

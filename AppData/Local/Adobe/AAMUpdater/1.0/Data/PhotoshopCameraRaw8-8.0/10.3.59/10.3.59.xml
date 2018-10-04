@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><Manifest CSUVersion="1.0" ns0:noNamespaceSchemaLocation="CSUManifest.xsd" xmlns:ns0="http://www.w3.org/2001/XMLSchema-instance">
+    <UpdateID>10.3.59</UpdateID>
+    <OwningChannel>PhotoshopCameraRaw8-8.0</OwningChannel>
+    <TargetBuildType>2</TargetBuildType>
+    <DisplayName default="en_US"><en_US>Photoshop Camera Raw 10.3(CC)</en_US>
+		<de_DE>Photoshop Camera Raw 10.3(CC)-Update</de_DE>
+		<fr_FR>Mise à jour 10.3(CC) de Photoshop Camera Raw</fr_FR>
+		<fr_CA>Mise à jour 10.3(CC) de Photoshop Camera Raw</fr_CA>
+		<fr_MA>Mise à jour 10.3(CC) de Photoshop Camera Raw</fr_MA>
+		<it_IT>Aggiornamento di Photoshop Camera Raw 10.3(CC)</it_IT>
+		<ja_JP>Photoshop Camera Raw 10.3(CC) アップデート</ja_JP>
+		<es_ES>Actualización Photoshop Camera Raw 10.3(CC)</es_ES>
+		<es_MX>Actualización Photoshop Camera Raw 10.3(CC)</es_MX>
+		<sv_SE>Uppdatering till Photoshop Camera Raw 10.3(CC)</sv_SE>
+		<zh_CN>Photoshop Camera Raw 10.3(CC) 更新</zh_CN>
+		<zh_TW>Photoshop Camera Raw 10.3(CC) 更新</zh_TW>
+		<nl_NL>Photoshop Camera Raw 10.3(CC)-update</nl_NL>
+		<ko_KR>Photoshop Camera Raw 10.3(CC) 업데이트</ko_KR>
+		<nb_NO>Oppdatering for Photoshop Camera Raw 10.3(CC)</nb_NO>
+		<da_DK>Photoshop Camera Raw 10.3(CC)-opdatering</da_DK>
+		<fi_FI>Photoshop Camera Raw 10.3(CC) -päivitys</fi_FI>
+		<pl_PL>Photoshop Camera Raw 10.3(CC) – aktualizacja</pl_PL>
+		<cs_CZ>Aktualizace Photoshop Camera Raw 10.3(CC)</cs_CZ>
+		<ro_RO>Actualizare Photoshop Camera Raw 10.3(CC)</ro_RO>
+		<hu_HU>Photoshop Camera Raw 10.3(CC) frissítés</hu_HU>
+		<ru_RU>Обновление Photoshop Camera Raw 10.3(CC)</ru_RU>
+		<pt_BR>Atualização do Photoshop Camera Raw 10.3(CC)</pt_BR>
+		<uk_UA>Оновлення Photoshop Camera Raw 10.3(CC)</uk_UA>
+		<tr_TR>Photoshop Camera Raw 10.3(CC) Güncellemesi</tr_TR>
+    </DisplayName>
+    <Description default="en_US"><en_US>Update to the Camera Raw plug-in that ships with Photoshop CC. Adds raw support for new camera models.</en_US>
+		<fr_FR>Mise à jour du module externe Camera Raw fourni avec Photoshop CC. Ajoute la prise en charge des fichiers Raw pour les nouveaux modèles d'appareils photo.</fr_FR>
+		<fr_CA>Mise à jour du module externe Camera Raw fourni avec Photoshop CC. Ajoute la prise en charge des fichiers Raw pour les nouveaux modèles d'appareils photo.</fr_CA>
+		<fr_MA>Mise à jour du module externe Camera Raw fourni avec Photoshop CC. Ajoute la prise en charge des fichiers Raw pour les nouveaux modèles d'appareils photo.</fr_MA>
+		<de_DE>Update für das Camera Raw-Zusatzmodul, das im Lieferumfang von Photoshop CC enthalten ist. Zusätzliche Unterstützung für Raw-Dateien aus neuen Kameramodellen.</de_DE>
+		<it_IT>Eseguite l'aggiornamento del plug-in di Camera Raw in dotazione con Photoshop CC. Consente il supporto per i file raw per nuovi modelli di fotocamere.</it_IT>
+		<ja_JP>Photoshop CC に同梱されている Camera Raw プラグインに更新します。 新しいカメラモデル対応の Raw サポートが追加されます。</ja_JP>
+		<es_ES>Actualización para el plugin Camera Raw suministrado con Photoshop CC. Permite la compatibilidad con los archivos RAW de los nuevos modelos de cámara.</es_ES>
+		<es_MX>Actualización para el plugin Camera Raw suministrado con Photoshop CC. Permite la compatibilidad con los archivos RAW de los nuevos modelos de cámara.</es_MX>
+		<sv_SE>Uppdatera plugin-programmet Camera Raw som levereras med Photoshop CC. Lägger till stöd för raw-format för nya kameramodeller.</sv_SE>
+		<zh_CN>Photoshop CC 随附的 Camera Raw 插件的更新。针对新相机型号增加 raw 文件格式支持。</zh_CN>
+		<zh_TW>更新 Photoshop CC 隨附的 Camera Raw 增效模組。 新增對新相機機型的原生支援。</zh_TW>
+		<nl_NL>Update voor de Camera Raw-plug-in die bij Photoshop CC wordt geleverd. Voegt RAW-ondersteuning toe voor nieuwe cameramodellen.</nl_NL>
+		<cs_CZ>Aktualizace zásuvného modulu Camera Raw, dodávaného s aplikací Photoshop CC. Přidává podporu formátu raw u nových modelů fotoaparátů.</cs_CZ>
+		<nb_NO>Oppdatering for tilleggsmodulen Camera Raw som leveres med Photoshop CC. Legger til ekte støtte for nye kameramodeller.</nb_NO>
+		<da_DK>Opdatering til Camera Raw-ekstramodulet, der leveres sammen med Photoshop CC. Føjer Raw-understøttelse til nye kameramodeller.</da_DK>
+		<fi_FI>Photoshop CC:n mukana toimitettavan Camera Raw -laajennuksen päivitys. Lisää raw-tuen uusille kameramalleille.</fi_FI>
+		<pl_PL>Aktualizacja wtyczki Camera Raw, która jest dołączona do programu Photoshop CC. Dodaje obsługę RAW dla nowych modeli aparatów.</pl_PL>
+		<ko_KR>Photoshop CC와 함께 제공된 Camera Raw 플러그인을 업데이트합니다. 새 카메라 모델의 raw 파일 지원 추가.</ko_KR>
+		<ro_RO>Actualizaţi la plugin-ul Camera Raw livrat cu Photoshop CC. Acesta adaugă compatibilitate cu formate brute de la noi modele de camere foto.</ro_RO>
+		<hu_HU>A Photoshop CC verzióhoz tartozó Camera Raw bővítmény frissítése. Biztosítja a raw-formátum támogatását újabb fényképezőgép-típusok esetében is.</hu_HU>
+		<ru_RU>Обновление внешнего модуля Camera Raw, который входит в комплект поставки Photoshop CC. Добавлена поддержка формата raw для новых моделей камер.</ru_RU>
+		<pt_BR>Atualização do plug-in do Camera Raw fornecido com o Photoshop CC. Inclusão de suporte adicional para novos modelos de câmeras.</pt_BR>
+		<uk_UA>Оновлення для модуля Camera Raw, що постачається з пакетом Photoshop CC. Додано підтримку формату raw для нових моделей фотокамер.</uk_UA>
+		<tr_TR>Photoshop CC ile birlikte verilen Camera Raw eklentisine güncelleyin. Yeni fotoğraf makinesi modelleri için raw desteği sağlar.</tr_TR>
+    </Description>
+    <AffectedChannels><ChannelID>PhotoshopCameraRaw8-8.0</ChannelID>
+    </AffectedChannels>
+    <InstallFiles><File RIBSBased="1"><Name>setup.zip</Name>
+      <Type>1</Type>
+      <ExecutableName>AdobePatchInstaller.exe</ExecutableName>
+      <Size>323639024</Size>
+      
+    <SignatureType>1</SignatureType>
+<Signature>IHueVdPOmIlGehP4Vhpiv2tDZyd179zD+PDo5qzrLWk6gScyIuARX7swpUNUohSnGA1kbHloXAuy24SGMOQn+Efg+U9dWTshAXjV0ViXJHwuNZ2K93eUAxgct8Zg0pqYGV4nB4+VlVdrzPYKn0C/86zhbZjylQzVunBU4cg861Pfg4jsfdregJA+mMmuilhbOw9oMpy1ZWELm/WgxN4Zp0vLExo2EcCot5NRXk8EuZz8aa7KKYD0vVnPAB/ReTKCl5ZTbQ2Nd/U3qwUO8Z7vyk6S8/OEvO+obI/2wwewxpN+bKC9hdeY5WA9d0sI9a9ix6xJWkODATSpWMfXSQ1IGdfmXqCcop4CWsifEbclSqwXUeXBsGKacU6/B1SpffcZI7W4hfpa0t541Lk0oFkXc/ApzEdMbriChFXhLE/zScTcdUv557IzdloWZ8xBqO2ii6sL1v7huVDCs+KPY6yN/rc7hUGSEqt2UKlLU5StVEeDDet23SH/Ki6vdiTgTCqv</Signature>
+<CompareType name="OSPlatformLookup"><TargetValue>6.1</TargetValue><Operator>GreaterThan</Operator></CompareType></File>
+  </InstallFiles>
+    <NeedsReboot>false</NeedsReboot>
+
+  
+  
+  
+  
+  
+  
+  <UpdatePayloadID>{F0066091-D93A-4644-9E46-93B7E390D136}</UpdatePayloadID>
+  <OwningPayloadID>{3E7FC757-D497-4C89-A935-7D38E2164E85}</OwningPayloadID>
+  <ConflictingProcesses><Process blocking="1" processType="Adobe">^[Ll][Ii][Gg][Hh][Tt][Rr][Oo][Oo][Mm].[Ee][Xx][Ee]$</Process>
+    <Process blocking="1" processType="Adobe">^[Pp][Hh][Oo][Tt][Oo][Ss][Hh][Oo][Pp] [Ee][Ll][Ee][Mm][Ee][Nn][Tt][Ss] 15.0 [Ee][Xx][Ee]$</Process>
+    <Process blocking="1" processType="Adobe">^[Pp][Hh][Oo][Tt][Oo][Ss][Hh][Oo][Pp].[Ee][Xx][Ee]$</Process>
+    <Process blocking="1" processType="Adobe">^[Pp][Hh][Oo][Tt][Oo][Ss][Hh][Oo][Pp][Ee][Ll][Ee][Mm][Ee][Nn][Tt][Ss][Oo][Rr][Gg][Aa][Nn][Ii][Zz][Ee][Rr].[Ee][Xx][Ee]$</Process>
+    <Process blocking="1" processType="Adobe">^[Bb][Rr][Ii][Dd][Gg][Ee].[Ee][Xx][Ee]$</Process>
+    <Process blocking="1" processType="Adobe">^[Ee][Ll][Ee][Mm][Ee][Nn][Tt][Ss][Aa][Uu][Tt][Oo][Aa][Nn][Aa][Ll][Yy][Zz][Ee][Rr].[Ee][Xx][Ee]$</Process>
+    <Process blocking="1" processType="Adobe">^[Aa][Dd][Oo][Bb][Ee] [Pp][Rr][Ee][Mm][Ii][Ee][Rr][Ee] [Ee][Ll][Ee][Mm][Ee][Nn][Tt][Ss] 15.[Ee][Xx][Ee]$</Process>
+    <Process blocking="1" processType="Adobe">^[Aa][Dd][Oo][Bb][Ee] [Pp][Rr][Ee][Mm][Ii][Ee][Rr][Ee] [Ee][Ll][Ee][Mm][Ee][Nn][Tt][Ss] 11.[Ee][Xx][Ee]$</Process>
+    <Process blocking="1" processType="Adobe">^[Pp][Hh][Oo][Tt][Oo][Ss][Hh][Oo][Pp] [Ee][Ll][Ee][Mm][Ee][Nn][Tt][Ss] 10.0.[Ee][Xx][Ee]$</Process>
+    <Process blocking="1" processType="Adobe">^[Aa][Ff][Tt][Ee][Rr][Ff][Xx].[Ee][Xx][Ee]$</Process>
+    <Process blocking="1" processType="Adobe">^[Aa][Dd][Oo][Bb][Ee] [Pp][Rr][Ee][Mm][Ii][Ee][Rr][Ee] [Ee][Ll][Ee][Mm][Ee][Nn][Tt][Ss] 9.[Ee][Xx][Ee]$</Process>
+    <Process blocking="1" processType="Adobe">^[Pp][Hh][Oo][Tt][Oo][Dd][Oo][Ww][Nn][Ll][Oo][Aa][Dd][Ee][Rr].[Ee][Xx][Ee]$</Process>
+    <Process blocking="1" processType="Adobe">^[Pp][Hh][Oo][Tt][Oo][Ss][Hh][Oo][Pp] [Ee][Ll][Ee][Mm][Ee][Nn][Tt][Ss] 12.0.[Ee][Xx][Ee]$</Process>
+    <Process blocking="1" processType="Adobe">^[Pp][Hh][Oo][Tt][Oo][Ss][Hh][Oo][Pp] [Ee][Ll][Ee][Mm][Ee][Nn][Tt][Ss] 9.0.[Ee][Xx][Ee]$</Process>
+    <Process blocking="1" processType="Adobe">^[Aa][Dd][Oo][Bb][Ee] [Pp][Rr][Ee][Mm][Ii][Ee][Rr][Ee] [Ee][Ll][Ee][Mm][Ee][Nn][Tt][Ss] 12.[Ee][Xx][Ee]$</Process>
+    <Process blocking="1" processType="Adobe">^[Aa][Dd][Oo][Bb][Ee] [Dd][Nn][Gg] [Cc][Oo][Nn][Vv][Ee][Rr][Tt][Ee][Rr].[Ee][Xx][Ee]$</Process>
+    <Process blocking="1" processType="Adobe">^[Pp][Hh][Oo][Tt][Oo][Ss][Hh][Oo][Pp][Ee][Ll][Ee][Mm][Ee][Nn][Tt][Ss][Ee][Dd][Ii][Tt][Oo][Rr].[Ee][Xx][Ee]$</Process>
+    <Process blocking="1" processType="Adobe">^[Pp][Hh][Oo][Tt][Oo][Ss][Hh][Oo][Pp] [Ee][Ll][Ee][Mm][Ee][Nn][Tt][Ss] 11.0.[Ee][Xx][Ee]$</Process>
+    <Process blocking="1" processType="Adobe">^[Aa][Dd][Oo][Bb][Ee] [Pp][Rr][Ee][Mm][Ii][Ee][Rr][Ee] [Ee][Ll][Ee][Mm][Ee][Nn][Tt][Ss] 10.[Ee][Xx][Ee]$</Process>
+    <Process blocking="1" processType="Adobe">^[Aa][Dd][Oo][Bb][Ee] [Pp][Rr][Ee][Mm][Ii][Ee][Rr][Ee] [Ee][Ll][Ee][Mm][Ee][Nn][Tt][Ss].[Ee][Xx][Ee]$</Process>
+  </ConflictingProcesses>
+</Manifest>

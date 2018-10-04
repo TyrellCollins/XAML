@@ -1,0 +1,28 @@
+180630_075635: [warn] CPUtils.cpp:CPUtils::dumpPersistentStateFileNow(121): Can't call ak_runPeriodicTasks() (client not online)
+180630_075635: [info] CPUtils.cpp:CPUtils::getSupportResources(385): Failed to dump persistent state immediately; instead reading whatever state the client last persisted
+180630_075635: [warn] CPUtils.cpp:CPUtils::dumpPersistentStateFileNow(121): Can't call ak_runPeriodicTasks() (client not online)
+180630_075635: [info] CPUtils.cpp:CPUtils::isEulaAccepted(76): Failed to dump persistent state immediately; instead reading whatever state the client last persisted
+180630_075635: [info] CPUtils.cpp:CPUtils::isEulaAccepted(84): EULA Not Accepted.
+180630_075639: [warn] CPUtils.cpp:CPUtils::dumpPersistentStateFileNow(121): Can't call ak_runPeriodicTasks() (client not online)
+180630_075639: [info] CPUtils.cpp:CPUtils::isEulaAccepted(76): Failed to dump persistent state immediately; instead reading whatever state the client last persisted
+180630_075639: [info] CPUtils.cpp:CPUtils::isEulaAccepted(84): EULA Not Accepted.
+180630_075639: [info] CPAdvancedTab.cpp:CPAdvancedTab::DoDataExchange(79): Hiding uploads section
+180630_075639: [info] CPUtils.cpp:CPUtils::computeRecursiveFolderSize(227): Cache size: 0
+180630_075653: [warn] CPUtils.cpp:CPUtils::dumpPersistentStateFileNow(121): Can't call ak_runPeriodicTasks() (client not online)
+180630_075653: [info] CPUtils.cpp:CPUtils::getFileCollection(397): Failed to dump persistent state immediately; instead reading whatever state the client last persisted
+180630_075653: [warn] CPUtils.cpp:CPUtils::dumpPersistentStateFileNow(121): Can't call ak_runPeriodicTasks() (client not online)
+180630_075653: [info] CPUtils.cpp:CPUtils::getSupportResources(385): Failed to dump persistent state immediately; instead reading whatever state the client last persisted
+180630_075701: [info] CPTroubleshootingTab.cpp:CPTroubleshootingTab::onTroubleshootButtonClick(123): Starting troubleshooting thread.
+180630_075701: [info] CPTroubleshootingManager.cpp:CPTroubleshootingManager::init(66): Created set of default troubleshooters
+180630_075701: [info] CPTroubleshooter.cpp:CPTroubleshooter::log(45): Interface Status Test
+180630_075701: [info] CPTroubleshooter.cpp:CPTroubleshooter::log(45): Status: PASSED
+180630_075701: [info] CPTroubleshooter.cpp:CPTroubleshooter::log(45): Interface Port Test
+180630_075701: [info] CPTroubleshooter.cpp:CPTroubleshooter::log(45): Status: PASSED
+180630_075701: [info] CPTroubleshooter.cpp:CPTroubleshooter::log(45): Interface Connection Test
+180630_075701: [info] CPTroubleshooter.cpp:CPTroubleshooter::log(45): Status: FAILED
+180630_075701: [warn] CPUtils.cpp:CPUtils::dumpPersistentStateFileNow(121): Can't call ak_runPeriodicTasks() (client not online)
+180630_075701: [info] CPUtils.cpp:CPUtils::getGuid(361): Failed to dump persistent state immediately; instead reading whatever state the client last persisted
+180630_075701: [info] CPUtils.cpp:CPUtils::getGuid(368): User GUID: 3242531bc6814ac3943eeb0d740090bd
+180630_075701: [info] CPUtils.cpp:CPUtils::addConnectivityState(201): report connectivity response was: '{"result":null}'.
+180630_075701: [info] CPTroubleshootingManager.cpp:CPTroubleshootingManager::copyDebugFiles(202): Copying diagnostic files...
+180630_075701: [info] CPTroubleshootingTab.cpp:ParallelTroubleshoot(166): Troubleshooting process completed. Report saved at: C:/Users/tyrel/AppData/Local/Akamai/diagnostic_report.txt.

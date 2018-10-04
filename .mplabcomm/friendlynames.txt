@@ -1,0 +1,2 @@
+:=MPLABComm-USB-Microchip:=<vid>04D8:=<pid>900A:=<rev>0002:=<man>Microchip Technology Inc.:=<prod>PICkit 3:=<sn>BUR132284452:=<drv>x:=<xpt>h:=end
+ PICkit3 - 

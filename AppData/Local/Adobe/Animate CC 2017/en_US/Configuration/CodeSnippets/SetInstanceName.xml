@@ -1,0 +1,57 @@
+<dialog id="dialog"
+	title="Set Instance Name"
+	buttons="accept, cancel" >
+	<script>
+
+		function isReservedWord(inWord)
+		{
+			// Note: These words should NOT be localized:
+			var reservedWords = ["package", "class", "function", "interface", "break", "case", "continue",
+				"default", "do", "while", "else", "for", "in", "each", "if", "return", "super", "switch",
+				"throw", "try", "catch", "finally", "with", "dynamic", "final", "internal", "native",
+				"override", "private", "protected", "public", "static", "const", "extends", "get",
+				"implements", "namespace", "set", "var", "import", "include", "use",
+				"false", "true", "this", "null"];
+			for each(var aWord in reservedWords)
+				if (aWord == inWord)
+					return true;
+			return false;
+		}
+
+		function validateName()
+		{
+			var name = fl.xmlui.get("instanceName");
+			if (!fl.isValidIdentifier(name) || isReservedWord(name))
+			{
+				fl.xmlui.setVisible("errorMsg", true);
+			}
+			else
+			{
+				fl.xmlui.setVisible("errorMsg", false);
+			}
+		}
+
+		function initializeName()
+		{
+			var doc = fl.getDocumentDOM();
+			var name = doc.getDataFromDocument("defaultNewInstanceName");
+			fl.xmlui.set("instanceName", name);
+		}
+
+	</script>
+	<label value="The selected symbol requires an instance name."
+		control="instanceName"
+		/>
+	<textbox id="instanceName" required="true" width="200"
+		oncreate="initializeName();"
+		onchange="validateName();"
+		requiredname="instance name"
+		/>
+	<label id="errorMsg"
+		value="The identifier name is not valid."
+		/>
+	<checkbox id="dontShowAgain"
+		label="Don't show again"
+		checked="false"
+		/>
+</dialog>
